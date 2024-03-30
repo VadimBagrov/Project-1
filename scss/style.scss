@@ -100,13 +100,107 @@ body {
     @extend .buttonRed;
   }
 
+  &__btn:hover {
+    @extend .btnHover;
+  }
+
   &__block {
     display: flex;
     box-sizing: border-box;
-    padding-top: 11px;
+    padding-top: 10px;
     border: 1px solid rgb(209, 209, 209);
     background: rgb(255, 255, 255);
     height: 45px;
+  }
+
+  &__block:hover {
+    background: #eb2227;
+    border: 1px solid #eb2227;
+    color: #FFFFFF;
+  }
+
+  &__usl {
+    background-image: url('../images/src/service.svg');
+    background-repeat: no-repeat;
+    background-position: 32px 11px;
+    background-size: 24px 24px;
+  }
+
+  &__sp {
+    background-image: url('../images/src/promo.svg');
+    background-repeat: no-repeat;
+    background-position: 35px 9px;
+    background-size: 24px 24px;
+  }
+
+  &__sp:hover {
+    background-image: url('../images/src/promo-white.svg');
+    background-repeat: no-repeat;
+    background-position: 35px 9px;
+    background-size: 24px 24px;
+  }
+
+  &__usl:hover {
+    background-image: url('../images/src/service-white.svg');
+    background-repeat: no-repeat;
+    background-position: 32px 11px;
+    background-size: 24px 24px;
+  }
+
+  &__dvig {
+    background-image: url('../images/src/engine.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 11px;
+    background-size: 24px 24px;
+  }
+
+  &__dvig:hover {
+    background-image: url('../images/src/engine-white.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 11px;
+    background-size: 24px 24px;
+  }
+
+  &__con {
+    background-image: url('../images/src/contact.svg');
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    background-size: 24px 24px;
+  }
+
+  &__con:hover {
+    background-image: url('../images/src/contact-white.svg');
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    background-size: 24px 24px;
+  }
+
+  &__stat {
+    background-image: url('../images/src/statia.svg');
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    background-size: 24px 24px;
+  }
+
+  &__stat:hover {
+    background-image: url('../images/src/statia-white.svg');
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    background-size: 24px 24px;
+  }
+
+  &__onas {
+    background-image: url('../images/src/about.svg');
+    background-repeat: no-repeat;
+    background-position: 28px 9px;
+    background-size: 24px 24px;
+  }
+
+  &__onas:hover {
+    background-image: url('../images/src/about-white.svg');
+    background-repeat: no-repeat;
+    background-position: 28px 9px;
+    background-size: 24px 24px;
   }
 
   &__block>p {
@@ -114,6 +208,13 @@ body {
     font-weight: 400;
     line-height: 24px;
   }
+
+  &__svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+
 }
 
 .main-sec {
@@ -152,6 +253,10 @@ body {
     @extend .buttonRed;
   }
 
+  &__left-btn:hover {
+    @extend .btnHover;
+  }
+
   &__right {
     display: flex;
     align-items: center;
@@ -177,6 +282,7 @@ body {
 .usl {
   padding-top: 1px;
   margin-right: 44px;
+  margin-left: 64px;
 }
 
 .uslugi {
@@ -197,6 +303,7 @@ body {
 .dvig {
   padding-top: 1px;
   margin-right: 39px;
+  margin-left: 45px;
 }
 
 .spec {
@@ -207,6 +314,7 @@ body {
 }
 
 .sp {
+  margin-left: 64px;
   margin-right: 30px;
 }
 
@@ -220,6 +328,7 @@ body {
 .con {
   padding-top: 1px;
   margin-right: 40px;
+  margin-left: 60px;
 }
 
 .stati {
@@ -229,6 +338,7 @@ body {
 .stat {
   padding-top: 1px;
   margin-right: 30px;
+  margin-left: 58px;
 }
 
 .onas {
@@ -237,6 +347,7 @@ body {
 
 .on {
   margin-right: 28px;
+  margin-left: 58px;
 }
 
 .stati {
@@ -304,7 +415,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1000px;
+  height: 1500px;
+
 
   &__title {
     margin-bottom: 40px;
@@ -336,6 +448,29 @@ body {
     border-radius: 3px;
     @extend .buttonRed;
   }
+
+  &__btn:hover {
+    @extend .btnHover;
+  }
+
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px;
+  }
+
+  &__block {
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: 240px;
+  }
 }
 
 .seo {
@@ -358,6 +493,12 @@ body {
     letter-spacing: -1%;
   }
 
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   &__text {
     width: 1400px;
     background: linear-gradient(180.00deg, rgb(99, 99, 99), rgb(255, 255, 255));
@@ -371,6 +512,21 @@ body {
     font-weight: 400;
     line-height: 38px;
     letter-spacing: -1%;
+  }
+
+  &__bolee {
+    width: 80.5%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__bolee-text {
+    color: rgb(0, 0, 0);
+    font-family: Geometria;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    cursor: pointer;
   }
 }
 
@@ -468,6 +624,10 @@ body {
     @extend .buttonRed;
   }
 
+  &__send:hover {
+    @extend .bthHoverCircle;
+  }
+
   &__data {
     color: rgb(120, 120, 120);
     font-family: Geometria;
@@ -535,6 +695,11 @@ body {
   align-items: center;
   flex-direction: column;
   height: 850px;
+  margin-bottom: 50px;
+
+  &__bl {
+    margin-left: 60px;
+  }
 
   &__block {
     display: flex;
@@ -595,6 +760,13 @@ body {
     background: rgb(255, 255, 255);
     width: 460px;
     height: 80px;
+    background-repeat: no-repeat;
+    background-position: 21px 20px;
+    background-size: 40px 40px;
+  }
+
+  &__left-block:hover p {
+    color: #fff;
   }
 
   &__left-title {
@@ -605,9 +777,28 @@ body {
     line-height: 40px;
   }
 
-  &__bl {
-    display: flex;
-    align-items: center;
+  &__tr {
+    background-image: url('../images/src/transmission.svg');
+  }
+
+  &__obs {
+    background-image: url('../images/src/obs.svg');
+  }
+
+  &__dv {
+    background-image: url('../images/src/engine.svg');
+  }
+
+  &__dv:hover {
+    background: #eb2227;
+  }
+
+  &__tr:hover {
+    background: #eb2227;
+  }
+
+  &__obs:hover {
+    background: #eb2227;
   }
 
   &__right-bottom {
@@ -665,6 +856,8 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 60px;
+  width: 1240px;
+  border-radius: 20px;
   box-shadow: 0px 0px 0px 0px rgba(147, 147, 147, 0.25), 0px 0px 55px 0px rgba(147, 147, 147, 0.25);
   background: rgb(255, 255, 255);
 
@@ -724,6 +917,10 @@ body {
     border-radius: 35px;
     background: rgb(235, 34, 39);
     @extend .buttonRed;
+  }
+
+  &__send:hover {
+    @extend .bthHoverCircle;
   }
 }
 
@@ -844,11 +1041,8 @@ body {
 
 .footer {
   padding-top: 40px;
+  height: 330px;
   background: rgb(244, 244, 244);
-
-  li {
-    list-style: url('../images/src/li-design.svg');
-  }
 
   &__container {
     display: flex;
@@ -880,7 +1074,7 @@ body {
 
   &__brand {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   &__brand:last-child {
@@ -895,7 +1089,7 @@ body {
   }
 
   &__servis {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: rgb(0, 0, 0);
     font-size: 9px;
     font-weight: 300;
@@ -903,7 +1097,7 @@ body {
   }
 
   &__phone {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   &__email {
@@ -911,10 +1105,8 @@ body {
   }
 
   &__addres {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
-
-  &__grafick {}
 
   &__text-brand {
     color: rgb(72, 72, 72);
