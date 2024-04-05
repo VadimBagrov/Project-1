@@ -239,9 +239,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-left: 165px;
     padding-top: 50px;
-    margin-right: 200px;
+    padding-left: 10.031%;
+    margin-right: 12.159%;
   }
 
   &__left-btn {
@@ -1181,3 +1181,91 @@ body {
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 1776px) {
+  .main-sec__left {
+    padding-top: 50px;
+    padding-left: 8.031%;
+    margin-right: 11.159%;
+  }
+}
+
+@media screen and (max-width: 1569px) {
+  .main-sec__left {
+    padding-top: 50px;
+    padding-left: 2.031%;
+    margin-right: 10.159%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .header {
+    &__block>p {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__usl {
+      background-position: 12px 10px;
+    }
+
+    &__dvig {
+      background-position: 8px 10px;
+    }
+
+    &__sp {
+      background-position: 10px 9px;
+    }
+  }
+
+  .usl {
+    margin-right: 27px;
+    margin-left: 44px;
+  }
+
+  .dvig {
+    margin-left: 39px;
+    margin-right: 11px;
+  }
+
+  .sp {
+    margin-left: 40px;
+    margin-right: 12px;
+  }
+
+  .con {
+    margin-right: 48px;
+    margin-left: 69px;
+  }
+
+  .stat {
+    margin-right: 37px;
+    margin-left: 58px;
+  }
+
+  .on {
+    margin-right: 33px;
+    margin-left: 58px;
+  }
+
+  .main-sec {
+    &__left {
+      padding-top: 50px;
+      padding-left: 2.031%;
+      margin-right: 13.159%;
+    }
+
+    &__year {
+      font-size: 130px;
+    }
+
+    &__text {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 1339px) {}
+
+@media screen and (max-width: 1250px) {}
