@@ -417,6 +417,9 @@ body {
   align-items: center;
   height: 1500px;
 
+  &__bottom-bl {
+    display: flex;
+  }
 
   &__title {
     margin-bottom: 40px;
@@ -470,6 +473,18 @@ body {
     border-radius: 10px 10px 0px 0px;
     width: 300px;
     height: 240px;
+  }
+
+  &__more {
+    display: none;
+    margin-top: 25px;
+    width: 220px;
+    height: 45px;
+    border-radius: 4px;
+    @extend .buttonRed;
+    background-color: #fff;
+    border: 1px rgb(255, 0, 4) solid;
+    color: rgb(255, 0, 4);
   }
 }
 
@@ -688,10 +703,14 @@ body {
   }
 }
 
+
+.service-con {
+  background-color: #F4F4F4;
+}
+
 .service {
   padding-top: 80px;
   display: flex;
-  background-color: #F4F4F4;
   align-items: center;
   flex-direction: column;
   height: 850px;
@@ -837,6 +856,7 @@ body {
   }
 
   &__usluga-line {
+    margin-left: 5%;
     height: 1px;
     width: 700px;
     background-color: rgb(217, 217, 217);
@@ -1190,6 +1210,24 @@ body {
   }
 }
 
+@media screen and (max-width: 1630px) {
+  .seo {
+    &__text {
+      width: 1300px;
+      font-size: 27px;
+    }
+  }
+}
+
+@media screen and (max-width: 1630px) {
+  .seo {
+    &__text {
+      width: 1200px;
+      font-size: 26px;
+    }
+  }
+}
+
 @media screen and (max-width: 1569px) {
   .main-sec__left {
     padding-top: 50px;
@@ -1216,6 +1254,75 @@ body {
 
     &__sp {
       background-position: 10px 9px;
+    }
+  }
+
+  .service {
+    padding-top: 40px;
+    height: 740px;
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__arrow {
+      width: 34px;
+      height: 23px;
+    }
+
+    &__name {
+      margin-right: 300px;
+    }
+
+    &__left-title {
+      font-size: 28px;
+    }
+
+    &__left-block {
+      width: 317px;
+      height: 60px;
+      background-size: 30px 30px;
+      background-position: 21px 15px;
+    }
+
+    &__right-top {
+      width: 685px;
+    }
+
+    &__right-bottom {
+      width: 685px;
+      height: 481px;
+    }
+
+    &__name {
+      margin-right: 240px;
+      font-size: 28px;
+    }
+
+    &__price {
+      font-size: 28px;
+    }
+
+    &__usluga {
+      padding: 20px 20px 10px 31px;
+      width: 685px;
+      height: 80px;
+    }
+
+    &__usluga-line {
+      width: 622px;
+    }
+
+    &__usluga-title {
+      font-size: 22px;
+    }
+
+    &__usluga-price {
+      font-size: 28px;
     }
   }
 
@@ -1249,6 +1356,18 @@ body {
     margin-left: 58px;
   }
 
+  .catalog {
+    height: 1250px;
+
+    &__bottom-bl {
+      display: none;
+    }
+
+    &__more {
+      display: block;
+    }
+  }
+
   .main-sec {
     &__left {
       padding-top: 50px;
@@ -1264,8 +1383,23 @@ body {
       font-size: 25px;
     }
   }
+
+  .seo {
+    &__text {
+      width: 1100px;
+      font-size: 25px;
+    }
+  }
 }
 
-@media screen and (max-width: 1339px) {}
+@media screen and (max-width: 1300px) {
+  .seo {
+    &__text {
+      width: 1000px;
+      height: 270px;
+      font-size: 24px;
+    }
+  }
+}
 
 @media screen and (max-width: 1250px) {}
