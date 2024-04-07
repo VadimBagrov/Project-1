@@ -1421,6 +1421,14 @@ body {
   }
 }
 
+@media screen and (max-width: 1242px) {
+  .header {
+    &__block>p {
+      font-size: 15px;
+    }
+  }
+}
+
 @media screen and (max-width: 1185px) {
   .seo {
     &__title {
@@ -1432,6 +1440,39 @@ body {
       font-size: 22px;
       width: 900px;
     }
+  }
+}
+
+@media screen and (max-width: 1242px) {
+  .header {
+    &__block>p {
+      font-size: 15px;
+    }
+  }
+
+  .usl {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .header {
+    &__block>p {
+      font-size: 14px;
+    }
+  }
+
+  .usl {
+    margin-right: 20px;
+  }
+
+  .dvig {
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 65px;
+    margin-right: 45px;
   }
 }
 
@@ -1480,6 +1521,32 @@ body {
   }
 }
 
+@media screen and (max-width: 1103px) {
+  .header {
+    &__block>p {
+      font-size: 14px;
+    }
+  }
+
+  .usl {
+    margin-right: 20px;
+  }
+
+  .dvig {
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+
+  .on {
+    margin-right: 25px;
+    margin-left: 55px;
+  }
+}
+
 @media screen and (max-width: 1070px) {
   .seo {
     padding-top: 30px;
@@ -1494,6 +1561,72 @@ body {
       font-size: 21px;
       width: 800px;
     }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    &__block>p {
+      font-size: 13px;
+    }
+  }
+
+  .usl {
+    margin-right: 20px;
+  }
+
+  .dvig {
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 55px;
+    margin-right: 35px;
+  }
+
+  .stat {
+    margin-left: 55px;
+    margin-right: 30px;
+  }
+
+  .on {
+    margin-right: 20px;
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 1011px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 13px;
+    }
+  }
+
+  .usl {
+    margin-right: 20px;
+  }
+
+  .dvig {
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 55px;
+    margin-right: 25px;
+  }
+
+  .stat {
+    margin-left: 55px;
+    margin-right: 20px;
+  }
+
+  .on {
+    margin-right: 20px;
+    margin-left: 55px;
   }
 }
 
@@ -1548,6 +1681,7 @@ body {
     &__time-day {
       font-size: 11px;
     }
+
   }
 }
 
@@ -1568,6 +1702,60 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 944px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 13px;
+    }
+
+    &__con {
+      background-position: 7px 10px;
+    }
+
+    &__stat {
+      background-position: 7px 10px;
+    }
+
+    &__onas {
+      background-position: 8px 9px;
+    }
+  }
+
+  .usl {
+    margin-left: 39px;
+    margin-right: 13px;
+  }
+
+  .sp {
+    margin-left: 38px;
+  }
+
+  .dvig {
+    margin-left: 32px;
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 35px;
+    margin-right: 14px;
+  }
+
+  .stat {
+    margin-left: 35px;
+    margin-right: 20px;
+  }
+
+  .on {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+}
+
 
 @media screen and (max-width: 875px) {
 
@@ -1638,6 +1826,113 @@ body {
       width: 750px;
       height: 240px;
     }
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 12px;
+    }
+
+    &__con {
+      background-position: 7px 10px;
+    }
+
+    &__stat {
+      background-position: 7px 10px;
+    }
+
+    &__onas {
+      background-position: 8px 9px;
+    }
+  }
+
+  .usl {
+    margin-left: 39px;
+    margin-right: 13px;
+  }
+
+  .sp {
+    margin-left: 38px;
+  }
+
+  .dvig {
+    margin-left: 32px;
+    margin-right: 9px;
+  }
+
+  .con {
+    margin-left: 35px;
+    margin-right: 14px;
+  }
+
+  .stat {
+    margin-left: 35px;
+    margin-right: 20px;
+  }
+
+  .on {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 12px;
+    }
+
+    &__con {
+      background-position: 7px 10px;
+    }
+
+    &__stat {
+      background-position: 7px 10px;
+    }
+
+    &__onas {
+      background-position: 8px 9px;
+    }
+  }
+
+  .usl {
+    margin-left: 39px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 38px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 32px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 35px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 35px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 40px;
   }
 }
 
@@ -1720,6 +2015,60 @@ body {
   }
 }
 
+@media screen and (max-width: 761px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 11px;
+    }
+
+    &__con {
+      background-position: 7px 10px;
+    }
+
+    &__stat {
+      background-position: 7px 10px;
+    }
+
+    &__onas {
+      background-position: 8px 9px;
+    }
+  }
+
+  .usl {
+    margin-left: 39px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 38px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 32px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 35px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 35px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 740px) {
   .seo {
     padding-top: 20px;
@@ -1737,6 +2086,79 @@ body {
       height: 180px;
       line-height: 25px;
     }
+  }
+}
+
+
+@media screen and (max-width: 725px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    &__block>p {
+      font-size: 11px;
+    }
+
+    &__con {
+      background-position: 2px 13px;
+      background-size: 18px 18px;
+    }
+
+    &__stat {
+      background-position: 3px 14px;
+      background-size: 18px 18px;
+    }
+
+    &__sp {
+      background-position: 2px 11px;
+      background-size: 18px 18px;
+    }
+
+    &__dvig {
+      background-position: 3px 13px;
+      background-size: 18px 18px;
+    }
+
+    &__onas {
+      background-position: 3px 13px;
+      background-size: 18px 18px;
+    }
+
+    &__usl {
+      background-position: 3px 13px;
+      background-size: 18px 18px;
+    }
+  }
+
+  .usl {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 25px;
   }
 }
 
@@ -1887,6 +2309,40 @@ body {
     &__time-day {
       font-size: 10px;
     }
+
+    &__block>p {
+      font-size: 10px;
+    }
+  }
+
+  .usl {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 25px;
   }
 }
 
@@ -1943,6 +2399,97 @@ body {
   }
 }
 
+@media screen and (max-width: 591px) {
+  .header {
+    &__left-logo {
+      font-size: 20px;
+      margin-bottom: 0px;
+      height: 22px;
+    }
+
+    &__left-text {
+      font-size: 9px;
+    }
+
+    &__btn {
+      width: 100px;
+      height: 23px;
+      font-size: 8px;
+    }
+
+    &__addres {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__phone {
+      margin-right: 5px;
+    }
+
+    &__phone-one {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__phone-two {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__time {
+      margin-right: 5px;
+      flex-direction: row;
+    }
+
+    &__time-hour {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__time-day {
+      font-size: 10px;
+    }
+
+    &__block>p {
+      font-size: 9px;
+    }
+
+    &__sp {
+      background-position: 2px 13px;
+    }
+  }
+
+  .usl {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 25px;
+  }
+}
+
 @media screen and (max-width: 589px) {
   .seo {
     padding-top: 5px;
@@ -1986,6 +2533,128 @@ body {
     &__bolee-text {
       font-size: 17px;
     }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    &__left-logo {
+      font-size: 20px;
+      margin-bottom: 0px;
+      height: 22px;
+    }
+
+    &__left-text {
+      font-size: 9px;
+    }
+
+    &__btn {
+      width: 100px;
+      height: 23px;
+      font-size: 8px;
+    }
+
+    &__addres {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__phone {
+      margin-right: 5px;
+    }
+
+    &__phone-one {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__phone-two {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__time {
+      margin-right: 5px;
+      flex-direction: row;
+    }
+
+    &__time-hour {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__time-day {
+      font-size: 10px;
+    }
+
+    &__block {
+      padding-top: 0;
+      height: 30px;
+    }
+
+    &__block>p {
+      font-size: 8px;
+    }
+
+    &__con {
+      background-position: 2px 6px;
+      background-size: 14px 14px;
+    }
+
+    &__stat {
+      background-position: 3px 6px;
+      background-size: 14px 14px;
+    }
+
+    &__sp {
+      background-position: 2px 6px;
+      background-size: 14px 14px;
+    }
+
+    &__dvig {
+      background-position: 3px 6px;
+      background-size: 14px 14px;
+    }
+
+    &__onas {
+      background-position: 3px 6px;
+      background-size: 14px 14px;
+    }
+
+    &__usl {
+      background-position: 3px 6px;
+      background-size: 14px 14px;
+    }
+  }
+
+  .usl {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 25px;
   }
 }
 
@@ -2064,6 +2733,345 @@ body {
     &__bolee-text {
       font-size: 16px;
     }
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .header-mb {
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 40px;
+
+    &__button-n {
+      display: none;
+    }
+
+    &__menu-btn {
+      margin-top: 3px;
+      background-image: url('../images/src/menu.png');
+      background-size: 15px 12px;
+      width: 20px;
+      height: 12px;
+    }
+
+    &__flex {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    &__left {
+      display: flex;
+      padding-top: 0px;
+    }
+
+    &__left-bottom {
+      margin-right: 5px;
+    }
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      padding-top: 4px;
+    }
+
+    &__left-logo {
+      margin-bottom: 5px;
+      height: 16px;
+      font-family: Geometria-bold;
+      font-size: 18px;
+    }
+
+    &__left-text {
+      margin-top: 3px;
+      font-family: Geometria-Light;
+      font-weight: 100;
+      font-size: 8px;
+      width: 90px;
+    }
+
+    &__center {
+      display: flex;
+    }
+
+    &__addres {
+      display: flex;
+      align-items: center;
+      margin-right: 0px;
+      font-size: 7px;
+    }
+
+    &__time {
+      display: flex;
+      flex-direction: row;
+      margin-right: 20px;
+    }
+
+    &__time-hour {
+      font-size: 9px;
+      margin-right: 5px;
+      font-family: Geometria-bold;
+    }
+
+    &__time-day {
+      font-size: 8px;
+      font-family: Geometria-Light;
+      font-weight: 100;
+    }
+
+    &__phone {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+
+    &__phone-one {
+      margin-right: 7px;
+      font-size: 7px;
+      font-family: Geometria-bold;
+    }
+
+    &__phone-two {
+      margin-right: 0px;
+      font-size: 7px;
+      font-family: Geometria-bold;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__btn {
+      width: 96px;
+      height: 20px;
+      border-radius: 4px;
+      background: rgb(235, 34, 39);
+      border: none;
+      color: #fff;
+      font-size: 7px;
+      margin-right: 16px;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+
+    &__btn:hover {
+      border-radius: 4px;
+      background: #fff;
+      border: 1px solid rgb(255, 0, 4);
+      color: rgb(255, 0, 4);
+      font-size: 15px;
+      line-height: 19px;
+      cursor: pointer;
+    }
+
+    &__block {
+      display: flex;
+      box-sizing: border-box;
+      padding-top: 10px;
+      border: 1px solid rgb(209, 209, 209);
+      background: rgb(255, 255, 255);
+      height: 45px;
+    }
+
+    &__block:hover {
+      background: #eb2227;
+      border: 1px solid #eb2227;
+      color: #FFFFFF;
+    }
+
+    &__usl {
+      background-image: url('../images/src/service.svg');
+      background-repeat: no-repeat;
+      background-position: 32px 11px;
+      background-size: 24px 24px;
+    }
+
+    &__sp {
+      background-image: url('../images/src/promo.svg');
+      background-repeat: no-repeat;
+      background-position: 35px 9px;
+      background-size: 24px 24px;
+    }
+
+    &__sp:hover {
+      background-image: url('../images/src/promo-white.svg');
+      background-repeat: no-repeat;
+      background-position: 35px 9px;
+      background-size: 24px 24px;
+    }
+
+    &__usl:hover {
+      background-image: url('../images/src/service-white.svg');
+      background-repeat: no-repeat;
+      background-position: 32px 11px;
+      background-size: 24px 24px;
+    }
+
+    &__dvig {
+      background-image: url('../images/src/engine.svg');
+      background-repeat: no-repeat;
+      background-position: 15px 11px;
+      background-size: 24px 24px;
+    }
+
+    &__dvig:hover {
+      background-image: url('../images/src/engine-white.svg');
+      background-repeat: no-repeat;
+      background-position: 15px 11px;
+      background-size: 24px 24px;
+    }
+
+    &__con {
+      background-image: url('../images/src/contact.svg');
+      background-repeat: no-repeat;
+      background-position: 30px 10px;
+      background-size: 24px 24px;
+    }
+
+    &__con:hover {
+      background-image: url('../images/src/contact-white.svg');
+      background-repeat: no-repeat;
+      background-position: 30px 10px;
+      background-size: 24px 24px;
+    }
+
+    &__stat {
+      background-image: url('../images/src/statia.svg');
+      background-repeat: no-repeat;
+      background-position: 30px 10px;
+      background-size: 24px 24px;
+    }
+
+    &__stat:hover {
+      background-image: url('../images/src/statia-white.svg');
+      background-repeat: no-repeat;
+      background-position: 30px 10px;
+      background-size: 24px 24px;
+    }
+
+    &__onas {
+      background-image: url('../images/src/about.svg');
+      background-repeat: no-repeat;
+      background-position: 28px 9px;
+      background-size: 24px 24px;
+    }
+
+    &__onas:hover {
+      background-image: url('../images/src/about-white.svg');
+      background-repeat: no-repeat;
+      background-position: 28px 9px;
+      background-size: 24px 24px;
+    }
+
+    &__block>p {
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+    }
+  }
+
+  .header {
+    display: none;
+
+    &__button {
+      display: none;
+    }
+
+    &__left-logo {
+      font-size: 20px;
+      margin-bottom: 0px;
+      height: 22px;
+    }
+
+    &__left-text {
+      font-size: 9px;
+    }
+
+    &__btn {
+      width: 100px;
+      height: 23px;
+      font-size: 8px;
+    }
+
+    &__addres {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__phone {
+      margin-right: 5px;
+    }
+
+    &__phone-one {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__phone-two {
+      margin-right: 0px;
+      font-size: 9px;
+    }
+
+    &__time {
+      margin-right: 5px;
+      flex-direction: row;
+    }
+
+    &__time-hour {
+      margin-right: 5px;
+      font-size: 11px;
+    }
+
+    &__time-day {
+      font-size: 10px;
+    }
+
+    &__block>p {
+      font-size: 8px;
+    }
+
+    &__sp {
+      background-position: 2px 5px;
+    }
+  }
+
+  .usl {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .sp {
+    margin-left: 22px;
+    margin-right: 5px;
+  }
+
+  .dvig {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .con {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .stat {
+    margin-left: 22px;
+    margin-right: 05px;
+  }
+
+  .on {
+    margin-right: 05px;
+    margin-left: 25px;
   }
 }
 
