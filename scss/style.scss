@@ -228,6 +228,7 @@ body {
 }
 
 .main-sec {
+  margin-bottom: 30px;
   height: 623px;
   background-image: url(../images/src/bg.png);
   background-repeat: no-repeat;
@@ -388,7 +389,7 @@ body {
   margin-bottom: 60px;
 
   &__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
@@ -1419,6 +1420,10 @@ body {
       font-size: 45px;
     }
   }
+
+  .main-sec {
+    background-size: 1500px 580px;
+  }
 }
 
 @media screen and (max-width: 1242px) {
@@ -1426,6 +1431,10 @@ body {
     &__block>p {
       font-size: 15px;
     }
+  }
+
+  .usl {
+    margin-right: 25px;
   }
 }
 
@@ -1440,18 +1449,6 @@ body {
       font-size: 22px;
       width: 900px;
     }
-  }
-}
-
-@media screen and (max-width: 1242px) {
-  .header {
-    &__block>p {
-      font-size: 15px;
-    }
-  }
-
-  .usl {
-    margin-right: 25px;
   }
 }
 
@@ -1473,6 +1470,12 @@ body {
   .con {
     margin-left: 65px;
     margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 1121px) {
+  .main-sec {
+    background-size: 1350px 490px;
   }
 }
 
@@ -1685,6 +1688,12 @@ body {
   }
 }
 
+@media screen and (max-width: 969px) {
+  .main-sec {
+    background-size: 1150px 440px;
+  }
+}
+
 @media screen and (max-width: 968px) {
   .seo {
     padding-top: 30px;
@@ -1755,7 +1764,6 @@ body {
     margin-left: 40px;
   }
 }
-
 
 @media screen and (max-width: 875px) {
 
@@ -1955,6 +1963,12 @@ body {
   }
 }
 
+@media screen and (max-width: 815px) {
+  .main-sec {
+    background-size: 1000px 380px;
+  }
+}
+
 @media screen and (max-width: 767px) {
 
   .header {
@@ -2089,7 +2103,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 725px) {
   .container {
     max-width: 90%;
@@ -2159,6 +2172,12 @@ body {
   .on {
     margin-right: 05px;
     margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .main-sec {
+    background-size: 850px 330px;
   }
 }
 
@@ -2346,6 +2365,12 @@ body {
   }
 }
 
+@media screen and (max-width: 619px) {
+  .main-sec {
+    background-size: 780px 320px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header {
     &__left-logo {
@@ -2508,6 +2533,12 @@ body {
       height: 180px;
       line-height: 20px;
     }
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .main-sec {
+    background-size: 660px 260px;
   }
 }
 
@@ -3075,6 +3106,12 @@ body {
   }
 }
 
+@media screen and (max-width: 508px) {
+  .main-sec {
+    background-size: 600px 220px;
+  }
+}
+
 @media screen and (max-width: 501px) {
 
   .container {
@@ -3397,6 +3434,12 @@ body {
     &__bolee-text {
       font-size: 16px;
     }
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .main-sec {
+    background-size: 550px 190px;
   }
 }
 
