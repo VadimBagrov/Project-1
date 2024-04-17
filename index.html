@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MotoristDVS</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" type="image/x-icon" href="/images/src/MDVS.png">
 </head>
 
 <body>
@@ -167,7 +168,9 @@
     <section class="brand">
       <h4 class="brand__title">Бренды</h4>
       <div class="brand__block">
-
+        <div class="brand__arr brand__arr-img-l">
+          <img class="brand__arr-img" src="/images/src/left__arr.png" alt="arrow">
+        </div>
         <div class="brand__blocks">
           <a class="brand__link" href="#">
             <img class="brand__img" src="images/src/lexus.svg" alt="Lexus">
@@ -189,18 +192,22 @@
           </a>
         </div>
 
-        <div class="brand__blocks">
+        <div class="brand__blocks nissan">
           <a class="brand__link" href="#">
             <img class="brand__img" src="images/src/nissan.svg" alt="Nissan">
             <p class="brand__name">Nissan</p>
           </a>
         </div>
 
-        <div class="brand__blocks">
+        <div class="brand__blocks kia">
           <a class="brand__link" href="#">
             <img class="brand__img" src="images/src/kia.svg" alt="Kia">
             <p class="brand__name">Kia</p>
           </a>
+        </div>
+
+        <div class="brand__arr">
+          <img class="brand__arr-img" src="/images/src/right__arr.png" alt="arrow">
         </div>
       </div>
     </section>
@@ -213,7 +220,7 @@
           <div class="catalog__block">
             <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
             <div class="catalog__bottom">
-              <h2 class="catalog__text">Капитальный ремнот двигателей</h2>
+              <h2 class="catalog__text">Капитальный ремонт двигателей</h2>
               <button class="catalog__btn">Подробнее</button>
             </div>
           </div>
@@ -298,36 +305,37 @@
             </div>
           </div>
         </a>
-
-        <a class="catalog__a" href="">
-          <div class="catalog__block">
-            <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
-            <div class="catalog__bottom">
-              <h2 class="catalog__text">Регулировка клапанов</h2>
-              <button class="catalog__btn">Подробнее</button>
+        <div class="catalog__center">
+          <a class="catalog__a" href="">
+            <div class="catalog__block">
+              <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
+              <div class="catalog__bottom">
+                <h2 class="catalog__text">Регулировка клапанов</h2>
+                <button class="catalog__btn">Подробнее</button>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
 
-        <a class="catalog__a" href="">
-          <div class="catalog__block">
-            <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
-            <div class="catalog__bottom">
-              <h2 class="catalog__text">Техническое обслуживание авто</h2>
-              <button class="catalog__btn">Подробнее</button>
+          <a class="catalog__a" href="">
+            <div class="catalog__block">
+              <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
+              <div class="catalog__bottom">
+                <h2 class="catalog__text">Техническое обслуживание авто</h2>
+                <button class="catalog__btn">Подробнее</button>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
 
-        <a class="catalog__a" href="">
-          <div class="catalog__block">
-            <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
-            <div class="catalog__bottom">
-              <h2 class="catalog__text">Ремонт системы охлаждения</h2>
-              <button class="catalog__btn">Подробнее</button>
+          <a class="catalog__a" href="">
+            <div class="catalog__block">
+              <img class="catalog__img" src="images/src/chip.png" alt="Ремонт форсунок">
+              <div class="catalog__bottom">
+                <h2 class="catalog__text">Ремонт системы охлаждения</h2>
+                <button class="catalog__btn">Подробнее</button>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
         <div class="catalog__bottom-bl">
           <a class="catalog__a" href="">
             <div class="catalog__block">
@@ -397,9 +405,11 @@
         <form class="forma__form" action="#" method="post">
           <input class="forma__name" type="text" placeholder="Ваше имя">
           <input class="forma__number" type="text" placeholder="Номер телефона">
-          <button class="forma__send" type="submit">Оставить заявку</button>
-          <p class="forma__data">Оставляя заявку вы даёте согласие на
-            обработку ваших <a href="#">Персональных данных</a></p>
+          <div class="forma__text-bottom">
+            <button class="forma__send" type="submit">Оставить заявку</button>
+            <p class="forma__data">Оставляя заявку вы даёте согласие на
+              обработку ваших <a href="#">Персональных данных</a></p>
+          </div>
         </form>
       </div>
     </section>
@@ -415,15 +425,9 @@
         </div>
 
         <div class="advantages__block">
-          <img class="advantages__img" src="images/src/clock.svg" alt="heart">
-          <p class="advantages__top">Скорость</p>
-          <p class="advantages__bottom">97% ремонтов<br />выполняем в день<br /> обращения.</p>
-        </div>
-
-        <div class="advantages__block">
           <img class="advantages__img" src="images/src/security.svg" alt="security">
           <p class="advantages__top">Надежность</p>
-          <p class="advantages__bottom">90% запчастей<br />ориигнальные и всегда есть<br />в наличии на складе./p>
+          <p class="advantages__bottom">90% запчастей<br />ориигнальные и всегда есть<br />в наличии на складе.</p>
         </div>
 
         <div class="advantages__block">
@@ -560,23 +564,23 @@
             </div>
             <p class="contacts__block-text">г. Москва ул.Шоссе энтузиастов 31с40</p>
           </div>
-
-          <div class="contacts__phone">
-            <div class="contacts__phone-top">
-              <img class="contacts__img" src="images/src/phone.svg" alt="addres">
-              <h6 class="contacts__block-title contacts__phone-t">Телефоны</h6>
+          <div class="contacts__bl-bottom">
+            <div class="contacts__phone">
+              <div class="contacts__phone-top">
+                <img class="contacts__img" src="images/src/phone.svg" alt="addres">
+                <h6 class="contacts__block-title contacts__phone-t">Телефоны</h6>
+              </div>
+              <p class="contacts__block-text">+7 (495) 701-81-41<br />+7 (916) 755-81-41</p>
             </div>
-            <p class="contact__block-text">+7 (495) 701-81-41<br />+7 (916) 755-81-41</p>
-          </div>
 
-          <div class="contacts__email">
-            <div class="contacts__email-top">
-              <img class="contacts__img" src="images/src/email.svg" alt="addres">
-              <h6 class="contacts__block-title contacts__email-t">Email</h6>
+            <div class="contacts__email">
+              <div class="contacts__email-top">
+                <img class="contacts__img" src="images/src/email.svg" alt="addres">
+                <h6 class="contacts__block-title contacts__email-t">Email</h6>
+              </div>
+              <p class="contacts__block-text">motoristdvs@info.ru</p>
             </div>
-            <p class="contacts__block-text">motoristdvs@info.ru</p>
           </div>
-
           <div class="contacts__work">
             <div class="contacts__work-top">
               <img class="contacts__img" src="images/src/clock1.svg" alt="addres">
@@ -597,7 +601,9 @@
 
         </div>
         <div class="contacts__right">
-          <img class="contacts__map" src="images/src/carta.png" alt="carta">
+          <iframe class="contacts__map"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Af2c8fa74fac010ca4e84c685711083c206d0c9f6142294b02cba51a8d9ef8825&amp;source=constructor"
+            width="500" height="400" frameborder="0"></iframe>
         </div>
       </div>
 
