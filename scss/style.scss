@@ -3422,6 +3422,7 @@ body {
 
   .brand {
     &__title {
+      margin-bottom: 5px;
       font-size: 28px;
     }
 
@@ -3658,6 +3659,27 @@ body {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .main-sec {
+    margin-bottom: 20px;
+  }
+
+  .seo {
+    height: 290px;
+    margin-bottom: 40px;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__text {
+      font-size: 16px;
+      width: 530px;
+      height: 160px;
+    }
+  }
+}
+
 @media screen and (max-width: 637px) {
   .seo {
     padding-top: 20px;
@@ -3766,9 +3788,128 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+
+  .forma {
+    width: 570px;
+    margin-bottom: 30px;
+
+    &__text {
+      font-size: 17px;
+    }
+
+    &__title {
+      margin-bottom: 5px;
+      width: 420px;
+      font-size: 22px;
+    }
+
+    &__name {
+      width: 170px;
+    }
+
+    &__name::placeholder {
+      font-size: 16px;
+    }
+
+    &__number {
+      width: 170px;
+    }
+
+    &__number::placeholder {
+      font-size: 16px;
+    }
+
+    &__send {
+      font-size: 16px;
+      width: 170px;
+    }
+
+    &__data {
+      font-size: 13px;
+      width: 450px;
+    }
+  }
+
+  .advantages {
+    &__title {
+      font-size: 28px;
+    }
+
+    &__blocks {
+      width: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between
+    }
+
+    &__block {
+      margin-right: 20px;
+      margin-bottom: 20px;
+      width: 230px;
+    }
+
+    &__bottom {
+      width: 200px;
+      font-size: 16px;
+    }
+
+    &__block:last-child {
+      margin-bottom: 0;
+    }
+
+    &__block2 {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .catalog {
+    height: 920px;
+
+    &__img {
+      width: 190px;
+      height: 155px;
+    }
+
+    &__bottom {
+      width: 190px;
+    }
+
+    &__block {
+      margin-right: 7px;
+      margin-bottom: 7px;
+      width: 190px;
+    }
+  }
+
+  .seo {
+    padding-top: 10px;
+  }
+}
+
 @media screen and (max-width: 619px) {
   .main-sec {
-    background-size: 780px 320px;
+    background-size: 780px 280px;
+
+    &__left-title {
+      font-size: 19px;
+      margin-top: 0;
+      line-height: 22px;
+    }
+
+    &__left-btn {
+      width: 160px;
+      height: 35px;
+    }
+
+    &__year {
+      font-size: 59px;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
   }
 }
 
@@ -3827,6 +3968,8 @@ body {
 
 @media screen and (max-width: 591px) {
   .header {
+    margin-bottom: 20px;
+
     &__left-logo {
       font-size: 20px;
       margin-bottom: 0px;
@@ -3838,14 +3981,14 @@ body {
     }
 
     &__btn {
-      width: 100px;
-      height: 23px;
-      font-size: 8px;
+      width: 90px;
+      height: 20px;
+      font-size: 7px;
     }
 
     &__addres {
       margin-right: 5px;
-      font-size: 11px;
+      font-size: 9px;
     }
 
     &__phone {
@@ -3869,11 +4012,11 @@ body {
 
     &__time-hour {
       margin-right: 5px;
-      font-size: 11px;
+      font-size: 9px;
     }
 
     &__time-day {
-      font-size: 10px;
+      font-size: 9px;
     }
 
     &__block>p {
@@ -3881,7 +4024,7 @@ body {
     }
 
     &__sp {
-      background-position: 2px 13px;
+      background-position: 2px 6px;
     }
   }
 
@@ -3914,6 +4057,179 @@ body {
     margin-right: 05px;
     margin-left: 25px;
   }
+
+  .main-sec {
+    margin-bottom: 10px;
+
+    &__year {
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      margin-bottom: 15px;
+    }
+
+    &__top {
+      justify-content: center;
+    }
+
+    &__left-title {
+      font-size: 17px;
+    }
+
+    &__left-btn {
+      font-size: 11px;
+      width: 140px;
+      height: 30px;
+    }
+  }
+
+  .brand {
+    margin-bottom: 20px;
+
+    &__blocks {
+      margin-right: 10px;
+    }
+
+    &__title {
+      font-size: 23px;
+    }
+
+    &__img {
+      margin-right: 3px;
+      height: 35px;
+    }
+
+    &__name {
+      font-size: 24px;
+    }
+  }
+
+  .catalog {
+    height: 840px;
+
+    &__block {
+      width: 180px;
+    }
+
+    &__img {
+      width: 180px;
+      height: 145px;
+    }
+
+    &__text {
+      margin-bottom: 0;
+      line-height: 16px;
+      font-size: 14px;
+      height: 37px;
+    }
+
+    &__btn {
+      width: 130px;
+      height: 22px;
+      font-size: 13px;
+    }
+
+    &__bottom {
+      width: 180px;
+      height: 78px;
+    }
+  }
+
+  .seo {
+    height: 240px;
+    padding-top: 0;
+    margin-bottom: 20px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      height: 140px;
+      width: 90% !important;
+      line-height: 20px;
+    }
+  }
+
+  .forma {
+    width: 510px;
+    height: 205px;
+
+    &__text {
+      height: 30px;
+      font-size: 14px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__name {
+      width: 150px;
+    }
+
+    &__name::placeholder {
+      font-size: 14px;
+    }
+
+    &__number {
+      width: 150px;
+    }
+
+    &__number::placeholder {
+      font-size: 14px;
+    }
+
+    &__send {
+      width: 150px;
+      font-size: 14px;
+    }
+
+    &__data {
+      width: 400px;
+      font-size: 12px;
+    }
+  }
+
+  .advantages {
+    margin-bottom: 20px;
+
+    &__title {
+      font-size: 25px;
+    }
+  }
+
+  .question {
+    &__form {
+      padding-top: 5px;
+    }
+
+    &__number {
+      margin-bottom: 10px;
+      width: 170px;
+      height: 35px;
+    }
+
+    &__send {
+      width: 170px;
+      height: 35px;
+    }
+
+    &__left {
+      width: 280px;
+    }
+
+    &__title {
+      font-size: 25px;
+    }
+
+    &__text {
+      line-height: 20px;
+      font-size: 14px;
+      width: 300px;
+    }
+  }
 }
 
 @media screen and (max-width: 589px) {
@@ -3940,6 +4256,52 @@ body {
 @media screen and (max-width: 562px) {
   .main-sec {
     background-size: 660px 260px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .main-sec {
+    background-size: 660px 250px;
+    height: 240px;
+    margin-bottom: 0;
+
+    &__top {
+      justify-content: flex-start;
+    }
+
+    &__year {
+      margin-bottom: 20px;
+      font-size: 57px;
+    }
+
+    &__text {
+      font-size: 11px;
+      margin-bottom: 27px;
+    }
+  }
+
+  .brand {
+    &__title {
+      margin-bottom: 10px;
+      height: 40px;
+    }
+  }
+
+  .catalog {
+    height: 800px;
+
+    &__img {
+      width: 170px;
+      height: 135px;
+    }
+
+    &__bottom {
+      width: 170px;
+    }
+
+    &__block {
+      width: 170px;
+    }
   }
 }
 
@@ -4143,6 +4505,114 @@ body {
   }
 }
 
+@media screen and (max-width: 531px) {
+  .main-sec {
+    height: 230px;
+    background-size: 660px 230px;
+
+    &__year {
+      margin-bottom: 30px;
+      font-size: 56px;
+    }
+
+    &__text {
+      margin-bottom: 35px;
+    }
+  }
+
+  .brand {
+    &__title {
+      font-size: 26px;
+    }
+
+    &__img {
+      height: 32px;
+    }
+
+    &__name {
+      font-size: 22px;
+      height: 38px;
+    }
+  }
+
+  .catalog {
+    height: 670px;
+
+    &__blocks {
+      width: 530px;
+    }
+
+    &__mob {
+      display: none;
+    }
+
+    &__block {
+      width: 230px;
+    }
+
+    &__img {
+      width: 230px;
+      height: 180px;
+    }
+
+    &__bottom {
+      width: 230px;
+      height: 72px;
+    }
+
+    &__text {
+      font-size: 15px;
+      width: 210px;
+    }
+  }
+
+  .forma {
+    &__name {
+      width: 142px;
+    }
+
+    &__number {
+      width: 142px;
+    }
+
+    &__send {
+      width: 142px;
+      font-size: 14px;
+    }
+  }
+
+  .question {
+    width: 560px;
+
+    &__left {
+      margin-right: 20px;
+    }
+
+    &__title {
+      font-size: 23px;
+    }
+
+    &__text {
+      width: 280px;
+    }
+
+    &__number {
+      width: 157px;
+      height: 30px;
+    }
+
+    &__number::placeholder {
+      font-size: 13px;
+    }
+
+    &__send {
+      font-size: 14px;
+      width: 157px;
+      height: 30px;
+    }
+  }
+}
+
 @media screen and (max-width: 520px) {
   .seo {
     padding-top: 5px;
@@ -4164,6 +4634,36 @@ body {
 
     &__bolee-text {
       font-size: 16px;
+    }
+  }
+
+  .question {
+    &__number {
+      padding-left: 10px;
+      width: 138px;
+    }
+
+    &__number::placeholder {
+      font-size: 13px;
+    }
+
+    &__send {
+      font-size: 13px;
+      width: 138px;
+    }
+  }
+
+  .advantages {
+    &__title {
+      font-size: 23px;
+    }
+
+    &__top {
+      font-size: 21px;
+    }
+
+    &__bottom {
+      font-size: 14px;
     }
   }
 }
@@ -4507,6 +5007,55 @@ body {
   }
 }
 
+@media screen and (max-width: 510px) {
+  .main-sec {
+    &__left-title {
+      font-size: 16px;
+    }
+  }
+
+  .forma {
+    height: 240px;
+
+    &__form {
+      flex-direction: column;
+    }
+
+    &__right {
+      width: 100%;
+    }
+
+    &__name {
+      margin-right: 25px;
+      margin-bottom: 15px;
+      width: 190px;
+      height: 30px;
+    }
+
+    &__number {
+      margin-bottom: 15px;
+      width: 190px;
+      height: 30px;
+      margin-right: 0;
+    }
+
+    &__text-top {
+      display: flex;
+    }
+
+    &__text-bottom {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 05px;
+      width: 400px;
+    }
+
+    &__send {
+      width: 220px;
+    }
+  }
+}
+
 @media screen and (max-width: 508px) {
   .main-sec {
     background-size: 600px 220px;
@@ -4763,6 +5312,70 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+  .main-sec {
+    height: 200px;
+    background-size: 600px 210px;
+
+    &__left {
+      padding-top: 25px;
+    }
+
+    &__year {
+      margin-bottom: 35px;
+      font-size: 54px;
+    }
+
+    &__text {
+      font-size: 10px;
+      margin-bottom: 40px;
+    }
+
+    &__left-title {
+      font-size: 15px;
+    }
+
+    &__left-btn {
+      width: 120px;
+      height: 25px;
+      font-size: 10px;
+    }
+  }
+
+  .brand {
+    &__title {
+      font-size: 22px;
+    }
+  }
+
+  .contacts {
+    &__title {
+      font-size: 28px;
+    }
+
+    &__block-title {
+      font-size: 25px;
+    }
+
+    &__block-text {
+      font-size: 16px;
+    }
+
+    &__phone {
+      margin-right: 60px;
+    }
+
+    &__ul {
+      width: 450px;
+    }
+
+    &__li {
+      font-size: 16px;
+      width: 400px;
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
   .seo {
     padding-top: 5px;
@@ -4788,7 +5401,132 @@ body {
   }
 }
 
+@media screen and (max-width:470px) {
+  .catalog {
+    &__img {
+      width: 210px;
+      height: 170px;
+    }
+
+    &__bottom {
+      width: 210px;
+    }
+
+    &__block {
+      width: 210px;
+    }
+  }
+
+  .question {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 360px;
+
+    &__left {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+
+    &__form {
+      display: flex;
+      align-items: center;
+    }
+
+    &__text {
+      width: 370px;
+      font-size: 16px;
+    }
+
+    &__send {
+      width: 170px;
+      height: 35px;
+    }
+
+    &__number {
+      width: 270px;
+      height: 40px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .main-sec {
+    &__left {
+      margin-right: 2%;
+    }
+
+    &__year {
+      margin-bottom: 45px;
+      font-size: 47px;
+    }
+
+    &__text {
+      margin-bottom: 55px;
+      font-size: 10px;
+    }
+  }
+
+  .brand {
+    &__img {
+      height: 40px;
+    }
+
+    &__name {
+      font-size: 25px;
+    }
+
+    &__blocks {
+      margin-right: 20px;
+    }
+
+    &__arr-img {
+      width: 18px;
+    }
+
+    &__arr-img-l {
+      margin-right: 20px;
+    }
+  }
+
+  .seo {
+    height: 240px;
+
+    &__text {
+      height: 140px;
+    }
+
+  }
+
+  .hyundai {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 450px) {
+  .main-sec {
+    &__left {
+      padding-top: 22px;
+    }
+
+    &__left-title {
+      line-height: 18px;
+    }
+  }
+
+  .catalog {
+    height: 650px;
+  }
+
   .seo {
     padding-top: 0px;
     height: 250px;
@@ -4811,7 +5549,118 @@ body {
       font-size: 16px;
     }
   }
+
+  .advantages {
+    &__title {
+      font-size: 21px;
+    }
+
+    &__block {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__img {
+      margin-bottom: 10px;
+      width: 40px;
+    }
+
+    &__top {
+      margin-bottom: 5px;
+      font-size: 20px;
+    }
+
+    &__block {
+      width: 240px;
+    }
+
+    &__bottom {
+      width: 240px;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  .forma {
+    &__title {
+      font-size: 19px;
+    }
+
+    &__name {
+      margin-right: 15px;
+      width: 170px;
+    }
+
+    &__number {
+      margin-right: 15px;
+      width: 170px;
+    }
+
+    &__send {
+      font-size: 13px;
+      width: 190px;
+    }
+
+    &__text-bottom {
+      width: 360px;
+    }
+  }
+
+  .question {
+    &__left {
+      margin-right: 0;
+    }
+
+    &__title {
+      font-size: 23px;
+    }
+
+    &__text {
+      font-size: 16px;
+      width: 330px;
+    }
+
+    &__right {
+      padding-top: 5px;
+    }
+
+    &__number {
+      margin-bottom: 10px;
+      width: 250px;
+      height: 35px;
+    }
+
+    &__number::placeholder {
+      font-size: 15px;
+    }
+  }
 }
+
+@media screen and (max-width: 440px) {
+  .catalog {
+    height: 625px;
+
+    &__title {
+      margin-bottom: 5px;
+      font-size: 26px;
+    }
+
+    &__img {
+      width: 200px;
+      height: 160px;
+    }
+
+    &__bottom {
+      width: 200px;
+    }
+
+    &__block {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 435px) {}
 
 @media screen and (max-width: 430px) {
   .seo {
@@ -4838,9 +5687,175 @@ body {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .header-mb {
+    margin-bottom: 20px;
+  }
+
+  .seo {
+    height: 230px;
+
+    &__text {
+      height: 130px;
+    }
+  }
+
+  .forma {
+    &__title {
+      width: 360px;
+      font-size: 18px;
+    }
+  }
+}
+
 @media screen and (max-width: 417px) {
   .main-sec {
     background-size: 550px 190px;
+
+    &__left {
+      padding-top: 20px;
+    }
+
+    &__left-title {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &__left-btn {
+      font-size: 8px;
+      width: 100px;
+      height: 20px;
+    }
+
+    &__year {
+      font-size: 40px;
+      margin-bottom: 55px;
+    }
+
+    &__text {
+      margin-bottom: 61px;
+      font-size: 9px;
+    }
+  }
+
+  .forma {
+    &__name {
+      margin-bottom: 10px;
+    }
+
+    &__number {
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+
+    &__title {
+      width: 350px;
+      line-height: 20px;
+      font-size: 17px;
+    }
+
+    &__right {
+      padding-top: 5px;
+    }
+
+    &__data {
+      width: 350px;
+      font-size: 11px;
+    }
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .catalog {
+    height: 590px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__img {
+      width: 180px;
+      height: 150px;
+    }
+
+    &__bottom {
+      width: 180px;
+    }
+
+    &__text {
+      width: 170px;
+      font-size: 13px;
+    }
+
+    &__btn {
+      padding-bottom: 1px;
+      font-size: 12px;
+      width: 110px;
+      height: 18px;
+    }
+
+    &__block {
+      width: 180px;
+    }
+
+    &__more {
+      padding-top: 0px;
+      width: 170px;
+      height: 35px;
+    }
+
+    &__more p {
+      font-size: 15px;
+    }
+  }
+
+  .advantages {
+    &__title {
+      font-size: 19px;
+    }
+
+    &__blocks {
+      justify-content: center;
+    }
+
+    &__block {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .main-sec {
+    height: 180px;
+  }
+
+  .brand {
+    &__title {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .forma {
+    margin-bottom: 15px;
+
+    &__name {
+      margin-right: 10px;
+      width: 165px;
+    }
+
+    &__number {
+      width: 165px;
+    }
+
+    &__text-bottom {
+      width: 345px;
+    }
   }
 }
 
@@ -5095,6 +6110,10 @@ body {
 }
 
 @media screen and (max-width: 390px) {
+  .header-mb {
+    margin-bottom: 20px;
+  }
+
   .seo {
     padding-top: 5px;
     height: 250px;
@@ -5116,6 +6135,41 @@ body {
     &__bolee-text {
       font-size: 16px;
     }
+  }
+
+  .brand {
+    margin-bottom: 15px;
+    height: 70px;
+
+    &__title {
+      height: 35px;
+    }
+
+    &__img {
+      height: 35px;
+    }
+
+    &__name {
+      font-size: 23px;
+    }
+
+    &__arr-img {
+      width: 14px;
+    }
+  }
+
+  .catalog {
+    &__title {
+      font-size: 22px;
+      margin-bottom: 0;
+      height: 50px;
+    }
+
+
+  }
+
+  .forma {
+    
   }
 }
 
