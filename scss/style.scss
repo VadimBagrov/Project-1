@@ -6168,15 +6168,189 @@ body {
 
   }
 
+  .contacts {
+    &__title {
+      height: 50px;
+      font-size: 26px;
+    }
+
+    &__img {
+      width: 35px;
+    }
+
+    &__block-title {
+      font-size: 24px;
+    }
+
+    &__block-text {
+      font-size: 15px;
+    }
+
+    &__li {
+      font-size: 15px;
+    }
+
+    &__adress-top {
+      margin-bottom: 5px;
+    }
+
+    &__phone-top {
+      margin-bottom: 5px;
+    }
+
+    &__email-top {
+      margin-bottom: 5px;
+    }
+
+    &__addres-top {
+      margin-bottom: 10px;
+    }
+
+    &__work-top {
+      margin-bottom: 10px;
+    }
+
+    &__phone {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .header-mb {
+    margin-bottom: 10px;
+  }
+
+  .main-sec {
+    background-size: 520px 180px;
+  }
+
+  .catalog {
+    height: 550px;
+
+    &__blocks {
+      width: 385px;
+    }
+
+    &__block {
+      width: 170px;
+    }
+
+    &__img {
+      width: 170px;
+      height: 140px;
+    }
+
+    &__bottom {
+      width: 170px;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+
+    &__btn {
+      width: 100px;
+    }
+
+    &__more {
+      width: 150px;
+      height: 30px;
+    }
+
+    &__more p {
+      font-size: 14px;
+    }
+  }
+
+  .seo {
+    height: 220px;
+
+    &__text {
+      height: 120px;
+    }
+  }
+
   .forma {
-    
+    &__title {
+      width: 310px;
+      font-size: 16px;
+    }
+
+    &__name {
+      width: 160px;
+    }
+
+    &__number {
+      width: 160px;
+      margin-right: 0;
+    }
+
+    &__text-bottom {
+      width: 335px;
+    }
+
+    &__send {
+      height: 32px;
+    }
   }
 }
 
 @media screen and (max-width: 375px) {
+  .main-sec {
+    &__left-title {
+      line-height: 15px;
+    }
+  }
+
+  .advantages {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__img {
+      width: 36px;
+    }
+
+    &__top {
+      font-size: 19px;
+    }
+
+    &__bottom {
+      font-size: 13px;
+      line-height: 18px;
+    }
+
+    &__block {
+      width: 180px;
+      margin-right: 13px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .forma {
+    &__name {
+      width: 155px;
+    }
+
+    &__number {
+      width: 155px;
+    }
+
+    &__text-bottom {
+      width: 330px;
+    }
+  }
+
+  .catalog {
+    &__more {
+      margin-top: 10px;
+    }
+  }
+
   .seo {
     padding-top: 0px;
-    height: 250px;
+    height: 230px;
     max-width: 92%;
 
     &__title {
@@ -6188,12 +6362,24 @@ body {
     &__text {
       font-size: 12px;
       width: 315px;
-      height: 150px;
-      line-height: 20px;
+      height: 130px;
+      line-height: 18px;
     }
 
     &__bolee-text {
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .forma {
+    &__name {
+      width: 150px;
+    }
+
+    &__number {
+      width: 150px;
     }
   }
 }
