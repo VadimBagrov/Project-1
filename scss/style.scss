@@ -397,10 +397,15 @@ body {
 
   &__block {
     display: flex;
+    align-items: center
   }
 
   &__blocks {
-    margin-right: 55px;
+    margin-right: 35px;
+  }
+
+  &__arr {
+    margin-right: 35px;
   }
 
   &__link {
@@ -408,15 +413,15 @@ body {
   }
 
   &__img {
-    margin-right: 20px;
-    height: 80px;
+    margin-right: 15px;
+    height: 70px;
   }
 
   &__name {
     display: flex;
     align-items: center;
     color: rgb(105, 105, 105);
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 45px;
   }
@@ -426,7 +431,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1500px;
+  height: 1250px;
 
   &__bottom-bl {
     display: flex;
@@ -487,7 +492,7 @@ body {
   }
 
   &__more {
-    display: none;
+    display: block;
     margin-top: 25px;
     width: 220px;
     height: 45px;
@@ -497,22 +502,36 @@ body {
     border: 1px rgb(255, 0, 4) solid;
     color: rgb(255, 0, 4);
   }
+
+  &__mob {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__center {
+    display: flex;
+  }
+
+  &__bottom-bl {
+    display: none;
+  }
 }
 
 .seo {
   display: flex;
   justify-content: flex-start;
-  padding-top: 60px;
+  padding-top: 40px;
   margin-bottom: 60px;
-  height: 510px;
+  height: 480px;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25), 0px 0px 55px 0px rgba(0, 0, 0, 0.25);
   background: rgb(254, 254, 254);
   flex-direction: column;
   align-items: center;
 
   &__title {
-    height: 80px;
-    margin-bottom: 60px;
+    height: 60px;
+    margin-bottom: 20px;
     font-size: 50px;
     font-weight: 700;
     line-height: 63px;
@@ -549,7 +568,7 @@ body {
   &__bolee-text {
     color: rgb(0, 0, 0);
     font-family: Geometria;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 500;
     line-height: 38px;
     cursor: pointer;
@@ -714,7 +733,6 @@ body {
   }
 }
 
-
 .service-con {
   background-color: #F4F4F4;
 }
@@ -726,6 +744,10 @@ body {
   flex-direction: column;
   height: 850px;
   margin-bottom: 50px;
+
+  &__right-top {
+    width: 100% !important;
+  }
 
   &__bl {
     margin-left: 60px;
@@ -751,7 +773,7 @@ body {
 
   &__name {
     height: 36px;
-    margin-right: 246px;
+    margin-right: 28% !important;
     margin-bottom: 20px;
     color: rgb(105, 105, 105);
     font-family: Geometria;
@@ -1075,6 +1097,10 @@ body {
   height: 330px;
   background: rgb(244, 244, 244);
 
+  &__usl {
+    display: flex;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -1086,17 +1112,17 @@ body {
 
   &__two {
     padding-top: 45px;
-    margin-right: 85px;
+    margin-right: 45px;
   }
 
   &__three {
     padding-top: 45px;
-    margin-right: 85px;
+    margin-right: 35px;
   }
 
   &__four {
     padding-top: 45px;
-    margin-right: 80px;
+    margin-right: 35px;
   }
 
   &__five {
@@ -1114,29 +1140,36 @@ body {
 
   &__logo {
     height: 25px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 25px;
   }
 
   &__servis {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: rgb(0, 0, 0);
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 300;
     line-height: 11px;
   }
 
   &__phone {
     margin-bottom: 15px;
+    font-size: 17px;
   }
 
   &__email {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
   }
 
   &__addres {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+
+  &__grafick {
+    font-size: 17px;
   }
 
   &__text-brand {
@@ -1164,28 +1197,28 @@ body {
   }
 
   &__toyota {
-    height: 20px;
+    height: 25px;
     margin-right: 7px;
   }
 
   &__lexus {
-    height: 22px;
-    margin-right: 11px;
-  }
-
-  &__nissan {
-    height: 24px;
+    height: 27px;
     margin-right: 15px;
   }
 
+  &__nissan {
+    height: 29px;
+    margin-right: 21px;
+  }
+
   &__hyundai {
-    height: 21px;
-    margin-right: 3px;
+    height: 26px;
+    margin-right: 7px;
   }
 
   &__kia {
-    height: 21px;
-    margin-right: 2px;
+    height: 26px;
+    margin-right: 7px;
   }
 
   &__li-three {
@@ -1244,6 +1277,26 @@ body {
     padding-top: 50px;
     padding-left: 2.031%;
     margin-right: 10.159%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .footer {
+    &__one {
+      margin-right: 55px;
+    }
+
+    &__a-three {
+      font-size: 18px;
+    }
+
+    &__three {
+      margin-right: 25px;
+    }
+
+    &__four {
+      margin-right: 25px;
+    }
   }
 }
 
@@ -1455,6 +1508,40 @@ body {
       font-size: 24px;
     }
   }
+
+  .header {
+    &__flex {
+      margin-bottom: 10px;
+    }
+  }
+
+  .footer {
+    &__text-brand {
+      font-size: 19px;
+    }
+
+    &__a-three {
+      font-size: 19px;
+    }
+
+    &__a-four {
+      font-size: 19px;
+    }
+
+    &__a-five {
+      font-size: 19px;
+    }
+  }
+
+  .service {
+    &__left {
+      margin-right: 80px;
+    }
+
+    &__left-block {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 @media screen and (max-width: 1270px) {
@@ -1492,6 +1579,12 @@ body {
   .question {
     &__left {
       margin-right: 180px;
+    }
+  }
+
+  .service {
+    &__title {
+      font-size: 35px;
     }
   }
 
@@ -1812,6 +1905,110 @@ body {
   }
 }
 
+@media screen and (max-width: 1090px) {
+  .service {
+    height: 670px;
+
+    &__name {
+      margin-right: 185px;
+    }
+
+    &__left-title {
+      font-size: 26px;
+    }
+
+    &__left {
+      margin-right: 60px;
+    }
+
+    &__left-block {
+      width: 290px;
+      height: 55px;
+    }
+
+    &__bl {
+      margin-left: 40px;
+    }
+
+    &__arrow {
+      width: 30px;
+      height: 18px;
+    }
+
+    &__name {
+      font-size: 26px;
+    }
+
+    &__price {
+      font-size: 26px;
+    }
+
+    &__right-bottom {
+      width: 600px;
+      height: 420px;
+    }
+
+    &__usluga {
+      padding-bottom: 0px;
+      padding-left: 26px;
+      padding-top: 10px;
+      width: 600px;
+      height: 70px;
+    }
+
+    &__usluga-line {
+      width: 550px;
+    }
+
+    &__usluga-div {
+      padding-top: 4px;
+      margin-bottom: 5px;
+    }
+
+    &__usluga-title {
+      font-size: 20px;
+    }
+
+    &__usluga-price {
+      font-size: 25px;
+    }
+  }
+
+  .footer {
+    &__one {
+      margin-right: 15px;
+    }
+
+    &__text-brand {
+      font-size: 18px;
+    }
+
+    &__li-three {
+      margin-bottom: 10px;
+    }
+
+    &__a-three {
+      font-size: 18px;
+    }
+
+    &__li-four {
+      margin-bottom: 10px;
+    }
+
+    &__li-five {
+      margin-bottom: 10px;
+    }
+
+    &__a-four {
+      font-size: 18px;
+    }
+
+    &__a-five {
+      font-size: 18px;
+    }
+  }
+}
+
 @media screen and (max-width: 1070px) {
   .main-sec {
     background-size: 1350px 470px;
@@ -1981,6 +2178,18 @@ body {
   .on {
     margin-right: 20px;
     margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .brand {
+    &__name {
+      font-size: 30px;
+    }
+
+    &__img {
+      height: 55px;
+    }
   }
 }
 
@@ -2514,6 +2723,110 @@ body {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .service {
+    height: 620px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+    &__title {
+      margin-bottom: 15px;
+    }
+
+    &__left {
+      margin-right: 40px;
+    }
+
+    &__left-title {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    &__left-block {
+      background-size: 25px 25px;
+      width: 270px;
+    }
+
+    &__bl {
+      margin-left: 30px;
+    }
+
+    &__text {
+      font-size: 19px;
+    }
+
+    &__arrow {
+      width: 27px;
+      height: 16px;
+    }
+
+    &__right {
+      width: 530px;
+    }
+
+    &__right-bottom {
+      width: 530px;
+    }
+
+    &__name {
+      margin-right: 150px;
+      font-size: 24px;
+    }
+
+    &__price {
+      font-size: 24px;
+    }
+
+    &__usluga {
+      width: 530px;
+    }
+
+    &__usluga-title {
+      font-size: 18px;
+    }
+
+    &__usluga-line {
+      width: 482px;
+    }
+
+    &__usluga-price {
+      font-size: 21px;
+    }
+  }
+
+  .catalog {
+    &__block {
+      width: 200px;
+    }
+
+    &__img {
+      width: 200px;
+      height: 180px;
+    }
+
+    &__bottom {
+      width: 200px;
+    }
+
+    &__center {
+      display: flex;
+    }
+  }
+
+  .footer {
+    height: 360px;
+
+    &__usl {
+      display: flex;
+      flex-direction: column
+    }
+
+    &__four {
+      padding-top: 10px;
+    }
+  }
+}
+
 @media screen and (max-width: 880px) {
   .contacts {
     &__map {
@@ -2717,6 +3030,73 @@ body {
       width: 800px;
       height: 500px;
     }
+  }
+
+  .service {
+    height: 560px;
+
+    &__title {
+      font-size: 35px;
+    }
+
+    &__left-title {
+      font-size: 22px;
+    }
+
+    &__right-bottom {
+      width: 490px;
+      height: 360px;
+    }
+
+    &__usluga {
+      padding-top: 5px;
+      height: 60px;
+      width: 490px;
+    }
+
+    &__usluga-line {
+      width: 442px;
+    }
+
+    &__usluga-title {
+      font-size: 17px;
+    }
+
+    &__usluga-price {
+      font-size: 19px;
+    }
+
+    &__left-block {
+      height: 50px;
+      background-size: 20px 20px;
+      width: 250px;
+    }
+
+    &__text {
+      font-size: 17px;
+    }
+
+    &__arrow {
+      width: 24px;
+      height: 11px;
+    }
+
+    &__left {
+      margin-right: 20px;
+    }
+
+    &__price {
+      font-size: 22px;
+    }
+
+    &__name {
+      font-size: 22px;
+      margin-right: 26% !important;
+    }
+  }
+
+  .footer {
+    height: 380px;
   }
 }
 
@@ -2966,6 +3346,92 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .service {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__right {
+      width: 450px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__left-title {
+      font-size: 21px;
+    }
+
+    &__left-block {
+      background-size: 25px 25px;
+      width: 230px;
+    }
+
+    &__name {
+      font-size: 21px;
+      margin-right: 15% !important;
+    }
+
+    &__price {
+      font-size: 21px;
+    }
+
+    &__usluga {
+      width: 450px;
+    }
+
+    &__right-bottom {
+      width: 450px;
+    }
+
+    &__usluga-line {
+      width: 402px;
+    }
+
+    &__name {
+      margin-right: 22% !important;
+    }
+
+    &__usluga-title {
+      font-size: 15px;
+    }
+
+    &__usluga-price {
+      font-size: 17px;
+    }
+  }
+
+  .footer {
+    height: 300px;
+
+    &__phone {
+      font-size: 16px;
+    }
+
+    &__email {
+      font-size: 16px;
+    }
+
+    &__three {
+      display: none;
+    }
+
+    &__four {
+      display: none;
+    }
+
+    &__addres {
+      font-size: 16px;
+    }
+
+    &__grafick {
+      font-size: 16px;
+    }
+  }
+}
+
 @media screen and (max-width: 793px) {
   .main-sec {
     &__left {
@@ -3115,22 +3581,48 @@ body {
 
 @media screen and (max-width: 750px) {
   .catalog {
+    height: 1750px;
+
     &__blocks {
-      width: 680px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
     }
 
     &__block {
-      width: 215px;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-right: 0;
+    }
+
+    &__center {
+      display: none;
+    }
+
+    &__a {
+      width: 34%;
     }
 
     &__img {
-      width: 215px;
-      height: 185px;
+      width: 95%;
+      height: 205px;
+    }
+
+    &__btn {
+      width: 140px;
+      height: 27px;
     }
 
     &__bottom {
-      width: 215px;
+      width: 95%;
     }
+
+    &__mob {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
   }
 }
 
@@ -3338,6 +3830,128 @@ body {
     &__title {
       font-size: 21px;
       line-height: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .service-con {
+    margin-bottom: 30px;
+    height: 600px;
+  }
+
+  .service {
+    width: 600px;
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 650px;
+    }
+
+    &__block {
+      width: 650px;
+      flex-direction: column;
+    }
+
+    &__dv {
+      background-image: none;
+    }
+
+    &__tr {
+      background-image: none;
+    }
+
+    &__obs {
+      background-image: none;
+    }
+
+    &__arrow {
+      display: none;
+    }
+
+    &__name {
+      font-size: 20px;
+      margin-right: 38% !important;
+    }
+
+    &__price {
+      font-size: 20px;
+    }
+
+    &__left-title {
+      font-size: 16px;
+    }
+
+    &__left {
+      display: flex;
+      margin: 0 auto;
+    }
+
+    &__left-title {
+      margin-right: 25px;
+    }
+
+    &__dv {
+      width: 115px;
+    }
+
+    &__tr {
+      width: 130px;
+    }
+
+    &__obs {
+      width: 150px;
+    }
+
+    &__left-block {
+      margin-bottom: 0;
+      margin-right: 10px;
+      padding-left: 14px;
+      padding-right: 0;
+      background-position: 7px 12px;
+      height: 40px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__arrow {
+      width: 20px;
+    }
+
+    &__right-top {
+      justify-content: center;
+    }
+
+    &__right-bottom {
+      width: 563px;
+    }
+
+    &__usluga {
+      width: 563px;
+    }
+
+    &__bl {
+      margin-left: 0;
+    }
+
+    &__usluga-div {
+      width: 510px;
+    }
+
+    &__usluga-line {
+      width: 510px;
+    }
+
+    &__usluga-title {
+      font-size: 18px;
+    }
+
+    &__usluga-price {
+      font-size: 20px;
     }
   }
 }
