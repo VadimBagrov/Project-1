@@ -1052,6 +1052,7 @@ body {
 
   &__block-bottom {
     display: flex;
+    width: 100%;
   }
 
   &__img {
@@ -1068,6 +1069,7 @@ body {
 
   &__li {
     list-style: inside;
+    width: 100% !important;
   }
 
   &__map {
@@ -4274,6 +4276,10 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+  .contacts__map {
+    width: 550px;
+  }
+
   .main-sec {
     margin-bottom: 20px;
   }
@@ -4577,6 +4583,19 @@ body {
     &__time-day {
       font-size: 8px;
     }
+  }
+
+  .service {
+    &__title {
+      font-size: 26px;
+    }
+
+    &__left-title {
+      margin-right: 20px;
+      font-size: 15px;
+    }
+
+    &__text {}
   }
 }
 
@@ -5063,6 +5082,152 @@ body {
   .on {
     margin-right: 05px;
     margin-left: 25px;
+  }
+
+  .contacts__map {
+    width: 500px;
+  }
+
+  .service {
+    width: 500px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__block {
+      width: 500px;
+    }
+
+    &__left-title {
+      font-size: 14px;
+    }
+
+    &__left-block {
+      margin-right: 5px;
+    }
+
+    &__right {
+      width: 500px;
+    }
+
+    &__right-top {
+      width: 500px;
+    }
+
+    &__right-bottom {
+      width: 500px;
+    }
+
+    &__usluga {
+      width: 500px;
+    }
+
+    &__usluga-div {
+      width: 450px;
+    }
+
+    &__usluga-title {
+      font-size: 16px;
+    }
+
+    &__usluga-line {
+      width: 450px;
+    }
+
+    &__usluga-price {
+      font-size: 18px;
+    }
+
+    &__name {
+      margin-right: 35% !important;
+      font-size: 19px;
+    }
+
+    &__price {
+      font-size: 19px;
+    }
+
+    &__dv {
+      width: 100px;
+    }
+
+    &__tr {
+      width: 115px;
+    }
+
+    &__obs {
+      margin-right: 0;
+      width: 127px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+  }
+
+  .footer {
+    &__one {
+      margin-right: 10px;
+    }
+
+    &__logo {
+      font-size: 25px;
+    }
+
+    &__servis {
+      font-size: 11px;
+    }
+
+    &__phone {
+      font-size: 15px;
+    }
+
+    &__email {
+      font-size: 15px;
+    }
+
+    &__addres {
+      font-size: 15px;
+    }
+
+    &__grafick {
+      width: 180px;
+      font-size: 15px;
+    }
+
+    &__toyota {
+      margin-right: 4px;
+    }
+
+    &__lexus {
+      margin-right: 12px;
+    }
+
+    &__nissan {
+      margin-right: 18px;
+    }
+
+    &__hyundai {
+      margin-right: 4px;
+    }
+
+    &__kia {
+      margin-right: 4px;
+    }
+
+    &__two {
+      margin-right: 60px;
+    }
+
+    &__ul-five {
+      margin-bottom: 15px;
+    }
+
+    &__a-five {
+      font-size: 17px;
+    }
+
   }
 }
 
@@ -5622,6 +5787,10 @@ body {
 }
 
 @media screen and (max-width: 510px) {
+  .contacts__map {
+    width: 450px;
+  }
+
   .main-sec {
     &__left-title {
       font-size: 16px;
@@ -6124,6 +6293,10 @@ body {
   .hyundai {
     display: none;
   }
+
+  .contacts__map {
+    width: 420px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -6298,6 +6471,10 @@ body {
     &__bolee-text {
       font-size: 16px;
     }
+  }
+
+  .contacts__map {
+    width: 390px;
   }
 }
 
@@ -6474,6 +6651,9 @@ body {
 }
 
 @media screen and (max-width: 392px) {
+  .contacts__map {
+    width: 370px;
+  }
 
   .container {
     min-width: 95%;
