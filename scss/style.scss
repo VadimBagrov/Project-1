@@ -1073,7 +1073,7 @@ body {
   }
 
   &__map {
-    max-width: 650px;
+    max-width: 630px;
     height: 521px;
   }
 
@@ -2111,7 +2111,7 @@ body {
 
   .contacts {
     &__map {
-      max-width: 550px;
+      max-width: 530px;
       height: 450px;
     }
   }
@@ -2532,7 +2532,7 @@ body {
     }
 
     &__map {
-      max-width: 480px;
+      max-width: 450px;
       height: 380px;
     }
   }
@@ -2832,7 +2832,7 @@ body {
 @media screen and (max-width: 880px) {
   .contacts {
     &__map {
-      max-width: 480px;
+      max-width: 450px;
       height: 360px;
     }
   }
@@ -3028,8 +3028,8 @@ body {
     }
 
     &__map {
-      max-width: 750px;
-      width: 800px;
+      max-width: 730px;
+      width: 710px;
       height: 500px;
     }
   }
@@ -3816,7 +3816,7 @@ body {
     }
 
     &__map {
-      width: 600px;
+      width: 570px;
       height: 450px
     }
   }
@@ -4277,7 +4277,7 @@ body {
 
 @media screen and (max-width: 650px) {
   .contacts__map {
-    width: 550px;
+    width: 530px;
   }
 
   .main-sec {
@@ -4595,7 +4595,6 @@ body {
       font-size: 15px;
     }
 
-    &__text {}
   }
 }
 
@@ -5085,7 +5084,7 @@ body {
   }
 
   .contacts__map {
-    width: 500px;
+    width: 470px;
   }
 
   .service {
@@ -5393,6 +5392,34 @@ body {
 }
 
 @media screen and (max-width: 520px) {
+  .forma {
+    height: 190px;
+
+    &__text-top {
+      display: flex;
+    }
+
+    &__name {
+      font-size: 9px;
+      width: 130px;
+      height: 30px;
+    }
+
+    &__number {
+      font-size: 9px;
+      padding-bottom: 0px;
+      width: 130px;
+      height: 30px;
+    }
+
+    &__send {
+      margin-bottom: 3px;
+      font-size: 13px;
+      width: 130px;
+      height: 30px;
+    }
+  }
+
   .seo {
     padding-top: 5px;
     height: 270px;
@@ -5443,6 +5470,65 @@ body {
 
     &__bottom {
       font-size: 14px;
+    }
+  }
+
+  .footer {
+    padding-top: 20px;
+    height: 900px;
+
+    &__logo {
+      font-size: 28px;
+    }
+
+    &__servis {
+      font-size: 13px;
+    }
+
+    &__two {
+      padding-top: 25px;
+    }
+
+    &__three {
+      padding-top: 25px;
+    }
+
+    &__five {
+      padding-top: 25px;
+    }
+
+    &__phone {
+      font-size: 17px;
+    }
+
+    &__email {
+      font-size: 17px;
+    }
+
+    &__addres {
+      font-size: 17px;
+    }
+
+    &__grafick {
+      width: 350px;
+      font-size: 17px;
+    }
+
+    &__text-brand {
+      font-size: 19px;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__three {
+      display: flex;
+    }
+
+    &__four {
+      display: flex;
     }
   }
 }
@@ -5788,7 +5874,7 @@ body {
 
 @media screen and (max-width: 510px) {
   .contacts__map {
-    width: 450px;
+    width: 430px;
   }
 
   .main-sec {
@@ -6295,7 +6381,7 @@ body {
   }
 
   .contacts__map {
-    width: 420px;
+    width: 390px;
   }
 }
 
@@ -6474,7 +6560,7 @@ body {
   }
 
   .contacts__map {
-    width: 390px;
+    width: 370px;
   }
 }
 
@@ -6495,6 +6581,65 @@ body {
     &__title {
       width: 360px;
       font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .catalog {
+    height: 590px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__img {
+      width: 180px;
+      height: 150px;
+    }
+
+    &__bottom {
+      width: 180px;
+    }
+
+    &__text {
+      width: 170px;
+      font-size: 13px;
+    }
+
+    &__btn {
+      padding-bottom: 1px;
+      font-size: 12px;
+      width: 110px;
+      height: 18px;
+    }
+
+    &__block {
+      width: 180px;
+    }
+
+    &__more {
+      padding-top: 0px;
+      width: 170px;
+      height: 35px;
+    }
+
+    &__more p {
+      font-size: 15px;
+    }
+  }
+
+  .advantages {
+    &__title {
+      font-size: 19px;
+    }
+
+    &__blocks {
+      justify-content: center;
+    }
+
+    &__block {
+      width: 200px;
     }
   }
 }
@@ -6560,65 +6705,6 @@ body {
   }
 }
 
-@media screen and (max-width: 419px) {
-  .catalog {
-    height: 590px;
-
-    &__title {
-      font-size: 24px;
-    }
-
-    &__img {
-      width: 180px;
-      height: 150px;
-    }
-
-    &__bottom {
-      width: 180px;
-    }
-
-    &__text {
-      width: 170px;
-      font-size: 13px;
-    }
-
-    &__btn {
-      padding-bottom: 1px;
-      font-size: 12px;
-      width: 110px;
-      height: 18px;
-    }
-
-    &__block {
-      width: 180px;
-    }
-
-    &__more {
-      padding-top: 0px;
-      width: 170px;
-      height: 35px;
-    }
-
-    &__more p {
-      font-size: 15px;
-    }
-  }
-
-  .advantages {
-    &__title {
-      font-size: 19px;
-    }
-
-    &__blocks {
-      justify-content: center;
-    }
-
-    &__block {
-      width: 200px;
-    }
-  }
-}
-
 @media screen and (max-width: 410px) {
   .main-sec {
     height: 180px;
@@ -6652,7 +6738,7 @@ body {
 
 @media screen and (max-width: 392px) {
   .contacts__map {
-    width: 370px;
+    width: 350px;
   }
 
   .container {
