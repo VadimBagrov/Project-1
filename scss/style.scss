@@ -9,6 +9,11 @@ body {
   font-family: Geometria;
 }
 
+.hover-text:hover {
+  color: #eb2227;
+  cursor: pointer;
+}
+
 .header {
   padding-top: 20px;
   margin-bottom: 40px;
@@ -429,6 +434,15 @@ body {
   flex-direction: column;
   align-items: center;
   height: 1250px;
+
+  &__a:hover h2 {
+    color: #eb2227;
+  }
+
+  &__more:hover {
+    background-color: #ff0004;
+    color: #fff;
+  }
 
   &__bottom-bl {
     display: flex;
@@ -885,6 +899,19 @@ body {
     border-radius: 13px;
     background: rgb(255, 255, 255);
     padding: 25px 35px 0px;
+  }
+
+  &__usluga:hover {
+    border: 1px solid #eb2227;
+    color: #eb2227;
+  }
+
+  &__usluga:hover h2 {
+    color: #eb2227;
+  }
+
+  &__usluga:hover p {
+    color: #eb2227;
   }
 
   &__usluga-title {
