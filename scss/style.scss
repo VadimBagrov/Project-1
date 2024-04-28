@@ -15,6 +15,72 @@ body {
 }
 
 .header {
+  &__but {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__button .header__a-block:hover {
+    .header__popups {
+      display: flex;
+    }
+  }
+
+  .header__button .header__a-block:hover {
+    .header__usl {
+      background-color: #eb2227;
+      color: #FFFFFF;
+      background-image: url('../images/src/service-white.svg');
+      background-repeat: no-repeat;
+      background-position: 32px 11px;
+      background-size: 24px 24px;
+    }
+  }
+
+  &__popups {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 1243px;
+    height: 243px;
+    border: 2px solid #d1d1d1;
+    z-index: 2;
+    background-color: #fff;
+  }
+
+  &__popup:hover p {
+    color: #eb2227;
+    cursor: pointer;
+  }
+
+  &__popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 310px;
+    height: 40px;
+  }
+
+  &__popup-img {
+    height: 30px;
+    max-width: 41px;
+  }
+
+  &__popup-text {
+    width: 260px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+  }
+}
+
+.header {
   padding-top: 20px;
   margin-bottom: 40px;
 
