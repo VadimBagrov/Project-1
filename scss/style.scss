@@ -452,6 +452,19 @@ body {
   @extend .red;
 }
 
+.swiper {
+  width: 1400px;
+  height: 400px;
+}
+
+.swiper-wrapper {
+  justify-content: space-around;
+}
+
+.swiper-slide {
+  display: flex !important;
+}
+
 .brand {
   display: flex;
   justify-content: center;
@@ -578,6 +591,22 @@ body {
     background-color: #fff;
     border: 1px rgb(255, 0, 4) solid;
     color: rgb(255, 0, 4);
+  }
+
+  &__bottom-bl--active {
+    display: flex !important;
+  }
+
+  &--active {
+    height: 1480px;
+  }
+
+  &__more--active {
+    display: none;
+  }
+
+  &__more-del {
+    display: none;
   }
 
   &__mob {
@@ -902,6 +931,7 @@ body {
     background-repeat: no-repeat;
     background-position: 21px 20px;
     background-size: 40px 40px;
+    border: none;
   }
 
   &__left-block:hover {
@@ -949,11 +979,53 @@ body {
     background-image: url('../images/src/arrow-white.svg');
   }
 
-  &__right-bottom {
+  &__general {
     width: 770px;
     height: 561px;
     border-radius: 13px;
     background: rgb(255, 255, 255);
+    overflow: auto;
+  }
+
+  &__general--none {
+    display: none;
+  }
+
+  &__dvigatel {
+    width: 770px;
+    height: 561px;
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+  }
+
+  &__dvigatel--none {
+    display: none;
+  }
+
+
+  &__transmission {
+    width: 770px;
+    height: 561px;
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+  }
+
+  &__transmission--none {
+    display: none;
+  }
+
+  &__obslug {
+    width: 770px;
+    height: 561px;
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+  }
+
+  &__obslug--none {
+    display: none;
   }
 
   &__right-top {
@@ -1182,7 +1254,8 @@ body {
   }
 
   &__map {
-    max-width: 630px;
+    max-width: 760px;
+    width: 760px;
     height: 521px;
   }
 
@@ -2756,6 +2829,10 @@ body {
 
     &__center {
       display: none;
+    }
+
+    &__center--active {
+      display: block;
     }
   }
 

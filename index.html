@@ -7,6 +7,7 @@
   <title>MotoristDVS</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" type="image/x-icon" href="/images/dist/MDVS.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -241,48 +242,51 @@
       </div>
     </section>
 
-    <section class="brand">
+    <section class="brand swiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+      centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
       <h4 class="brand__title">Бренды</h4>
-      <div class="brand__block">
-        <div class="brand__arr brand__arr-img-l">
+      <div class="brand__block swiper-wrapper">
+        <div class="brand__arr brand__arr-img-l swiper-button-prev">
           <img class="brand__arr-img" src="/images/dist/left__arr.webp" alt="arrow">
         </div>
-        <div class="brand__blocks">
-          <a class="brand__link" href="#">
+        <div class="brand__blocks ">
+          <a class="brand__link swiper-slide" href="#">
             <img class="brand__img" src="images/dist/lexus.svg" alt="Lexus">
             <p class="brand__name">Lexus</p>
           </a>
         </div>
 
+
         <div class="brand__blocks hyundai">
-          <a class="brand__link" href="#">
+          <a class="brand__link swiper-slide" href="#">
             <img class="brand__img" src="images/dist/hyundai.svg" alt="Hyundai">
             <p class="brand__name">Hyundai</p>
           </a>
         </div>
 
         <div class="brand__blocks">
-          <a class="brand__link" href="#">
+          <a class="brand__link swiper-slide" href="#">
             <img class="brand__img" src="images/dist/toyota.svg" alt="Toyota">
             <p class="brand__name">Toyota</p>
           </a>
         </div>
 
-        <div class="brand__blocks nissan">
-          <a class="brand__link" href="#">
+        <div class="brand__blocks nissan ">
+          <a class="brand__link swiper-slide" href="#">
             <img class="brand__img" src="images/dist/nissan.svg" alt="Nissan">
             <p class="brand__name">Nissan</p>
           </a>
         </div>
 
-        <div class="brand__blocks kia">
-          <a class="brand__link" href="#">
+        <div class="brand__blocks kia ">
+          <a class="brand__link swiper-slide" href="#">
             <img class="brand__img" src="images/dist/kia.svg" alt="Kia">
             <p class="brand__name">Kia</p>
           </a>
         </div>
 
-        <div class="brand__arr">
+
+        <div class="brand__arr swiper-button-next">
           <img class="brand__arr-img" src="/images/dist/right__arr.png" alt="arrow">
         </div>
       </div>
@@ -446,7 +450,7 @@
           </div>
         </div>
 
-        <button class="catalog__more" type="submit">
+        <button class="catalog__more" id='catalog__more' type="submit">
           <p class="caralog__more-text bold">Показать все</p>
         </button>
 
@@ -533,30 +537,27 @@
           <div class="service__left">
             <p class="service__left-title">Узлы автомобиля</p>
             <div class="service__left-df">
-              <a href="#">
-                <div class="service__left-block service__dv hovver">
-                  <div class="service__bl">
-                    <p class="service__text">Двигатель</p>
-                  </div>
-                  <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+
+              <button class="service__left-block service__dv hovver service__dvs" id="service__dvs">
+                <div class="service__bl">
+                  <p class="service__text">Двигатель</p>
                 </div>
-              </a>
-              <a href="#">
-                <div class="service__left-block service__tr">
-                  <div class="service__bl">
-                    <p class="service__text">Трансмиссия</p>
-                  </div>
-                  <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+                <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+              </button>
+
+              <button class="service__left-block service__tr service__tran">
+                <div class="service__bl">
+                  <p class="service__text">Трансмиссия</p>
                 </div>
-              </a>
-              <a href="#">
-                <div class="service__left-block service__obs">
-                  <div class="service__bl">
-                    <p class="service__text">Обслуживание</p>
-                  </div>
-                  <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+                <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+              </button>
+
+              <button class="service__left-block service__obs service__obsl">
+                <div class="service__bl">
+                  <p class="service__text">Обслуживание</p>
                 </div>
-              </a>
+                <img class="service__arrow" src="images/dist/arrow.svg" alt="arrow">
+              </button>
             </div>
           </div>
           <div class="service__right">
@@ -564,52 +565,303 @@
               <p class="service__name">Наименование работ</p>
               <p class="service__price">Стоимость</p>
             </div>
-            <div class="service__right-bottom">
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Капитальный ремонт двигателя</h2>
-                  <p class="service__usluga-price">Договорная</p>
-                </div>
-              </div>
-              <div class="service__usluga-line"></div>
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Ремонт дизельного двигателя</h2>
-                  <p class="service__usluga-price">Договорная</p>
-                </div>
-              </div>
 
-              <div class="service__usluga-line"></div>
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Диагностика двигателя</h2>
-                  <p class="service__usluga-price">от 1500 р.</p>
-                </div>
-              </div>
+            <div class="service__general">
 
-              <div class="service__usluga-line"></div>
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Ремонт турбин</h2>
-                  <p class="service__usluga-price">от 10000 р.</p>
+              <a href="#">
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Капитальный ремонт двигателя</h2>
+                    <p class="service__usluga-price">Договорная</p>
+                  </div>
                 </div>
-              </div>
+              </a>
 
-              <div class="service__usluga-line"></div>
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Замена цепи/ремня ГРМ</h2>
-                  <p class="service__usluga-price">от 7000 р.</p>
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Диагностика двигателя</h2>
+                    <p class="service__usluga-price">от 1500 р.</p>
+                  </div>
                 </div>
-              </div>
+              </a>
 
-              <div class="service__usluga-line"></div>
-              <div class="service__usluga">
-                <div class="service__usluga-div">
-                  <h2 class="service__usluga-title">Регулировка клапанов</h2>
-                  <p class="service__usluga-price">от 8000 р.</p>
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт дизельного двигателя</h2>
+                    <p class="service__usluga-price">Договорная</p>
+                  </div>
                 </div>
-              </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт турбин</h2>
+                    <p class="service__usluga-price">от 10000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт системы охлаждения</h2>
+                    <p class="service__usluga-price">от 6500 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Промывка систем автомобиля</h2>
+                    <p class="service__usluga-price">от 3500 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Замена цепи/ремня ГРМ</h2>
+                    <p class="service__usluga-price">от 7000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт МКПП</h2>
+                    <p class="service__usluga-price">от 8000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Регулировка клапанов</h2>
+                    <p class="service__usluga-price">от 8000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Чип-тюнинг</h2>
+                    <p class="service__usluga-price">от 5000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт ТНВД</h2>
+                    <p class="service__usluga-price">от 5000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт блока цилиндров</h2>
+                    <p class="service__usluga-price">от 11000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт ГБЦ двигателя</h2>
+                    <p class="service__usluga-price">от 9000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт форсунок</h2>
+                    <p class="service__usluga-price">от 3000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+
+            </div>
+
+            <div class="service__dvigatel service__dvigatel--none ">
+
+              <a href="#">
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Капитальный ремонт двигателя</h2>
+                    <p class="service__usluga-price">Договорная</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт дизельного двигателя</h2>
+                    <p class="service__usluga-price">Договорная</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт турбин</h2>
+                    <p class="service__usluga-price">от 10000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Замена цепи/ремня ГРМ</h2>
+                    <p class="service__usluga-price">от 7000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Регулировка клапанов</h2>
+                    <p class="service__usluga-price">от 8000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт ТНВД</h2>
+                    <p class="service__usluga-price">от 5000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт блока цилиндров</h2>
+                    <p class="service__usluga-price">от 11000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт ГБЦ двигателя</h2>
+                    <p class="service__usluga-price">от 9000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт форсунок</h2>
+                    <p class="service__usluga-price">от 3000 р.</p>
+                  </div>
+                </div>
+              </a>
+
+
+            </div>
+
+            <div class="service__transmission service__transmission--none ">
+
+              <a href="#">
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт МКПП</h2>
+                    <p class="service__usluga-price">от 8000 р.</p>
+                  </div>
+                </div>
+                <div class="service__usluga-line"></div>
+              </a>
+
+
+            </div>
+
+            <div class="service__obslug service__obslug--none">
+
+              <a href="#">
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Диагностика двигателя</h2>
+                    <p class="service__usluga-price">от 1500 р.</p>
+                  </div>
+                </div>
+              </a>
+
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Ремонт системы охлаждения</h2>
+                    <p class="service__usluga-price">от 6500 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Промывка систем автомобиля</h2>
+                    <p class="service__usluga-price">от 3500 р.</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="service__usluga-line"></div>
+                <div class="service__usluga">
+                  <div class="service__usluga-div">
+                    <h2 class="service__usluga-title">Чип-тюнинг</h2>
+                    <p class="service__usluga-price">от 5000 р.</p>
+                  </div>
+                </div>
+                <div class="service__usluga-line"></div>
+              </a>
+
             </div>
           </div>
         </div>
@@ -782,6 +1034,7 @@
   </footer>
 
   <script src="js/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
