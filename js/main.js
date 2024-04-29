@@ -2,17 +2,17 @@ import Swiper from 'swiper'
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 import 'swiper/css'
 
-const swiper = new Swiper('.swiper', {
-  direction: 'vertical',
-  loop: true,
-
-
-  // Navigation arrows
+const swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
-
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
 });
 const button = document.querySelector('.catalog__more'); //ищем кнопку
 const menu = document.querySelector('.catalog__bottom-bl'); //ищем в DOM элемент с классом навигации, которая скрыта за бургером
