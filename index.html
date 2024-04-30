@@ -7,6 +7,12 @@
   <title>MotoristDVS</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" type="image/x-icon" href="/images/dist/MDVS.png">
+  <!-- Добавляем стили из CDN -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
+  <!-- Добавляем тему по умолчанию из CDN -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -176,7 +182,7 @@
           <div class="header-mb__button">
             <button class="header-mb__btn" type="submit">Записаться в сервис</button>
           </div>
-          <div class="header-mb__menu-btn"></div>
+          <button class="header-mb__menu-btn"></button>
         </div>
         <div class="header-mb__phone">
           <p class="header-mb__phone-one">+7 (495) 701-81-41</p>
@@ -220,6 +226,36 @@
         </a>
       </div>
     </section>
+    <div class="header__pop header__pop--none">
+      <a href="#" class="header__popup ">
+        <img class="header__popup-img" src="images/src/service.svg" alt="dvig">
+        <p class="header__popup-text hover-text">Наши услуги</p>
+      </a>
+
+      <a href="#" class="header__popup">
+        <img class="header__popup-img" src="images/src/engine_6ek94yxxf8e4.svg" alt="dvig">
+        <p class="header__popup-text hover-text">Купить двигатель</p>
+      </a>
+
+      <a href="#" class="header__popup">
+        <img class="header__popup-img" src="images/src/promo.svg" alt="dvig">
+        <p class="header__popup-text hover-text">Спецпредложения</p>
+      </a>
+      <a href="#" class="header__popup">
+        <img class="header__popup-img" src="images/src/contact.svg" alt="dvig">
+        <p class="header__popup-text hover-text">Контакты</p>
+      </a>
+
+      <a href="#" class="header__popup">
+        <img class="header__popup-img" src="images/src/statia.svg" alt="dvig">
+        <p class="header__popup-text hover-text">Статьи</p>
+      </a>
+
+      <a href="#" class="header__popup">
+        <img class="header__popup-img" src="images/src/about.svg" alt="dvig">
+        <p class="header__popup-text hover-text">О нас</p>
+      </a>
+    </div>
   </header>
 
   <main class="main">
@@ -241,56 +277,50 @@
       </div>
     </section>
 
-    <section class="brand">
+    <section class="sliderr container">
       <h4 class="brand__title">Бренды</h4>
-      <div class="brand__block">
-        <div class="brand__arr brand__arr-img-l">
-          <img class="brand__arr-img" src="/images/dist/left__arr.webp" alt="arrow">
-        </div>
-        <div class="brand__blocks">
-          <a class="brand__link" href="#">
-            <img class="brand__img" src="images/dist/lexus.svg" alt="Lexus">
-            <p class="brand__name">Lexus</p>
+      <div class="slider__brand">
+        <img class="prev " src="/images/dist/left__arr.webp" alt="arrow">
+        <div class="slider responsive">
+          <a href="#" class="slider__a">
+            <img class="brand__img" src="images/dist/lexus.svg" alt="lexus">
+            <p class="slider__name brand__name">Lexus</p>
           </a>
-        </div>
 
-        <div class="brand__blocks hyundai">
-          <a class="brand__link" href="#">
-            <img class="brand__img" src="images/dist/hyundai.svg" alt="Hyundai">
-            <p class="brand__name">Hyundai</p>
+          <a href="#" class="slider__a">
+            <img class="brand__img" src="images/dist/hyundai.svg" alt="hyundai">
+            <p class="slider__name brand__name">Hyundai</p>
           </a>
-        </div>
 
-        <div class="brand__blocks">
-          <a class="brand__link" href="#">
-            <img class="brand__img" src="images/dist/toyota.svg" alt="Toyota">
-            <p class="brand__name">Toyota</p>
+          <a href="#" class="slider__a">
+            <img class="brand__img" src="images/dist/toyota.svg" alt="toyota">
+            <p class="slider__name brand__name">Toyota</p>
           </a>
-        </div>
 
-        <div class="brand__blocks nissan">
-          <a class="brand__link" href="#">
+          <a href="#" class="slider__a">
             <img class="brand__img" src="images/dist/nissan.svg" alt="Nissan">
-            <p class="brand__name">Nissan</p>
+            <p class="slider__name brand__name">Nissan</p>
           </a>
-        </div>
 
-        <div class="brand__blocks kia">
-          <a class="brand__link" href="#">
+          <a href="#" class="slider__a">
             <img class="brand__img" src="images/dist/kia.svg" alt="Kia">
-            <p class="brand__name">Kia</p>
+            <p class="slider__name brand__name">Kia</p>
+          </a>
+
+          <a href="#" class="slider__a">
+            <img class="brand__img" src="images/dist/mitsubishi.svg" alt="Mitsubishi">
+            <p class="slider__name brand__name">Mitsubishi</p>
           </a>
         </div>
 
-        <div class="brand__arr">
-          <img class="brand__arr-img" src="/images/dist/right__arr.png" alt="arrow">
-        </div>
+        <img class="next" src="/images/dist/right__arr.png" alt="arrow">
       </div>
     </section>
 
+
     <section class="catalog container">
       <h5 class="catalog__title">Каталог оказываемых услуг</h5>
-      <div class="catalog__blocks">
+      <div class="catalog__blocks ">
 
         <a class="catalog__a" href="">
           <div class="catalog__block">
@@ -332,15 +362,6 @@
           </div>
         </a>
         <div class="catalog__mob">
-          <a class="catalog__a" href="">
-            <div class="catalog__block">
-              <img class="catalog__img" src="images/dist/remont_tnvd.avif" alt="Ремонт ТНВД">
-              <div class="catalog__bottom">
-                <h2 class="catalog__text">Ремонт ТНВД</h2>
-                <button class="catalog__btn">Подробнее</button>
-              </div>
-            </div>
-          </a>
 
           <a class="catalog__a" href="">
             <div class="catalog__block">
@@ -401,7 +422,15 @@
                 </div>
               </div>
             </a>
-
+            <a class="catalog__a" href="">
+              <div class="catalog__block">
+                <img class="catalog__img" src="images/dist/remont_tnvd.avif" alt="Ремонт ТНВД">
+                <div class="catalog__bottom">
+                  <h2 class="catalog__text">Ремонт ТНВД</h2>
+                  <button class="catalog__btn">Подробнее</button>
+                </div>
+              </div>
+            </a>
             <a class="catalog__a" href="">
               <div class="catalog__block">
                 <img class="catalog__img" src="images/dist/rem_sis.avif" alt="Ремонт системы охлаждения">
@@ -458,19 +487,18 @@
         <h2 class="seo__title">
           Качественный ремонт двигателей <span class="colortext">в Москве</span>
         </h2>
-        <p class="seo__text">Специализированный сервис Toyota Motors Club обладает огромным опытом по ремонту двигателей
+          двигателей
           и
-          комплексному обслуживанию автомобилей от ведущих производителей: Тойота, Лексус, Kia, Hyundai, Nissan .Мы
           предлагаем полный цикл работ по ремонту двигателей,сочетаем в своей работе гарантии качества, надежность,
           высокие стандарты и особое отношение к каждому клиенту. 90% наших запчастей оригинальные и всегда есть в
           наличии
           на складе,а стаж мастеров минимум от 10 лет.
           Автотехцентр MotoristDVS в Москве предлагает услуги обслуживание и ремонт...</p>
       </div>
-      <div class="seo__bolee">
+      <button class="seo__bolee">
         <p class="seo__bolee-text hover-text">Развернуть ↓
         </p>
-      </div>
+      </button>
     </section>
 
     <section class="forma container">
