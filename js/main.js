@@ -99,6 +99,13 @@ document.querySelector('.header-mb__menu-btn').addEventListener('click', () => {
   document.querySelector('.header__pop').classList.toggle('header__pop--none');
 })
 
+document.querySelector('.service__dv').addEventListener('click', () => {
+  document.querySelector('.service__transmission').classList.add('service__transmission--none');
+  document.querySelector('.service__general').classList.add('service__general--none');
+  document.querySelector('.service__obslug').classList.add('service__obslug--none');
+  document.querySelector('.service__dvigatel').classList.remove('service__dvigatel--none');
+})
+
 document.querySelector('.service__tran').addEventListener('click', () => {
   document.querySelector('.service__general').classList.add('service__general--none');
   document.querySelector('.service__dvigatel').classList.add('service__dvigatel--none');

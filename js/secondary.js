@@ -79,11 +79,17 @@ $(".multiple-items2").slick({
   nextArrow: $('.next'),
   responsive: [
     {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+      }
+    },
+    {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
       }
     },
     {
@@ -138,4 +144,9 @@ document.querySelector('.service__obsl').addEventListener('click', () => {
   document.querySelector('.service__dvigatel').classList.add('service__dvigatel--none');
   document.querySelector('.service__transmission').classList.add('service__transmission--none');
   document.querySelector('.service__obslug').classList.remove('service__obslug--none');
+})
+
+document.querySelector('.mit__all').addEventListener('click', () => {
+  document.querySelector('.mit').classList.add('mit--none');
+  document.querySelector('.mit2').classList.remove('mit--all-none');
 })
