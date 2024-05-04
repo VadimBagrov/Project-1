@@ -14,6 +14,98 @@ body {
   overflow-x: hidden;
 }
 
+.main-block {
+  margin-bottom: 50px;
+  background-image: url(../images/src/background__fone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+
+  &__title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  &__preims {
+    margin-bottom: 40px;
+    width: 501px;
+  }
+
+  &__preim {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__preim:last-child {
+    margin-bottom: 0;
+  }
+
+  &__svg {
+    height: 40px;
+  }
+
+  &__text {
+    text-align: left;
+    width: 449px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  &__images {
+    width: 795px;
+    height: 586px;
+  }
+
+  &__btn {
+    margin-bottom: 65px;
+    border: 2px solid #eb2227;
+    border-radius: 6px;
+    width: 331px;
+    height: 84px;
+    background-color: #eb2227;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__left {
+    margin-left: 7.4rem;
+  }
+}
+
+.car3 {
+  display: none !important;
+}
+
+.mit2 {
+  &__blocks {
+    display: flex;
+  }
+
+  &__img {
+    max-width: 220px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__car {
+    margin-right: 30px;
+    display: flex;
+    height: 230px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .breadcrumbs {
   display: flex;
   width: 1242px;
@@ -30,7 +122,6 @@ body {
     margin-right: 0;
   }
 }
-
 
 .car {
   display: flex;
@@ -92,6 +183,14 @@ body {
 }
 
 .multiple-items2 {
+  max-width: 100%;
+}
+
+.multiple-items1 {
+  max-width: 100%;
+}
+
+.responsive {
   max-width: 100%;
 }
 
@@ -206,11 +305,20 @@ body {
   }
 }
 
+.a-active {
+  color: #eb2227;
+}
 
 .sliderr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+
+  .slick-track {
+    height: 100px;
+  }
 }
 
 .slick-track {
@@ -232,7 +340,7 @@ body {
   display: flex;
 
   &__a {
-    margin-right: 50px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
   }
@@ -732,7 +840,7 @@ body {
   }
 
   &__img {
-    margin-right: 15px;
+    margin-right: 5px;
     height: 70px;
   }
 
@@ -740,7 +848,7 @@ body {
     display: flex;
     align-items: center;
     color: rgb(105, 105, 105);
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 45px;
   }
@@ -1772,11 +1880,78 @@ body {
   }
 }
 
+@media screen and (max-width: 1705px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 70px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 48px;
+      text-align: center;
+    }
+
+    &__preims {
+      margin-bottom: 20px;
+      width: 501px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 40px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 449px;
+      font-weight: 500;
+      font-size: 23px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 331px;
+      height: 84px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    &__left {
+      margin-left: 7.4rem;
+    }
+  }
+}
+
 @media screen and (max-width: 1680px) {
   .out {
+    margin-bottom: 50px;
+
     &__title {
       font-size: 45px;
-      margin-bottom: 40px;
+      margin-bottom: 00px;
     }
 
     &__img {
@@ -1825,12 +2000,12 @@ body {
   }
 
   .brand__img {
-    margin-right: 10px;
+    margin-right: 5px;
     height: 55px;
   }
 
   .brand__name {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
@@ -1851,6 +2026,19 @@ body {
   }
 }
 
+@media screen and (max-width: 1587px) {
+  .mit2 {
+    &__blocks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__car {
+      margin-bottom: 20px;
+    }
+  }
+}
+
 @media screen and (max-width: 1569px) {
   .main-sec__left {
     padding-top: 50px;
@@ -1858,6 +2046,8 @@ body {
     margin-right: 10.159%;
   }
 }
+
+@media screen {}
 
 @media screen and (max-width: 1500px) {
   .footer {
@@ -1923,7 +2113,81 @@ body {
   }
 }
 
+@media screen and (max-width: 1477px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 48px;
+      text-align: center;
+    }
+
+    &__preims {
+      margin-bottom: 20px;
+      width: 501px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 40px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 449px;
+      font-weight: 500;
+      font-size: 23px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 331px;
+      height: 84px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    &__left {
+      margin-left: 7.4rem;
+    }
+  }
+}
+
 @media screen and (max-width: 1420px) {
+  .header .header__button .header__a-block:hover .header__usl {
+    background-color: #eb2227;
+    color: #fff;
+    background-image: url(../images/src/service-white.svg);
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    background-size: 24px 24px;
+  }
+
   .breadcrumbs {
     width: 1087px;
   }
@@ -2153,10 +2417,10 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  .out {
-    &__img {
-      margin-right: 35px;
-      height: 205px;
+
+  .mit {
+    &__blocks {
+      flex-wrap: wrap;
     }
   }
 
@@ -2171,7 +2435,7 @@ body {
   }
 
   .slider__a {
-    margin-right: 30px;
+    margin-right: 5px;
   }
 
   .brand__img {
@@ -2224,22 +2488,6 @@ body {
     height: 550px;
   }
 
-  .brand {
-
-    &__blocks {
-      margin-right: 45px;
-    }
-
-    &__img {
-      margin-right: 10px;
-      height: 60px;
-    }
-
-    &__name {
-      font-size: 30px;
-    }
-  }
-
   .catalog {
     height: 1150px;
 
@@ -2280,6 +2528,14 @@ body {
   }
 }
 
+@media screen and (max-width: 1350px) {
+  .out {
+    &__img {
+      height: 240px;
+    }
+  }
+}
+
 @media screen and (max-width: 1337px) {
   .car {
     &__work {
@@ -2314,6 +2570,71 @@ body {
   .advantages {
     &__title {
       font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1308px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    &__preims {
+      margin-bottom: 20px;
+      width: 501px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 35px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 449px;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 280px;
+      height: 70px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    &__left {
+      margin-left: 7.4rem;
     }
   }
 }
@@ -2640,6 +2961,14 @@ body {
   }
 }
 
+@media screen and (max-wiidt: 1175px) {
+  .out {
+    .slick-track {
+      height: 240px;
+    }
+  }
+}
+
 @media screen and (max-width: 1168px) {
   .car {
     margin-bottom: 40px;
@@ -2787,6 +3116,71 @@ body {
 
   .nissan {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1134px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 38px;
+      text-align: center;
+    }
+
+    &__preims {
+      margin-bottom: 20px;
+      width: 380px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 30px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 340px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 210px;
+      height: 50px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    &__left {
+      margin-left: 7.4rem;
+    }
   }
 }
 
@@ -3139,6 +3533,10 @@ body {
 }
 
 @media screen and (max-width: 1070px) {
+  .main-block {
+    margin-bottom: 20px;
+  }
+
   .main-sec {
     background-size: 1350px 470px;
 
@@ -3304,6 +3702,71 @@ body {
   }
 }
 
+@media screen and (max-width: 1018px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 33px;
+      text-align: center;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 380px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 30px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 340px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 210px;
+      height: 50px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    &__left {
+      margin-left: 4.4rem;
+    }
+  }
+}
+
 @media screen and (max-width: 1011px) {
   .breadcrumbs {
     width: 864px;
@@ -3363,6 +3826,12 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .out {
+    &__title {
+      margin-bottom: 0;
+    }
+  }
+
   .brand {
     &__name {
       font-size: 30px;
@@ -3479,12 +3948,12 @@ body {
   }
 
   .slider__a {
-    margin-right: 25px;
+    margin-right: 5px;
   }
 
   .brand__img {
     margin-right: 8px;
-    height: 50px;
+    height: 40px;
   }
 
   .brand__name {
@@ -3521,6 +3990,15 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+  .header .header__button .header__a-block:hover .header__usl {
+    background-color: #eb2227;
+    color: #fff;
+    background-image: url(../images/src/service-white.svg);
+    background-repeat: no-repeat;
+    background-position: 6px 10px;
+    background-size: 24px 24px;
+  }
+
   .breadcrumbs {
     width: 770px;
 
@@ -3897,6 +4375,69 @@ body {
     margin-left: 40px;
   }
 }
+
+@media screen and (max-width: 926px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 27px;
+      text-align: center;
+      width: 374px;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 380px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 25px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 340px;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 210px;
+      height: 50px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+}
+
 
 @media screen and (max-width: 920px) {
   .main-sec {
@@ -4662,6 +5203,68 @@ body {
   }
 }
 
+@media screen and (max-width: 834px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      width: 350px;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 380px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 25px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 340px;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 180px;
+      height: 39px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
+    }
+  }
+}
+
 @media screen and (max-width: 828px) {
   .mit {
     &__title {
@@ -4751,6 +5354,28 @@ body {
 }
 
 @media screen and (max-width: 819px) {
+  .mit2 {
+    margin-bottom: 30px;
+
+    &__car {
+      height: 200px;
+    }
+
+    &__img {
+      max-width: 180px;
+    }
+
+    .mit__name {
+      margin-bottom: 10px;
+    }
+
+    .mit__send {
+      font-size: 17px;
+      width: 140px;
+      height: 32px;
+    }
+  }
+
   .seo {
     padding-top: 30px;
     height: 400px;
@@ -4907,9 +5532,15 @@ body {
 
 @media screen and (max-width: 800px) {
   .out {
+    margin-bottom: 5px;
+
     &__img {
       margin-right: 25px;
       height: 190px;
+    }
+
+    &__title {
+      height: 35px;
     }
   }
 }
@@ -5009,6 +5640,68 @@ body {
 
     &__grafick {
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 797px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      width: 350px;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 320px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 20px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 285px;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 180px;
+      height: 39px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
     }
   }
 }
@@ -5300,6 +5993,72 @@ body {
   }
 }
 
+@media screen and (max-width: 735px) {
+  .main-block {
+    background-image: url(../images/src/background__fone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      width: 348px;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 320px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 20px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 285px;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 170px;
+      height: 34px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    &__left {
+      margin-left: 2.8rem;
+    }
+  }
+}
+
 @media screen and (max-width: 733px) {
   .car {
     margin-bottom: 25px;
@@ -5560,7 +6319,107 @@ body {
   }
 }
 
+@media screen and (max-width: 725px) {
+  .header .header__button .header__a-block:hover .header__usl {
+    background-color: #eb2227;
+    color: #fff;
+    background-image: url(../images/src/service-white.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 13px;
+    background-size: 18px 18px;
+  }
+}
+
+@media screen and (max-width: 707px) {
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 28px;
+      text-align: center;
+      width: 390px;
+    }
+
+    &__preims {
+      margin-bottom: 20px;
+      width: 445px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 25px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 415px;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 180px;
+      height: 38px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__left {
+      padding-top: 10px;
+      margin-left: 2.8rem;
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .mit2 {
+    &__car {
+      height: 180px;
+      margin-right: 15px;
+    }
+
+    &__img {
+      max-width: 160px;
+    }
+
+    .mit__name {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .mit__send {
+      font-size: 17px;
+      width: 140px;
+      height: 32px;
+    }
+  }
+
   .service-con {
     margin-bottom: 30px;
     height: 600px;
@@ -5847,6 +6706,15 @@ body {
 }
 
 @media screen and (max-width: 675px) {
+  .header .header__button .header__a-block:hover .header__usl {
+    background-color: #eb2227;
+    color: #fff;
+    background-image: url(../images/src/service-white.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 7px;
+    background-size: 18px 18px;
+  }
+
   .header {
     &__block {
       padding-top: 4px;
@@ -6086,6 +6954,14 @@ body {
 }
 
 @media screen and (max-width: 654px) {
+  .out {
+    margin-bottom: 0;
+
+    &__title {
+      margin-bottom: 0;
+    }
+  }
+
   .prev {
     margin-right: 15px;
     height: 45px;
@@ -6304,6 +7180,9 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+  .main-block {
+    margin-bottom: 20px;
+  }
 
   .forma {
     width: 570px;
@@ -6806,6 +7685,32 @@ body {
   }
 }
 
+@media screen and (max-width: 584px) {
+  .mit2 {
+    &__car {
+      height: 200px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    &__img {
+      max-width: 220px;
+    }
+
+    .mit__name {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .mit__send {
+      font-size: 17px;
+      width: 140px;
+      height: 32px;
+    }
+  }
+
+}
+
 @media screen and (max-width: 577px) {
   .car {
     &__title {
@@ -6972,6 +7877,79 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  .header .header__button .header__a-block:hover .header__usl {
+    background-color: #eb2227;
+    color: #fff;
+    background-image: url(../images/src/service-white.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    background-size: 18px 18px;
+  }
+
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 24px;
+      text-align: center;
+      width: 340px;
+    }
+
+    &__preims {
+      margin-bottom: 15px;
+      width: 445px;
+    }
+
+    &__preim {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 21px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 415px;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 180px;
+      height: 38px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__left {
+      margin-left: 2.8rem;
+    }
+  }
+
   .breadcrumbs {
     width: 459px;
 
@@ -7609,6 +8587,31 @@ body {
   .catalog {
     &__text {
       width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .mit2 {
+    &__car {
+      height: 200px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    &__img {
+      max-width: 200px;
+    }
+
+    .mit__name {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .mit__send {
+      font-size: 17px;
+      width: 140px;
+      height: 32px;
     }
   }
 }
@@ -8404,6 +9407,72 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      width: 305px;
+    }
+
+    &__preims {
+      margin-bottom: 8px;
+      width: 215px;
+    }
+
+    &__preim {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 25px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 180px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 185px;
+      height: 33px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__left {
+      margin-left: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
   .main-sec {
     height: 200px;
     background-size: 600px 210px;
@@ -8573,6 +9642,31 @@ body {
 }
 
 @media screen and (max-width:470px) {
+  .main-block {
+    background-size: 470px 260px;
+
+    &__title {
+      margin-bottom: 5px;
+      font-size: 23px;
+      width: 319px;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+
+    &__preims {
+      margin-bottom: 12px;
+    }
+  }
+
+  .out {
+    .slick-track {
+      height: 220px;
+      overflow-y: hidden;
+    }
+  }
+
   .catalog {
     &__img {
       height: 160px;
@@ -8619,6 +9713,31 @@ body {
     }
   }
 
+}
+
+@media screen and (max-width: 464px) {
+  .mit2 {
+    &__car {
+      height: 180px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    &__img {
+      max-width: 180px;
+    }
+
+    .mit__name {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .mit__send {
+      font-size: 17px;
+      width: 140px;
+      height: 32px;
+    }
+  }
 }
 
 @media screen and (max-width:462px) {
@@ -8900,6 +10019,72 @@ body {
     width: 390px;
   }
 
+}
+
+@media screen and (max-width: 450px) {
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      width: 278px;
+    }
+
+    &__preims {
+      margin-bottom: 8px;
+      width: 210px;
+    }
+
+    &__preim {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 22px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 180px;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 185px;
+      height: 33px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &__left {
+      margin-left: 0.8rem;
+    }
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -9574,6 +10759,97 @@ body {
   }
 }
 
+@media screen and (max-width: 422px) {
+  .mit2 {
+    &__car {
+      height: 165px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    &__img {
+      max-width: 160px;
+    }
+
+    .mit__name {
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .mit__send {
+      font-size: 15px;
+      width: 120px;
+      height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      width: 278px;
+    }
+
+    &__preims {
+      margin-bottom: 8px;
+      width: 210px;
+    }
+
+    &__preim {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 22px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 180px;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 170px;
+      height: 28px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    &__left {
+      margin-left: 0.8rem;
+    }
+  }
+}
+
 @media screen and (max-width: 420px) {
   .mit {
     &__car {
@@ -9783,6 +11059,72 @@ body {
     &__name {
       margin-bottom: 5px;
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-block {
+    background-image: url(../images/src/background__fone2.png);
+    background-size: 400px 230px;
+    background-repeat: no-repeat;
+    display: flex;
+
+    &__title {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 19px;
+      text-align: center;
+      width: 263px;
+    }
+
+    &__preims {
+      margin-bottom: 8px;
+      width: 210px;
+    }
+
+    &__preim {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__preim:last-child {
+      margin-bottom: 0;
+    }
+
+    &__svg {
+      height: 22px;
+    }
+
+    &__text {
+      text-align: left;
+      width: 180px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    &__images {
+      width: 795px;
+      height: 586px;
+    }
+
+    &__btn {
+      margin-bottom: 65px;
+      border: 2px solid #eb2227;
+      border-radius: 6px;
+      width: 160px;
+      height: 30px;
+      background-color: #eb2227;
+      color: #fff;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    &__left {
+      margin-left: 0.8rem;
     }
   }
 }
@@ -10325,6 +11667,35 @@ body {
     &__images {
       margin-right: 0px;
       height: 29px;
+    }
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mit2__title .advantages__title {
+    font-size: 20px;
+  }
+
+  .mit2 {
+    &__car {
+      height: 165px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+
+    &__img {
+      max-width: 155px;
+    }
+
+    .mit__name {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .mit__send {
+      font-size: 15px;
+      width: 120px;
+      height: 30px;
     }
   }
 }

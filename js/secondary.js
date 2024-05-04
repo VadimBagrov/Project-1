@@ -5,7 +5,6 @@ $('.responsive').slick({
   autoplaySpeed: 1500,
   slidesToShow: 4,
   slidesToScroll: 1,
-  variableWidth: true,
   prevArrow: $('.prev'),
   nextArrow: $('.next'),
   responsive: [
@@ -33,6 +32,7 @@ $('.responsive').slick({
     }
   ]
 });
+
 $(".multiple-items").slick({
   infinite: true,
   speed: 1000,
@@ -40,7 +40,6 @@ $(".multiple-items").slick({
   autoplaySpeed: 1500,
   slidesToShow: 5,
   slidesToScroll: 1,
-  variableWidth: true,
   prevArrow: $('.mit__prev'),
   nextArrow: $('.mit__next'),
   responsive: [
