@@ -112,10 +112,10 @@ document.querySelector('.seo__bolee').addEventListener('click', () => {
   document.querySelector('.seo__text').classList.add('seo__text--active');
   document.querySelector('.seo__bolee').classList.add('seo__bolee--none');
 })
-const button = document.querySelector('.catalog__more'); //ищем кнопку
-const menu = document.querySelector('.catalog__bottom-bl'); //ищем в DOM элемент с классом навигации, которая скрыта за бургером
+const button = document.querySelector('.catalog__more');
+const menu = document.querySelector('.catalog__bottom-bl');
 const cat = document.querySelector('.catalog');
-// создаем функцию-хэндлер для смены класса
+
 
 const height = () => cat.classList.toggle('catalog--active');
 
