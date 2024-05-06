@@ -1,3 +1,4 @@
+//Слайдеры
 $('.responsive').slick({
   infinite: true,
   speed: 1000,
@@ -76,12 +77,14 @@ const cat = document.querySelector('.catalog');
 
 const height = () => cat.classList.toggle('catalog--active');
 
+//Раскрытие каталога услуг
 document.querySelector('.catalog__more').onclick = function () {
   document.querySelector('.catalog__bottom-bl').classList.toggle('catalog__bottom-bl--active');
   document.querySelector('.catalog__more').classList.add('catalog__more--none');
   document.querySelector('.catalog__mob').classList.add('catalog__bottom-bl--active');
 }
 
+//Раскрытие блока с сео
 document.querySelector('.seo__bolee').onclick = function () {
   document.querySelector('.seo__text ').classList.add('seo__text--active');
   document.querySelector('.seo__bolee').classList.add('seo__bolee--none');
@@ -89,7 +92,7 @@ document.querySelector('.seo__bolee').onclick = function () {
 
 button.addEventListener('click', height);
 
-
+//Боковая кнопка мобильная
 document.querySelector('.header-mb__menu-btn').onclick = function () {
   document.querySelector('.header__pop').classList.toggle('header__pop--none');
 }
