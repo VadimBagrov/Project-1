@@ -1791,11 +1791,13 @@ button:active {
   .header__li {
     color: rgb(229, 229, 229);
     font-family: Play;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 29px;
     text-align: left;
     margin-bottom: 15px;
+    margin-left: 45%;
+    width: 250px;
   }
 
   .header__link {
@@ -2321,6 +2323,11 @@ button:active {
   .term__title {
     font-size: 30px;
   }
+
+  .header__mb-li {
+    margin-left: 38%;
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 402px) {
@@ -2348,7 +2355,13 @@ button:active {
   .header__menu {
     margin-top: 77%;
   }
+}
 
+@media screen and (max-width: 385px) {
+  .header__mb-li {
+    margin-left: 35%;
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 380px) {
