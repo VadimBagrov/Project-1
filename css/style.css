@@ -2344,6 +2344,11 @@ button:active {
     padding-left: 8px;
     font-size: 20px;
   }
+
+  .header__menu {
+    margin-top: 77%;
+  }
+
 }
 
 @media screen and (max-width: 380px) {
