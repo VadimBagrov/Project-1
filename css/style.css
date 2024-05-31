@@ -1814,7 +1814,7 @@ button:active {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-image: url(/images/bg-mb.png);
+    background-image: url('images/bg-mb.png');
     background-repeat: no-repeat;
     height: 300px;
   }
