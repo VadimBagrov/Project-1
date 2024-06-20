@@ -9,6 +9,14 @@ p {
   padding: 0;
 }
 
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
 .colortext {
   color: #2B7722;
 }
@@ -21,10 +29,12 @@ p {
 
 .block {
   display: flex;
+  justify-content: center;
 }
 
 .title {
-  margin-bottom: 60px;
+  margin-left: 1.6em;
+  margin-bottom: 30px;
   font-size: 48px;
   font-weight: 400;
   line-height: 59px;
@@ -187,6 +197,10 @@ p {
 
 .obshaya-div {
   display: flex;
+}
+
+.right {
+  width: 65%;
 }
 
 .obshaya-p {
@@ -365,7 +379,7 @@ p {
 
 .right-one::after {
   content: '';
-  width: 860px;
+  width: 77%;
   height: 2px;
   background: rgb(43, 119, 34);
 }
@@ -426,10 +440,179 @@ p {
   border: none;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .right-button {
-  margin-top: 25%;
+  margin-top: 22%;
+  margin-bottom: 20px;
   display: flex;
   justify-content: flex-end;
+}
+
+.add {
+  padding-top: 15px;
+  padding-left: 25px;
+  width: 73.5%;
+  height: 70%;
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  height: 55em;
+  top: 0;
+  margin-top: 1%;
+}
+
+.add-title {
+  max-width: 800px;
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.add-top {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.add-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-treug {
+  width: 45px;
+  height: 41px;
+  cursor: pointer;
+}
+
+.add-label {
+  margin-right: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.add-div:not(:last-child):after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: rgb(43, 119, 34);
+}
+
+.add-div {
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+.add-div2:not(:last-child):after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: rgb(43, 119, 34);
+}
+
+.add-div2 {
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 2px solid rgb(43, 119, 34);
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+  border-color: rgb(43, 119, 34);
+  background-color: rgb(43, 119, 34);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border-color: rgb(36, 171, 21);
+}
+
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active+label::before {
+  background-color: rgb(43, 119, 34);
+  border-color: rgb(43, 119, 34);
+}
+
+.add-bottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40em;
+  align-content: space-around;
+}
+
+.dark {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 200%;
+  background: #000;
+  opacity: 0.4;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 85px;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  border-radius: 5px;
+  background: rgb(43, 119, 34);
+  border: none;
+  cursor: pointer;
 }
