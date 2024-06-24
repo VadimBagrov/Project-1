@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zagorodstroy</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -31,7 +35,7 @@
         <a class="header__a" href="#">Контакты</a>
       </li>
     </ul>
-    <p class="header__phone">+7 999 000-00-00</p>
+    <a href="#" class="header__phone">+7 999 000-00-00</a>
     <div class="header__soc">
       <a class="header__soc-a" href="#">
         <img class="header__soc-link" src="/app/images/src/whatsapp.svg" alt="whatsapp"></a>
@@ -56,53 +60,77 @@
     </section>
 
     <section class="usl">
-      <div class="usl__main">
-        <img class="usl__left" src="/app/images/src/left.png" alt="left">
-        <div class="usl__div usl__1">
-          <img class="usl__img" src="/app/images/dist/key.png" alt="key">
-          <h4 class="usl__title">Строительство домов в ипотеку</h4>
-          <div class="usl__flex">
-            <p class="usl__text">Мы работаем с крупными банками.
-              <br>Мы поможем вам оформить ипотеку со скидкой <br>И на особых
-              условиях.
-            </p>
-            <button class="usl__btn button__podrobnee">Узнать подробнее</button>
-          </div>
-        </div>
-
-        <div class="usl__div usl__2">
-          <img class="usl__img" src="/app/images/dist/house.png" alt="house">
-          <h4 class="usl__title">Строительство домов по индивидуальному проекту</h4>
-          <div class="usl__flex">
-            <p class="usl__text">Наши специалисты помогут вам разработать проект, учитывая все ваши пожелания.</p>
-            <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+      <div class="usl__main ">
+        <img class="usl__left prev" src="/app/images/src/left.png" alt="left">
+        <div class="usl__slides slider usl-slider">
+          <div class="usl__div usl__1">
+            <img class="usl__img" src="/app/images/dist/key.png" alt="key">
+            <div class="usl__fl">
+              <h4 class="usl__title">Строительство домов в ипотеку</h4>
+              <div class="usl__flex">
+                <p class="usl__text">Мы работаем с крупными банками.
+                  <br>Мы поможем вам оформить ипотеку со скидкой <br>И на особых
+                  условиях.
+                </p>
+                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+              </div>
+            </div>
           </div>
 
-        </div>
+          <div class="usl__div usl__2">
+            <img class="usl__img" src="/app/images/dist/house.png" alt="house">
+            <div class="usl__fl">
+              <h4 class="usl__title">Строительство домов по индивидуальному проекту</h4>
+              <div class="usl__flex">
+                <p class="usl__text">Наши специалисты помогут вам разработать проект, учитывая все ваши пожелания.</p>
+                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+              </div>
+            </div>
+          </div>
 
-        <div class="usl__div usl__3">
-          <img class="usl__img" src="/app/images/dist/calculate.png" alt="calculate">
-          <div class="usl__fl">
-            <h4 class="usl__title">Инвестиции в недвижимость</h4>
-            <div class="usl__flex">
-              <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход <br>От
-                инвестиций
-                в
-                недвижимость.</p>
-              <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+          <div class="usl__div usl__3">
+            <img class="usl__img" src="/app/images/dist/calculate.png" alt="calculate">
+            <div class="usl__fl">
+              <h4 class="usl__title">Инвестиции в недвижимость</h4>
+              <div class="usl__flex">
+                <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход
+                  <br>От
+                  инвестиций
+                  в
+                  недвижимость.
+                </p>
+                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="usl__div usl__4">
+            <img class="usl__img" src="/app/images/dist/calculate.png" alt="calculate">
+            <div class="usl__fl">
+              <h4 class="usl__title">Инвестиции в недвижимость</h4>
+              <div class="usl__flex">
+                <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход
+                  <br>От
+                  инвестиций
+                  в
+                  недвижимость.
+                </p>
+                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+              </div>
             </div>
           </div>
         </div>
-        <img class="usl__right" src="/app/images/src/right.png" alt="right">
+        <img class="usl__right next" src="/app/images/src/right.png" alt="right">
       </div>
+
       <div class="usl__com container">
         <img class="usl__com-img" src="/app/images/src/man.png" alt="man">
         <div class="usl__com-right">
           <h5 class="usl__com-title">АНДРЕЙ МРАЧКОВСКИЙ</h5>
           <p class="usl__com-dol">Руководитель команды "ЗАГОРОДОМ"</p>
-          <p class="usl__com-text">Не гонитесь за квадратными метрами дома, выбирайте площадь дома
-            В соответствии с вашими требованиями и нуждами.
-            Основные из них проработаны в наших коллекциях домов.
+          <p class="usl__com-text">Не гонитесь за квадратными метрами дома, выбирайте площадь дома<br>
+            В соответствии с вашими требованиями и нуждами.<br>
+            Основные из них проработаны в наших коллекциях домов.<br>
             А если нужно нечто более масштабное, то мы с радостью создадим авторский индивидуальный проект под вас!</p>
         </div>
       </div>
@@ -122,448 +150,464 @@
       <div class="house__skandi">
         <h6 class="house__skandi-t container">ДОМА Сканди</h6>
         <div class="house__slider">
-          <img class="usl__left" src="/app/images/src/left.png" alt="left">
+          <img class="usl__left prev2" src="/app/images/src/left.png" alt="left">
 
-          <div class="house__slide house__slide1">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 67</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
+          <div class="house__sliders slider house-s-slider">
+            <div class="house__slide house__slide1">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 67</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 10 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 2</li>
+                <li class="house__preim3">Количество санузлов: 1</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 60 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <button class="house__btn">Узнать подробнее</button>
+            <div class="house__slide house__slide2">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 68</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 15 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 3</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 70 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">2 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide3">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 69</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 20 x 10,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 90 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">3 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide4">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 70</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 30 x 15,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 100 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
           </div>
-
-          <div class="house__slide house__slide2">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 68</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">2 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 69</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">3 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <!-- <div class="house__slide house__slide4">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 70</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div> -->
-          <img class="usl__right" src="/app/images/src/right.png" alt="right">
+          <img class="usl__right next2" src="/app/images/src/right.png" alt="right">
         </div>
       </div>
 
       <div class="house__euro">
         <h6 class="house__euro-t container">ДОМА Евро</h6>
         <div class="house__slider">
-          <img class="usl__left" src="/app/images/src/left.png" alt="left">
+          <img class="usl__left prev3" src="/app/images/src/left.png" alt="left">
 
-          <div class="house__slide house__slide1">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 67</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
+          <div class="house__sliders slider house-e-slider">
+            <div class="house__slide house__slide1">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 67</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 10 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 2</li>
+                <li class="house__preim3">Количество санузлов: 1</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 60 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <button class="house__btn">Узнать подробнее</button>
+            <div class="house__slide house__slide2">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 68</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 15 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 3</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 70 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">2 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide3">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 69</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 20 x 10,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 90 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">3 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide4">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 70</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 30 x 15,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 100 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
           </div>
-
-          <div class="house__slide house__slide2">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 68</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">2 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 69</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">3 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <!-- <div class="house__slide house__slide4">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 70</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div> -->
-          <img class="usl__right" src="/app/images/src/right.png" alt="right">
+          <img class="usl__right next3" src="/app/images/src/right.png" alt="right">
         </div>
       </div>
 
       <div class="house__dvuh">
-        <h6 class="house__dvuh-t container">Двухэтажные дома</h6>
+        <h6 class="house__dvuh-t container">
+          <div class="house__euro">
+            <h6 class="house__euro-t container">Двухэтажные дома</h6>
+          </div>
+        </h6>
         <div class="house__slider">
-          <img class="usl__left" src="/app/images/src/left.png" alt="left">
+          <img class="usl__left prev4" src="/app/images/src/left.png" alt="left">
 
-          <div class="house__slide house__slide1">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 67</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
+          <div class="house__sliders slider house-d-slider">
+            <div class="house__slide house__slide1">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 67</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 10 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 2</li>
+                <li class="house__preim3">Количество санузлов: 1</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 60 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <button class="house__btn">Узнать подробнее</button>
+            <div class="house__slide house__slide2">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 68</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 15 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 3</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 70 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">2 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide3">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 69</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 20 x 10,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 90 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">3 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide4">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 70</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 30 x 15,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 100 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
           </div>
-
-          <div class="house__slide house__slide2">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 68</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">2 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 69</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">3 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <!-- <div class="house__slide house__slide4">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 70</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div> -->
-          <img class="usl__right" src="/app/images/src/right.png" alt="right">
+          <img class="usl__right next4" src="/app/images/src/right.png" alt="right">
         </div>
       </div>
 
       <div class="house__karkas">
-        <h6 class="house__karkas-t container">Каркасные дома</h6>
+        <h6 class="house__karkas-t container">
+          <div class="house__euro">
+            <h6 class="house__euro-t container">Каркасные дома</h6>
+          </div>
+        </h6>
         <div class="house__slider">
-          <img class="usl__left" src="/app/images/src/left.png" alt="left">
+          <img class="usl__left prev5" src="/app/images/src/left.png" alt="left">
 
-          <div class="house__slide house__slide1">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 67</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
+          <div class="house__sliders slider house-k-slider">
+            <div class="house__slide house__slide1">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 67</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 10 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 2</li>
+                <li class="house__preim3">Количество санузлов: 1</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 60 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <button class="house__btn">Узнать подробнее</button>
+            <div class="house__slide house__slide2">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 68</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 15 x 7,5</li>
+                <li class="house__preim2"> Количество комнат: 3</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 70 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">2 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide3">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 69</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 20 x 10,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 90 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">3 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
+
+            <div class="house__slide house__slide4">
+              <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
+              <h5 class="house__zag">Премиум 70</h5>
+              <ul class="house__ul">
+                <li class="house__preim1">Габариты дома: 30 x 15,5</li>
+                <li class="house__preim2"> Количество комнат: 4</li>
+                <li class="house__preim3">Количество санузлов: 2</li>
+                <li class="house__preim4">Площадь</li>
+                <li class="house__preim5">Сроки строительства: от 100 дней</li>
+              </ul>
+              <div class="house__div">
+                <p class="house__stoim1">Стоимость от</p>
+                <p class="house__sum1">1 000 000 руб</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim2">Стоимость от</p>
+                <p class="house__sum2">*Узнать стоимость*</p>
+              </div>
+              <div class="house__div">
+                <p class="house__stoim3">Стоимость от</p>
+                <p class="house__sum3">*Узнать стоимость*</p>
+              </div>
+
+              <button class="house__btn">Узнать подробнее</button>
+            </div>
           </div>
-
-          <div class="house__slide house__slide2">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 68</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">2 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 69</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">3 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <!-- <div class="house__slide house__slide4">
-            <img class="house__img" src="/app/images/src/skandi.png" alt="skandi">
-            <h5 class="house__zag">Премиум 70</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div> -->
-          <img class="usl__right" src="/app/images/src/right.png" alt="right">
+          <img class="usl__right next5" src="/app/images/src/right.png" alt="right">
         </div>
       </div>
     </section>
@@ -571,11 +615,13 @@
     <section class="kviz container">
       <div class="kviz__after">
         <div class="kviz__top">
-          <div class="kviz__top-l">
-            <h4 class="kviz__title">Ответьте на несколько вопросов и мы подберем для вас лучший вариант</h4>
+          <h4 class="kviz__title">Ответьте на несколько вопросов и мы подберем для вас лучший вариант</h4>
+          <div class="kviz__top-b">
+
             <p class="kviz__etaj">Выберите количество этажей</p>
+            <p class="kviz__top-r">1/5</p>
           </div>
-          <p class="kviz__top-r">1/5</p>
+
         </div>
       </div>
 
@@ -658,10 +704,13 @@
         Наглядно
         оцените уже выполненные объекты
         строительной компании "Загородстрой"</p>
-      <div class="gallery__sliders">
-        <img class="gallery__slide-1" src="/app/images/src/gallery-1.png" alt="photo">
-        <img class="gallery__slide-2" src="/app/images/src/gallery-2.png" alt="photo">
-        <img class="gallery__slide-3" src="/app/images/src/gallery-3.png" alt="photo">
+      <div class="gallery__sliders slider variable-width">
+        <img class="gallery__slide" src="/app/images/src/gallery-1.png" alt="photo">
+        <img class="gallery__slide" src="/app/images/src/gallery-2.png" alt="photo">
+        <img class="gallery__slide" src="/app/images/src/gallery-3.png" alt="photo">
+        <img class="gallery__slide" src="/app/images/src/gallery-1.png" alt="photo">
+        <img class="gallery__slide" src="/app/images/src/gallery-2.png" alt="photo">
+        <img class="gallery__slide" src="/app/images/src/gallery-3.png" alt="photo">
       </div>
     </section>
 
@@ -671,7 +720,7 @@
         <div class="etap__one">
           <img class="etap__img" src="/app/images/src/etap-1.png" alt="фото">
           <div class="etap__content1">
-            <div class="etap__contet-l1">
+            <div class="etap__content-l1">
               <h5 class="etap__title">КУРИРОВАНИЕ ЗАКРЕПЛЕННЫМ ЗА ПРОЕКТОМ МЕНЕДЖЕРОМ СТРОЙКИ</h5>
               <p class="etap__text">Который следит за соблюдением сроков, приёмки этапов по актам, график поставки
                 материалов</p>
@@ -683,7 +732,7 @@
         <div class="etap__three">
           <img class="etap__img" src="/app/images/src/etap-3.png" alt="фото">
           <div class="etap__content2">
-            <div class="etap__contet-l2">
+            <div class="etap__content-l2">
               <h5 class="etap__title">ФОТО/ВИДЕО-ФИКСАЦИЯ РЕЗУЛЬТАТА И СКРЫТЫХ СТРОИТЕЛЬНЫХ РАБОТ</h5>
               <p class="etap__text">Доступ к наглядным отчетам в специальном чате проекта 24/7
                 в мессенджере</p>
@@ -701,7 +750,7 @@
         <div class="etap__two">
           <img class="etap__img etap__img1" src="/app/images/src/etap-2.png" alt="фото">
           <div class="etap__content3">
-            <div class="etap__contet-l3">
+            <div class="etap__content-l3">
               <h5 class="etap__title">ПОЭТАПНЫЙ КОНТРОЛЬ</h5>
               <p class="etap__text etap__text3">Этапы стройки сведены в чек лист — без принятия по акту прораба одно
                 этапа
@@ -709,6 +758,46 @@
                 приступить к следующему</p>
             </div>
             <div class="etap__contet-r"><img class="etap__contet-img" src="/app/images/src/preim-2.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="etap__1024">
+        <div class="etap__one">
+          <img class="etap__img" src="/app/images/src/etap-1.png" alt="фото">
+          <div class="etap__content1">
+            <div class="etap__content-l1">
+              <h5 class="etap__title">КУРИРОВАНИЕ ЗАКРЕПЛЕННЫМ ЗА ПРОЕКТОМ МЕНЕДЖЕРОМ СТРОЙКИ</h5>
+              <p class="etap__text">Который следит за соблюдением сроков, приёмки этапов по актам, график поставки
+                материалов</p>
+            </div>
+            <div class="etap__contet-r"><img class="etap__contet-img" src="/app/images/src/preim-1.png" alt=""></div>
+          </div>
+        </div>
+
+        <div class="etap__two">
+          <img class="etap__img etap__img1" src="/app/images/src/etap-2.png" alt="фото">
+          <div class="etap__content3">
+            <div class="etap__content-l3">
+              <h5 class="etap__title">ПОЭТАПНЫЙ КОНТРОЛЬ</h5>
+              <p class="etap__text etap__text3">Этапы стройки сведены в чек лист — без принятия по акту прораба одно
+                этапа
+                невозможно
+                приступить к следующему</p>
+            </div>
+            <div class="etap__contet-r"><img class="etap__contet-img" src="/app/images/src/preim-2.png" alt=""></div>
+          </div>
+        </div>
+
+        <div class="etap__three">
+          <img class="etap__img" src="/app/images/src/etap-3.png" alt="фото">
+          <div class="etap__content2">
+            <div class="etap__content-l2">
+              <h5 class="etap__title">ФОТО/ВИДЕО-ФИКСАЦИЯ РЕЗУЛЬТАТА И СКРЫТЫХ СТРОИТЕЛЬНЫХ РАБОТ</h5>
+              <p class="etap__text">Доступ к наглядным отчетам в специальном чате проекта 24/7
+                в мессенджере</p>
+            </div>
+            <div class="etap__contet-r"><img class="etap__contet-img" src="/app/images/src/preim-3.png" alt=""></div>
           </div>
         </div>
       </div>
@@ -777,7 +866,8 @@
         <p class="svyaz__title">Свяжитесь с нами</p>
         <p class="svyaz__text">Оставьте свои контактные данные в заявке или позвоните нам</p>
         <p class="svyaz__phone">+7 (900) 000-00-00</p>
-        <p class="svyaz__city">90000, город Москва, ул. Свободы, д.00, офис 0<br>Info@zagorodstroy.pro</p>
+        <p class="svyaz__city">90000, город Москва, ул. Свободы, д.00, офис 0</p>
+        <a href='#' class='svyaz__em'>info@zagorodstroy.pro</a>
         <div class="svyaz__soc">
           <a href=""><img class="svyaz__wh" src="/app/images/src/wha.png" alt="whatsapp"></a>
           <a href=""><img class="svyaz__wh" src="/app/images/src/email.png" alt="email"></a>
@@ -788,7 +878,7 @@
         <p class="svyaz__ras">Расскажем все подробности и ответим на вопросы о вашем будущем доме!</p>
         <form action="">
           <input class="svyaz__inp-name" type="text" placeholder="Как вас зовут?" />
-          <input class="svyaz__inp-phone" type="text" placeholder="Ваш номер телефонв" />
+          <input class="svyaz__inp-phone" type="text" placeholder="Ваш номер телефона" />
           <input class="svyaz__inp-email" type="text" placeholder="Ваш email" />
           <input class="svyaz__inp-text" type="text" placeholder="Что вы бы хотели узнать?" />
           <button class="svyaz__btn" type="submit">Отправить</button>
@@ -804,8 +894,19 @@
         <p class="footer__logo-t">Надежные <span class="colortext" под ключ>дома под ключ</span></p>
         <p class="footer__p">+7 (900) 000-00-00</p>
         <p class="footer__city">Москва, ул. Кирпичные Выемки, 2к1</p>
+
         <p class="footer__time">Пн-Вс: 9.00-20.00 </p>
         <p class="footer__email">info@zagorodstroy.pro</p>
+        <div class="footer__di">
+
+          <p class="footer__ip">ИП Смирнов С.C<br>ИНН: 00000000000<br>ОГРН: 0000000000000</p>
+
+          <p class="footer__prava">2024, Все права защищены</p>
+
+          <a class="footer__pol-a" href="#">
+            <p>Политика конфиденциальности и обработки персональных данных</p>
+          </a>
+        </div>
       </div>
 
       <div class="footer__right ">
@@ -818,17 +919,20 @@
             <li class="footer__li"><a href="#">Контакты</a></li>
           </ul>
         </div>
-        <a class="footer__pol-a" href="#">
-          <p>Политика конфиденциальности и обработки персональных данных</p>
-        </a>
+        <div class="footer__d">
+          <a class="footer__pol-a" href="#">
+            <p>Политика конфиденциальности и обработки персональных данных</p>
+          </a>
 
-        <p class="footer__ip">ИП Смирнов С.C<br>ИНН: 00000000000<br>ОГРН: 0000000000000</p>
+          <p class="footer__ip">ИП Смирнов С.C<br>ИНН: 00000000000<br>ОГРН: 0000000000000</p>
 
-        <p class="footer__prava">2024, Все права защищены</p>
+          <p class="footer__prava">2024, Все права защищены</p>
+        </div>
       </div>
     </div>
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>
 
