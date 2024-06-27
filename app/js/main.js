@@ -192,3 +192,15 @@ $('.variable-width').slick({
   autoplay: true,
   autoplaySpeed: 1500
 });
+
+$('house__btn--active').slick({
+
+});
+
+$('.house__close--active').click(function () {
+  $('#house__active').hide();
+});
+
+$('.house__btn').click(function () {
+  $('#house__active').show();
+});
