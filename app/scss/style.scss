@@ -21,6 +21,7 @@ section {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .svyaz__inp-text::placeholder {
@@ -256,6 +257,10 @@ html {
   margin-bottom: 50px;
   background: rgb(230, 240, 255);
 
+  &__pc {
+    display: flex;
+  }
+
   &__div {
     margin-bottom: 20px;
     height: 671px;
@@ -263,7 +268,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     max-width: 540px;
-    width: 540px;
+    width: 472px;
     background: rgb(255, 255, 255);
     border-radius: 15px 15px 15px 15px;
   }
@@ -277,11 +282,12 @@ html {
 
   &__img {
     margin-bottom: 10px;
-    width: 532px;
+    width: 472px;
     height: 313px;
   }
 
   &__title {
+    max-width: 472px;
     padding-left: 20px;
     margin-bottom: 15px;
     color: rgb(0, 0, 0);
@@ -294,6 +300,8 @@ html {
   }
 
   &__text {
+    max-width: 472px;
+    width: 100%;
     padding-left: 20px;
     margin-bottom: 30px;
     color: rgb(106, 106, 106);
@@ -330,6 +338,7 @@ html {
     display: flex;
     flex-direction: column;
     height: 233px;
+    width: 540px;
     justify-content: space-between;
   }
 
@@ -337,8 +346,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    height: 345px;
+    max-width: 472px;
+    height: 336px;
   }
 
   &__main {
@@ -416,6 +425,9 @@ html {
 
   &__slides {
     display: flex;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
   }
 
   .slick-list,
@@ -426,6 +438,9 @@ html {
 
   .slider {
     width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__left,
@@ -445,6 +460,10 @@ html {
 }
 
 .house {
+  &__close--close {
+    display: none !important;
+  }
+
   &__close--active {
     margin-bottom: 20px;
     position: fixed;
@@ -454,6 +473,10 @@ html {
     right: 25px;
     width: 43px;
     height: 43px;
+    cursor: pointer;
+  }
+
+  &__slide {
     cursor: pointer;
   }
 
@@ -474,6 +497,7 @@ html {
   }
 
   &__slide1--active {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -580,6 +604,370 @@ html {
   &__img {
     width: 538px;
     height: 330px;
+  }
+
+  &__img-1A1-71 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A1-71.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A1-71:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A1-71-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A2-81 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A2-81.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A2-81:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A2-81-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A3-88 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A3-88.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A3-88:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A3-88-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A3-95 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A3-95.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A3-95:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A3-95-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A4-107 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A4-107.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A4-107:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A4-107-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A5-125 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A5-125.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A5-125:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A5-125-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A5-126 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A5-126.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1A5-126:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1A5-126-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B2-91 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B2-91.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B2-91:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B2-91-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B1-83 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B1-83.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B1-83:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B1-83-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B3-101 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B3-101.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B3-101:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B3-101-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B4-105 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B4-105.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B4-105:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B4-105-c.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B5-112 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B5-112.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B5-112:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B5-112-c.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B6-120 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B6-120.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B6-120:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B6-120-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B7-125 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B7-125.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B7-125:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B7-125-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B8-128 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B8-128.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1B8-128:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1B8-128-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1П1-103 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1П1-103.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1П1-103:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1П1-103-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1П2-113 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1П2-113.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-1П2-113:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/1П2-113-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2A1-116 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2A1-116.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2A1-116:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2A1-116-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2A2-121 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2A2-121.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2A2-121:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2A2-121-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B1-122 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B1-122.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B1-122:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B1-122-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B2-137 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B2-137.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B2-137:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B2-137-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B3-134 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B3-134.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B3-134:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B3-134-2.jpg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B3-146 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B3-146.png);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B3-146:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B3-146-2.png);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B4-160 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B4-160.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B4-160:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B4-160-2.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B6-142 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B6-142.webp);
+    background-size: 538px 330px;
+  }
+
+  &__img-2B6-142:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2B6-142-2.webp);
+    background-size: 538px 330px;
+  }
+
+  &__img-2П1-124 {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2П1-124.jpeg);
+    background-size: 538px 330px;
+  }
+
+  &__img-2П1-124:hover {
+    width: 538px;
+    height: 330px;
+    background-image: url(/app/images/dist/2П1-124-2.jpeg);
+    background-size: 538px 330px;
   }
 
   &__skandi-t {
@@ -972,7 +1360,7 @@ html {
   padding-top: 50px;
   margin-bottom: 50px;
   height: 860px;
-  background-image: url(/app/images/src/bg-preim.png);
+  background-image: url(/app/images/dist/bg-preim.png);
   background-repeat: no-repeat;
 
   &__title {
@@ -1199,6 +1587,7 @@ html {
   }
 
   &__name {
+    max-width: 190px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
     font-family: Oswald;
@@ -1220,8 +1609,20 @@ html {
     text-align: left;
   }
 
+  .slick-list,
+  .draggable {
+    margin-bottom: 25px;
+  }
+
+  .slick-track {
+    height: 370px;
+    margin-bottom: 25px;
+  }
+
   &__block {
     width: 938px;
+    height: 380px;
+    max-width: 938px;
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 60px;
@@ -1231,6 +1632,7 @@ html {
   }
 
   &__blocks {
+    width: 93.91%;
     display: flex;
   }
 }
@@ -1583,8 +1985,8 @@ html {
 
     &__logo {
       margin-right: 25px;
-      width: 241px;
-      height: 35px;
+      width: 210px;
+      height: 58px;
     }
 
     &__a {
@@ -1632,17 +2034,16 @@ html {
   }
 
   .main {
-    background-image: url('/app/images/src/bg_1024.png');
     height: 448px;
 
     &__title {
       padding-top: 5px;
       margin-bottom: 20px;
-      color: rgb(109, 138, 58);
+      color: rgb(255, 255, 255);
       font-family: Oswald;
-      font-size: 48px;
-      font-weight: 400;
-      line-height: 71px;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 131.63%;
       letter-spacing: 0%;
       text-align: left;
     }
@@ -1650,6 +2051,37 @@ html {
     &__div {
       margin-bottom: 20px;
       max-width: 412px;
+    }
+
+    &__text {
+      color: rgb(255, 255, 255);
+      font-family: Oswald;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 131.63%;
+      letter-spacing: -1%;
+      text-align: left;
+    }
+
+    &__text-b {
+      color: rgb(255, 255, 255);
+      font-family: Oswald;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 131.63%;
+      letter-spacing: -1%;
+      text-align: left;
+    }
+
+    &__text-c {
+      margin-bottom: 20px;
+      color: rgb(255, 255, 255);
+      font-family: Oswald;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 131.63%;
+      letter-spacing: -1%;
+      text-align: left;
     }
 
     &__preim {
@@ -1675,11 +2107,11 @@ html {
 
     &__kons {
       margin-right: 40px;
-      width: 307px;
-      height: 68px;
+      width: 325px;
+      height: 64px;
       color: rgb(255, 255, 255);
       font-family: Oswald;
-      font-size: 30px;
+      font-size: 29px;
       font-weight: 400;
       line-height: 44px;
       letter-spacing: 0%;
@@ -1687,11 +2119,11 @@ html {
     }
 
     &__posmot {
-      width: 307px;
-      height: 68px;
+      width: 250px;
+      height: 64px;
       color: rgb(255, 255, 255);
       font-family: Oswald;
-      font-size: 30px;
+      font-size: 29px;
       font-weight: 400;
       line-height: 44px;
       letter-spacing: 0%;
@@ -1703,14 +2135,25 @@ html {
     padding-top: 30px;
     margin-bottom: 15px;
 
+    &__pc {
+      display: flex;
+      align-items: center;
+    }
+
     &__img {
-      width: 405px;
+      width: 346px;
       height: 244px;
+    }
+
+
+    &__sll {
+      display: flex;
     }
 
     &__div {
       margin-bottom: 30px;
       height: 590px;
+      width: 211px;
     }
 
     &__title {
@@ -1794,6 +2237,7 @@ html {
       letter-spacing: -1%;
       text-align: left;
     }
+
   }
 
   .house {

@@ -20,19 +20,19 @@
     </a>
     <ul class="header__links">
       <li class="header__link">
-        <a class="header__a" href="#">Услуги</a>
+        <a class="header__a" href="#usl">Услуги</a>
       </li>
       <li class="header__link">
-        <a class="header__a" href="#">Наши проекты</a>
+        <a class="header__a" href="#house-block">Наши проекты</a>
       </li>
       <li class="header__link">
-        <a class="header__a" href="#">О нас</a>
+        <a class="header__a" href="#preim">О нас</a>
       </li>
       <li class="header__link">
-        <a class="header__a" href="#">Галерея</a>
+        <a class="header__a" href="#gallery">Галерея</a>
       </li>
       <li class="header__link">
-        <a class="header__a" href="#">Контакты</a>
+        <a class="header__a" href="#contact">Контакты</a>
       </li>
     </ul>
     <a href="#" class="header__phone">+7 999 000-00-00</a>
@@ -52,60 +52,84 @@
         <h5 class="main__text-b">- Индивидуальное проектирование</h5>
         <h5 class="main__text-c">- Доступна ипотека</h5>
         <div class="main__btn">
-          <button class="main__kons">Рассчитать стоимость дома</button>
-          <button class="main__posmot">Смотреть проекты</button>
+          <a href="#kviz">
+            <button class="main__kons">Рассчитать стоимость дома</button>
+          </a>
+          <a href="#house-block">
+            <button class="main__posmot">Смотреть проекты</button>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="usl">
+    <section class="usl" id="usl">
       <div class="usl__main ">
-        <div class="usl__slides slider">
-          <div class="usl__div usl__1">
-            <img class="usl__img" src="/app/images/dist/key.png" alt="key">
-            <div class="usl__fl">
-              <h4 class="usl__title">Строительство домов в ипотеку</h4>
-              <div class="usl__flex">
-                <p class="usl__text">Работаем с ведущими банками.
-                </p>
-                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+        <div class="usl__slides">
+          <img class="usl__left prev10" src="/app/images/src/left.png" alt="left">
+          <div class="slider usl__pc usl-slider">
+            <div class="usl__div usl__1">
+              <img class="usl__img" src="/app/images/dist/key.png" alt="key">
+              <div class="usl__fl">
+                <h4 class="usl__title">Строительство домов в ипотеку</h4>
+                <div class="usl__flex">
+                  <p class="usl__text">Работаем с ведущими банками.
+                  </p>
+                  <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="usl__div usl__2">
-            <img class="usl__img" src="/app/images/dist/house.png" alt="house">
-            <div class="usl__fl">
-              <h4 class="usl__title">Строительство домов по индивидуальному проекту</h4>
-              <div class="usl__flex">
-                <p class="usl__text">Наши специалисты помогут вам разработать проект, учитывая все ваши пожелания.</p>
-                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+            <div class="usl__div usl__2">
+              <img class="usl__img" src="/app/images/dist/house.png" alt="house">
+              <div class="usl__fl">
+                <h4 class="usl__title">Строительство домов по индивидуальному проекту</h4>
+                <div class="usl__flex">
+                  <p class="usl__text">Наши специалисты помогут вам разработать проект, учитывая все ваши пожелания.</p>
+                  <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="usl__div usl__3">
-            <img class="usl__img" src="/app/images/dist/calculate.png" alt="calculate">
-            <div class="usl__fl">
-              <h4 class="usl__title">Инвестиции в недвижимость</h4>
-              <div class="usl__flex">
-                <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход
-                  <br>От
-                  инвестиций
-                  в
-                  недвижимость.
-                </p>
-                <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+            <div class="usl__div usl__3">
+              <img class="usl__img" src="/app/images/dist/calculate.png" alt="calculate">
+              <div class="usl__fl">
+                <h4 class="usl__title">Инвестиции в недвижимость</h4>
+                <div class="usl__flex">
+                  <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход
+                    <br>От
+                    инвестиций
+                    в
+                    недвижимость.
+                  </p>
+                  <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="usl__div usl__4">
+              <img class="usl__img" src="/app/images/dist/podbor.jpg" alt="calculate">
+              <div class="usl__fl">
+                <h4 class="usl__title">Подбор участка</h4>
+                <div class="usl__flex">
+                  <p class="usl__text">Мы предлагаем лучшее решение для тех,<br> кто хочет получать стабильный доход
+                    <br>От
+                    инвестиций
+                    в
+                    недвижимость.
+                  </p>
+                  <button class="usl__btn button__podrobnee">Узнать подробнее</button>
+                </div>
               </div>
             </div>
           </div>
+          <img class="usl__right next10" src="/app/images/src/right.png" alt="right">
         </div>
       </div>
 
       <div class="usl__com container">
         <img class="usl__com-img" src="/app/images/src/man.png" alt="man">
         <div class="usl__com-right">
-          <h5 class="usl__com-title">АНДРЕЙ МРАЧКОВСКИЙ</h5>
+          <h5 class="usl__com-title">Антон Корнеев</h5>
           <p class="usl__com-dol">Руководитель команды "ЗАГОРОДОМ"</p>
           <p class="usl__com-stroi">Строительство дома - это просто,когда с вами профессиональная команда
             проектировщиков и строителей</p>
@@ -118,7 +142,7 @@
       </div>
     </section>
 
-    <section class="house">
+    <section class="house" id="house-block">
       <div class="house__title container">
         <div class="house__col1">
           <h3 class="house__col">Большая коллекция домов</h3>
@@ -128,15 +152,715 @@
           вкус с точки зрения площади,этажности и внешнему виду</p>
       </div>
 
+      <div class="house__slide1--active 1A1-71" id="1A1-71">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A1-71-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A1-71</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A2-81" id="1A2-81">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A2-81-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A2-81</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A3-88" id="1A3-88">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A3-88-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A3-88</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A3-95" id="1A3-95">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A3-95-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A3-95</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A4-107" id="1A4-107">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A4-107-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A4-107</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A5-125" id="1A5-125">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A5-125-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A5-125</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1A5-126" id="1A5-126">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1A5-126-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1A5-126</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B1-83" id="1B1-83">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B1-83-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B1-83</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B2-91" id="1B2-91">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B2-91-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B2-91</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B3-101" id="1B3-101">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B3-101-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B3-101</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B4-105" id="1B4-105">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B4-105-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B4-105</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B5-112" id="1B5-112">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B5-112-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B5-112</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B6-120" id="1B6-120">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B6-120-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B6-120</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B7-125" id="1B7-125">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B7-125-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B7-125</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1B8-128" id="1B8-128">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1B8-128-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1B8-128</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1П1-103" id="1П1-103">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1П1-103-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1П1-103</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 1П2-113" id="1П2-113">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/1П2-113-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">1П2-113</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2A1-116" id="2A1-116">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2A1-116-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2A1-116</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2A2-121" id="2A2-121">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2A2-121-c.png" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2A2-121</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B1-122" id="2B1-122">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B1-122-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B1-122</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B2-137" id="2B2-137">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B2-137-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B2-137</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B3-134" id="2B3-134">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B3-134-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B3-134</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B3-146" id="2B3-146">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B3-146-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B3-146</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B4-160" id="2B4-160">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B4-160-c.jpg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B4-160</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2B6-142" id="2B6-142">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2B6-142-c.webp" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2B6-142</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="house__slide1--active 2П1-124" id="2П1-124">
+        <img class="house__close--active" src="/app/images/dist/close.svg" alt="close">
+        <div class="house__slide--active">
+          <img class="house__img--active" src="/app/images/dist/2П1-124-c.jpeg" alt="Чертеж">
+          <div class="house__div--active">
+            <p class="house__title--active">2П1-124</p>
+            <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
+              м.<br>-
+              КУХНЯ: 31
+              кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
+              СТЕНЫ:
+              газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
+              металлочерепица
+              GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
+              ЭЛЕКТРИЧЕСТВО:
+              4
+              гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
+              под
+              домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
+              из
+              фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
+            </p>
+          </div>
+          <button class="house__btn--active">Оставить заявку</button>
+        </div>
+      </div>
 
       <div class="house__skandi">
         <h6 class="house__skandi-t container">ДОМА Сканди</h6>
         <div class="house__slider">
           <img class="usl__left prev2" src="/app/images/src/left.png" alt="left">
-
           <div class="house__sliders slider house-s-slider">
-            <div class="house__slide house__slide1">
-              <img class="house__img" src="/app/images/dist/1A1-71.jpeg" alt="1A1-71">
+            <div class="house__slide house__slide1 1A1-71-b">
+              <div class="house__img house__img-1A1-71"></div>
               <h5 class="house__zag">1A1-71</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 10 x 7,5</li>
@@ -161,8 +885,9 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide2">
-              <img class="house__img" src="/app/images/dist/1A2-81.jpeg" alt="1A2-81">
+            <div class="house__slide house__slide2 1A2-81-b">
+              <!-- <img class="house__img" src="/app/images/dist/1A2-81.jpeg" alt="1A2-81"> -->
+              <div class="house__img house__img-1A2-81"></div>
               <h5 class="house__zag">1A2-81</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 15 x 7,5</li>
@@ -187,8 +912,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide3">
-              <img class="house__img" src="/app/images/dist/1A3-88.jpg" alt="1A3-88">
+            <div class="house__slide house__slide3 1A3-88-b">
+              <div class="house__img house__img-1A3-88"></div>
               <h5 class="house__zag">1A3-88</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 20 x 10,5</li>
@@ -213,8 +938,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1A3-95.jpg" alt="1A3-95">
+            <div class="house__slide house__slide4 1A3-95-b">
+              <div class="house__img house__img-1A3-95"></div>
               <h5 class="house__zag">1A3-95</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -239,8 +964,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1A4-107.jpg" alt="1A4-107.jpg">
+            <div class="house__slide house__slide4 1A4-107-b">
+              <div class="house__img house__img-1A4-107"></div>
               <h5 class="house__zag">1A4-107</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -265,8 +990,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1A5-125.jpg" alt="1A5-125">
+            <div class="house__slide house__slide4 1A5-125-b">
+              <div class="house__img house__img-1A5-125"></div>
               <h5 class="house__zag">1A5-125</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -291,8 +1016,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1A5-126.jpg" alt="1A5-126">
+            <div class="house__slide house__slide4 1A5-126-b">
+              <div class="house__img house__img-1A5-126"></div>
               <h5 class="house__zag">1A5-126</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -327,8 +1052,8 @@
           <img class="usl__left prev3" src="/app/images/src/left.png" alt="left">
 
           <div class="house__sliders slider house-e-slider">
-            <div class="house__slide house__slide1">
-              <img class="house__img" src="/app/images/dist/1B1-83.jpg" alt="1B1-83">
+            <div class="house__slide house__slide1 1B1-83-b">
+              <div class="house__img house__img-1B1-83"></div>
               <h5 class="house__zag">1B1-83</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 10 x 7,5</li>
@@ -353,10 +1078,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-
-
-            <div class="house__slide house__slide2">
-              <img class="house__img" src="/app/images/dist/1B2-91.jpg" alt="1B2-91">
+            <div class="house__slide house__slide2 1B2-91-b">
+              <div class="house__img house__img-1B2-91"></div>
               <h5 class="house__zag">1B2-91</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 15 x 7,5</li>
@@ -381,8 +1104,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide3">
-              <img class="house__img" src="/app/images/dist/1B3-101.jpg" alt="1B3-101">
+            <div class="house__slide house__slide3 1B3-101-b">
+              <div class="house__img house__img-1B3-101"></div>
               <h5 class="house__zag">1B3-101</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 20 x 10,5</li>
@@ -407,8 +1130,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1B4-105.jpeg" alt="skandi">
+            <div class="house__slide house__slide4 1B4-105-b">
+              <div class="house__img house__img-1B4-105"></div>
               <h5 class="house__zag">1B4-105</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -433,8 +1156,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1B5-112.webp" alt="skandi">
+            <div class="house__slide house__slide4 1B5-112-b">
+              <div class="house__img house__img-1B5-112"></div>
               <h5 class="house__zag">1B5-112</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -459,8 +1182,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1B6-120.jpg" alt="skandi">
+            <div class="house__slide house__slide4 1B6-120-b">
+              <div class="house__img house__img-1B6-120"></div>
               <h5 class="house__zag">1B6-120</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -485,8 +1208,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1B7-125.jpg" alt="skandi">
+            <div class="house__slide house__slide4 1B7-125-b">
+              <div class="house__img house__img-1B7-125"></div>
               <h5 class="house__zag">1B7-125</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -511,8 +1234,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1B8-128.jpg" alt="skandi">
+            <div class="house__slide house__slide4 1B8-128-b">
+              <div class="house__img house__img-1B8-128"></div>
               <h5 class="house__zag">1B8-128</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -537,8 +1260,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1П1-103.jpeg" alt="skandi">
+            <div class="house__slide house__slide4 1П1-103-b">
+              <div class="house__img house__img-1П1-103"></div>
               <h5 class="house__zag">1П1-103</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -563,8 +1286,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/1П2-113.jpeg" alt="skandi">
+            <div class="house__slide house__slide4 1П2-113-b">
+              <div class="house__img house__img-1П2-113"></div>
               <h5 class="house__zag">1П2-113</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -592,33 +1315,6 @@
           <img class="usl__right next3" src="/app/images/src/right.png" alt="right">
         </div>
 
-        <div class="house__slide1--active" id="house__active">
-          <img class="house__close--active" src="/app/images/src/close.svg" alt="close">
-          <div class="house__slide--active">
-            <img class="house__img--active" src="/app/images/src/chert.png" alt="Чертеж">
-            <div class="house__div--active">
-              <p class="house__title--active">Дом 1</p>
-              <p class="house__text--active">- ОБЩАЯ ПЛОЩАДЬ: 70 кв. м.<br>- ЭТАЖНОСТЬ: 1 этажа<br>- ПОТОЛОК: 2,75
-                м.<br>-
-                КУХНЯ: 31
-                кв. м.<br>- ФУНДАМЕНТ: плита, армированная двумя сетками, арматура, гидроизоляция, утепление ЭППС<br>-
-                СТЕНЫ:
-                газоблок, утеплитель<br>- ФАСАДЫ: кирпич<br>- ПЕРЕКРЫТИЕ: чердачное перекрытие по лагам<br>- КРОВЛЯ:
-                металлочерепица
-                GRANDLINE, водосток из ПВХ<br>- ОКНА: ПВХ REHAU BLITZ - ДВЕРЬ: утепленная входная дверь<br>-
-                ЭЛЕКТРИЧЕСТВО:
-                4
-                гильзы из трубы ПНД32, в которые можно протянуть кабель<br>- КАНАЛИЗАЦИЯ: труба канализации в утеплителе
-                под
-                домом с выпуском из фундамента на расстоянии 1 п.м. от дома на глубине 60 см.<br>- ВОДОСНАБЖЕНИЕ: выпуск
-                из
-                фундамента рядом с домом трубы ПНД32 на на глубине 1,5 м.
-              </p>
-            </div>
-            <button class="house__btn--active">Оставить заявку</button>
-          </div>
-        </div>
-
       </div>
 
       <div class="house__dvuh">
@@ -631,8 +1327,8 @@
           <img class="usl__left prev4" src="/app/images/src/left.png" alt="left">
 
           <div class="house__sliders slider house-d-slider">
-            <div class="house__slide house__slide1">
-              <img class="house__img" src="/app/images/dist/2A1-116.jpeg" alt="2A1-116">
+            <div class="house__slide house__slide1 2A1-116">
+              <div class="house__img house__img-2A1-116"></div>
               <h5 class="house__zag">2A1-116</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 10 x 7,5</li>
@@ -657,8 +1353,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide2">
-              <img class="house__img" src="/app/images/dist/2A2-121.jpg" alt="skandi">
+            <div class="house__slide house__slide2 2A2-121-b">
+              <div class="house__img house__img-2A2-121"></div>
               <h5 class="house__zag">2A2-121</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 15 x 7,5</li>
@@ -683,8 +1379,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide3">
-              <img class="house__img" src="/app/images/dist/2B1-122.jpeg" alt="skandi">
+            <div class="house__slide house__slide3 2B1-122-b">
+              <div class="house__img house__img-2B1-122"></div>
               <h5 class="house__zag">2B1-122</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 20 x 10,5</li>
@@ -709,8 +1405,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2B2-137.jpg" alt="2B2-137">
+            <div class="house__slide house__slide4 2B2-137-b">
+              <div class="house__img house__img-2B2-137"></div>
               <h5 class="house__zag">2B2-137</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -735,8 +1431,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2B3-134.jpg" alt="2B3-134">
+            <div class="house__slide house__slide4 2B3-134-b">
+              <div class="house__img house__img-2B3-134"></div>
               <h5 class="house__zag">2B3-134</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -761,8 +1457,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2B3-146.png" alt="2B3-146">
+            <div class="house__slide house__slide4 2B3-146-b">
+              <div class="house__img house__img-2B3-146"></div>
               <h5 class="house__zag">2B3-146</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -787,8 +1483,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2B4-160.jpeg" alt="2B4-160">
+            <div class="house__slide house__slide4 2B4-160-b">
+              <div class="house__img house__img-2B4-160"></div>
               <h5 class="house__zag">2B4-160</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -813,9 +1509,9 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2B4-160.jpeg" alt="2B4-160">
-              <h5 class="house__zag">2B4-160</h5>
+            <div class="house__slide house__slide4 2B6-142-b">
+              <div class="house__img house__img-2B6-142"></div>
+              <h5 class="house__zag">2B6-142</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
                 <li class="house__preim2"> Количество комнат: 4</li>
@@ -839,8 +1535,8 @@
               <button class="house__btn">Узнать подробнее</button>
             </div>
 
-            <div class="house__slide house__slide4">
-              <img class="house__img" src="/app/images/dist/2П1-124.jpeg" alt="2П1-124">
+            <div class="house__slide house__slide4 2П1-124-b">
+              <div class="house__img house__img-2П1-124"></div>
               <h5 class="house__zag">2П1-124</h5>
               <ul class="house__ul">
                 <li class="house__preim1">Габариты дома: 30 x 15,5</li>
@@ -1028,7 +1724,7 @@
       </div>
     </section>
 
-    <section class="preim">
+    <section class="preim" id="preim">
       <h5 class="preim__title container">Почему вы можете довериться нам и быть спокойны за сроки и качество работ</h5>
       <h6 class="preim__text container">Наши преимущества и сильные стороны</h6>
       <div class="preim__blocks container">
@@ -1074,7 +1770,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <h6 class="gallery__title container">Галерея работ</h6>
       <p class="gallery__text container">Построили более <span class="colortext">150 домов</span> за 10 лет работы.
         Наглядно
@@ -1179,7 +1875,7 @@
       </div>
     </section>
 
-    <section class="kviz container">
+    <section class="kviz container" id="kviz">
       <div class="kviz__after">
         <div class="kviz__top">
           <div class="kviz__top-l">
@@ -1219,25 +1915,35 @@
 
     <section class="otzyv">
       <h4 class="otzyv__title container">ОТЗЫВЫ КЛИЕНТОВ</h4>
-      <div class="otzyv__blocks container">
-        <div class="otzyv__block">
-          <p class="otzyv__name">Виктор П.</p>
-          <p class="otzyv__text">Свою работу знают, контроль качества буквально на каждом этапе, а это радует, так как
-            строительство хорошего дома - крайне сложный процесс. Слава богу в компании работают специалисты и любители
-            своего дела, так что к ним за строительством дома можно обращаться безо всяких переживаний, желаем вам
-            большего развития и как можно больше довольных клиентов!</p>
-        </div>
+      <div class="otzyv__blocks container ">
+        <div class="otzyv__blocks slider otzyv-s">
+          <div class="otzyv__block">
+            <p class="otzyv__name">Виктор П.</p>
+            <p class="otzyv__text">Свою работу знают, контроль качества буквально на каждом этапе, а это радует, так как
+              строительство хорошего дома - крайне сложный процесс. Слава богу в компании работают специалисты и
+              любители
+              своего дела, так что к ним за строительством дома можно обращаться безо всяких переживаний, желаем вам
+              большего развития и как можно больше довольных клиентов!</p>
+          </div>
 
-        <div class="otzyv__block">
-          <p class="otzyv__name">Алексей Т.</p>
-          <p class="otzyv__text">Пообщались с менеджером, остались очень приятные впечатления. Нам подробно все
-            рассказали, никаких сомнений не осталось, что заказывать будем здесь. Все получилось лучше, чем мы
-            представляли. Все ровненько, красиво, нигде не дует и не течет. Цена для такой работы не завышенная.</p>
+          <div class="otzyv__block">
+            <p class="otzyv__name">Алексей Т.</p>
+            <p class="otzyv__text">Пообщались с менеджером, остались очень приятные впечатления. Нам подробно все
+              рассказали, никаких сомнений не осталось, что заказывать будем здесь. Все получилось лучше, чем мы
+              представляли. Все ровненько, красиво, нигде не дует и не течет. Цена для такой работы не завышенная.</p>
+          </div>
+
+          <div class="otzyv__block">
+            <p class="otzyv__name">Алексей Т.</p>
+            <p class="otzyv__text">Пообщались с менеджером, остались очень приятные впечатления. Нам подробно все
+              рассказали, никаких сомнений не осталось, что заказывать будем здесь. Все получилось лучше, чем мы
+              представляли. Все ровненько, красиво, нигде не дует и не течет. Цена для такой работы не завышенная.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="svyaz container">
+    <section class="svyaz container" id="contact">
       <div class="svyaz__left">
         <p class="svyaz__title">Свяжитесь с нами</p>
         <p class="svyaz__text">Оставьте свои контактные данные в заявке или позвоните нам</p>
