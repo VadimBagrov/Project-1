@@ -10,7 +10,7 @@ $('.usl-slider').slick({
   nextArrow: $('.next10'),
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -43,11 +43,11 @@ $('.house-s-slider').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  prevArrow: $('.prev2'),
-  nextArrow: $('.next2'),
+  prevArrow: $('.prev5'),
+  nextArrow: $('.next5'),
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -80,11 +80,11 @@ $('.house-e-slider').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  prevArrow: $('.prev3'),
-  nextArrow: $('.next3'),
+  prevArrow: $('.prev5'),
+  nextArrow: $('.next5'),
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -117,11 +117,11 @@ $('.house-d-slider').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  prevArrow: $('.prev4'),
-  nextArrow: $('.next4'),
+  prevArrow: $('.prev5'),
+  nextArrow: $('.next5'),
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -158,7 +158,7 @@ $('.house-k-slider').slick({
   nextArrow: $('.next5'),
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,

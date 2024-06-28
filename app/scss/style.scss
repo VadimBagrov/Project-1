@@ -425,7 +425,7 @@ html {
 
   &__slides {
     display: flex;
-    max-width: 1920px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
   }
@@ -1727,6 +1727,10 @@ html {
     text-align: left;
   }
 
+  input {
+    padding-left: 10px;
+  }
+
   &__inp-name {
     margin-bottom: 30px;
     width: 752px;
@@ -1985,7 +1989,7 @@ html {
 
     &__logo {
       margin-right: 25px;
-      width: 210px;
+      width: 190px;
       height: 58px;
     }
 
@@ -2037,7 +2041,7 @@ html {
     height: 448px;
 
     &__title {
-      padding-top: 5px;
+      padding-top: 15px;
       margin-bottom: 20px;
       color: rgb(255, 255, 255);
       font-family: Oswald;
@@ -2140,8 +2144,14 @@ html {
       align-items: center;
     }
 
+    &__left,
+    &__right {
+      width: 50px;
+      height: 50px;
+    }
+
     &__img {
-      width: 346px;
+      width: 386px;
       height: 244px;
     }
 
@@ -2152,29 +2162,43 @@ html {
 
     &__div {
       margin-bottom: 30px;
-      height: 590px;
+      height: 405px;
       width: 211px;
     }
 
     &__title {
+      max-width: 380px;
       height: 88px;
       color: rgb(0, 0, 0);
       font-family: Oswald;
-      font-size: 30px;
+      font-size: 26px;
       font-weight: 400;
       line-height: 44px;
       letter-spacing: 0%;
       text-align: left;
     }
 
+    &__1,
+    &__2,
+    &__3,
+    &__4 {
+      margin-right: 15px;
+    }
+
     &__text {
       color: rgb(106, 106, 106);
       font-family: Oswald;
-      font-size: 24px;
+      font-size: 23px;
       font-weight: 300;
       line-height: 36px;
       letter-spacing: 0%;
       text-align: left;
+    }
+
+    .prev10,
+    .next10 {
+      width: 50px;
+      height: 50px;
     }
 
     &__btn {
@@ -2238,6 +2262,24 @@ html {
       text-align: left;
     }
 
+    &__com-stroi {
+      margin-left: 20px;
+      font-size: 40px;
+      line-height: 100%;
+    }
+
+    &__fl {
+      width: 346px;
+      height: 310px;
+    }
+
+    &__text {
+      width: 346px;
+    }
+
+    &__flex {
+      width: 346px;
+    }
   }
 
   .house {
@@ -2248,8 +2290,13 @@ html {
       flex-direction: column;
     }
 
+    &__ul {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
     &__col {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       color: rgb(109, 138, 58);
       font-family: Oswald;
       font-size: 64px;
@@ -2282,11 +2329,58 @@ html {
       text-align: left;
     }
 
+    &__stoim1,
+    &__stoim2,
+    &__stoim3 {
+      margin-left: 10px;
+      font-size: 23px;
+    }
+
+    &__sum1,
+    &__sum2,
+    &__sum3 {
+      font-size: 19px;
+    }
+
     &__skandi-t {
       margin-bottom: 30px;
       color: rgb(229, 141, 73);
       font-family: Oswald;
-      font-size: 64px;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: -1%;
+      text-align: left;
+    }
+
+    &__euro-t {
+      margin-bottom: 30px;
+      color: rgb(229, 141, 73);
+      font-family: Oswald;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: -1%;
+      text-align: left;
+    }
+
+    &__dvuh {
+      margin-bottom: 20px;
+    }
+
+    &__euro {
+      margin-bottom: 20px;
+    }
+
+    &__skandi {
+      margin-bottom: 20px;
+    }
+
+    &__dvuh-t {
+      margin-bottom: 30px;
+      color: rgb(229, 141, 73);
+      font-family: Oswald;
+      font-size: 50px;
       font-weight: 400;
       line-height: 130%;
       letter-spacing: -1%;
@@ -2294,12 +2388,12 @@ html {
     }
 
     &__img {
-      width: 405px;
+      width: 431px;
       height: 270px;
     }
 
     &__zag {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       color: rgb(0, 0, 0);
       font-family: Oswald;
       font-size: 30px;
@@ -2357,6 +2451,14 @@ html {
       line-height: 39px;
       letter-spacing: 0%;
       text-align: left;
+    }
+
+    &__btn {
+      width: 200px;
+      height: 45px;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-size: 24px;
     }
   }
 
@@ -2664,6 +2766,11 @@ html {
   .otzyv {
     padding-top: 30px;
 
+    &__block {
+      padding-top: 15px;
+      padding-right: 15px;
+    }
+
     &__title {
       margin-bottom: 20px;
       color: rgb(229, 141, 73);
@@ -2676,7 +2783,7 @@ html {
     }
 
     &__name {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       color: rgb(0, 0, 0);
       font-family: Oswald;
       font-size: 34px;
@@ -2687,11 +2794,12 @@ html {
     }
 
     &__text {
+      max-width: 350px;
       color: rgb(108, 108, 108);
       font-family: Oswald;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 300;
-      line-height: 37px;
+      line-height: 30px;
       letter-spacing: 0%;
       text-align: left;
     }
