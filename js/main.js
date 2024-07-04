@@ -33,10 +33,8 @@ $('.house-s-slider').slick({
   speed: 1500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  prevArrow: $('.prev5'),
-  nextArrow: $('.next5'),
+  prevArrow: $('.prev2'),
+  nextArrow: $('.next2'),
   responsive: [
     {
       breakpoint: 1300,
@@ -62,10 +60,8 @@ $('.house-e-slider').slick({
   speed: 1500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  prevArrow: $('.prev5'),
-  nextArrow: $('.next5'),
+  prevArrow: $('.prev3'),
+  nextArrow: $('.next3'),
   responsive: [
     {
       breakpoint: 1300,
@@ -91,10 +87,8 @@ $('.house-d-slider').slick({
   speed: 1500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  prevArrow: $('.prev5'),
-  nextArrow: $('.next5'),
+  prevArrow: $('.prev4'),
+  nextArrow: $('.next4'),
   responsive: [
     {
       breakpoint: 1300,
@@ -120,8 +114,6 @@ $('.house-k-slider').slick({
   speed: 1500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
   prevArrow: $('.prev5'),
   nextArrow: $('.next5'),
   responsive: [
@@ -169,6 +161,15 @@ $('.otzyv-s').slick({
     },
   ]
 });
+
+$(".slider-active").slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});
+
 
 $('.house__close--active').click(function () {
   $('.house__slide1--active').hide();
@@ -321,4 +322,82 @@ $('.2П1-124-b').click(function () {
   $('.2П1-124').show();
 });
 
+$('.КД-1-5-b').click(function () {
+  $('.КД-1-5').show();
+});
 
+$('.КД1-1-52-b').click(function () {
+  $('.КД1-1-52').show();
+});
+
+$('.КД1А-79-b').click(function () {
+  $('.КД1А-79').show();
+});
+
+$('.КД2-1А-72-b').click(function () {
+  $('.КД2-1А-72').show();
+});
+
+$('.КД5-1А-85-b').click(function () {
+  $('.КД5-1А-85').show();
+});
+
+$('.КД6-1А-100-b').click(function () {
+  $('.КД6-1А-100').show();
+});
+
+$('.КД7-1А-89-b').click(function () {
+  $('.КД7-1А-89').show();
+});
+
+$('.КД8-1А-98-b').click(function () {
+  $('.КД8-1А-98').show();
+});
+
+$('.КД10-1А-115-b').click(function () {
+  $('.КД10-1А-115').show();
+});
+
+$('.КД13-1А157-b').click(function () {
+  $('.КД13-1А157').show();
+});
+
+$('.КД17-2-100-b').click(function () {
+  $('.КД17-2-100').show();
+});
+
+$('.КД18-1-5А-136-b').click(function () {
+  $('.КД18-1-5А-136').show();
+});
+
+$('.КД20-1-5А-133-b').click(function () {
+  $('.КД20-1-5А-133').show();
+});
+
+$('.КД21-1-5А-127-b').click(function () {
+  $('.КД21-1-5А-127').show();
+});
+
+$('.КД23-1-5А-134-b').click(function () {
+  $('.КД23-1-5А-134').show();
+});
+
+$('.КД25-1-5-201-b').click(function () {
+  $('.КД25-1-5-201').show();
+});
+
+$('.КД26-1-5А-100-b').click(function () {
+  $('.КД26-1-5А-100').show();
+});
+
+$('.КД27-1-5А-107-b').click(function () {
+  $('.КД27-1-5А-107').show();
+});
+
+$('.КД32-1-5А-131-b').click(function () {
+  $('.КД32-1-5А-131').show();
+});
+
+$('.КД35-1-120-b').click(function () {
+  $('.КД35-1-120').show();
+});
