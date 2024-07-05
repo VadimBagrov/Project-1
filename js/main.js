@@ -162,15 +162,6 @@ $('.otzyv-s').slick({
   ]
 });
 
-$(".slider-active").slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-});
-
-
 $('.house__close--active').click(function () {
   $('.house__slide1--active').hide();
 });

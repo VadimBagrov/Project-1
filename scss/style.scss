@@ -621,7 +621,7 @@ section,
     box-sizing: border-box;
     padding: 0 20px;
     background-color: rgba(0, 0, 0, .6);
-    z-index: 9999999;
+    z-index: 500;
     outline: 0;
   }
 
@@ -651,6 +651,17 @@ section,
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
+  }
+
+  &__slide--active4 {
+    img {
+      max-width: 687px;
+    }
+  }
+
+  &__btn-div {
+    display: flex;
+    justify-content: center;
   }
 
   &__btn--active {
@@ -711,6 +722,42 @@ section,
     line-height: 95%;
     letter-spacing: -1%;
     text-align: left;
+  }
+
+  &__slide--div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__slide--title {
+    margin-left: 30px;
+    color: rgb(229, 141, 73);
+    font-family: Oswald;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -1%;
+    text-align: left;
+    height: 70px;
+  }
+
+  &__slide--uv {
+    margin-left: 30px;
+    color: rgb(109, 138, 58);
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  &__slide-img {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   &__img {
@@ -1598,14 +1645,66 @@ section,
   .slick-list .draggable {
     width: 80%;
   }
+
+  &__close--active {
+    cursor: pointer;
+  }
+
+  &__slide--active3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 65px auto;
+    top: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+
+    img {
+      max-width: 700px;
+    }
+
+    .slick-list,
+    .draggable {
+      width: 80%;
+    }
+  }
 }
 
-.content {
-  margin: auto;
-  padding: 30px;
-  width: 100%;
-  max-width: 600px;
-  box-sizing: border-box;
+.img83 {
+  height: 500px;
+  width: 1000px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.imggg {
+  z-index: 100000;
+}
+
+#simplebox img {
+  z-index: 100000;
+  position: relative;
+}
+
+.simple-outer {
+  z-index: 100000;
+}
+
+.simple-inner {
+  z-index: 100000;
+}
+
+.simple-inner {
+  img {
+    z-index: 100000;
+  }
 }
 
 .kviz {
