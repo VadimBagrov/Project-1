@@ -19,7 +19,7 @@ $('.usl-slider').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 721,
       settings: {
         slidesToShow: 1
       }

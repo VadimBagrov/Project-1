@@ -3461,6 +3461,7 @@ section,
 
   .kviz {
     padding-left: 20px;
+    padding-right: 20px;
 
     &__after {
       margin-bottom: 0;
@@ -5046,6 +5047,16 @@ section,
   }
 }
 
+@media screen and (max-width: 955px) {
+  .usl {
+    &__text {
+      width: 324px;
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+}
+
 @media screen and (max-width: 935px) {
   .footer__left {
     margin-right: 110px;
@@ -5186,7 +5197,7 @@ section,
     }
 
     &__sum1,
-    &__su,
+    &__sum2,
     &__sum3 {
       font-size: 28px;
     }
@@ -5342,10 +5353,709 @@ section,
   }
 }
 
+@media screen and (max-width: 850px) {
+  .usl {
+    &__title {
+      font-size: 23px;
+      max-width: 265px;
+    }
+
+    &__text {
+      width: 285px;
+      font-size: 21px;
+      line-height: 27px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .kviz .kviz__1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .kviz .kviz__img-1,
+  .kviz .kviz__img-2,
+  .kviz .kviz__img-3 {
+    width: 365px;
+    height: 256px;
+  }
+
+  .kviz {
+    width: 740px;
+
+    &__bottob-bl {
+      margin-bottom: 10px;
+    }
+
+    &__1 {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 795px) {
+  .usl {
+    &__title {
+      line-height: 27px;
+    }
+
+    &__text {
+      width: 272px;
+    }
+
+    &__fl {
+      height: 190px;
+    }
+  }
+
+  .kviz .kviz__img-1,
+  .kviz .kviz__img-2,
+  .kviz .kviz__img-3 {
+    width: 335px;
+    height: 243px;
+  }
+
+  .kviz {
+    width: 680px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    width: 720px;
+  }
+
+  .header {
+    &__logo {
+      width: 117px;
+      height: 35px;
+    }
+
+    &__a {
+      font-size: 20px;
+    }
+  }
+
+  .usl {
+    &__com-title {
+      font-size: 25px;
+      line-height: 25px;
+      height: 30px;
+    }
+
+    &__com-stroi {
+      font-size: 28px;
+      max-width: 465px;
+    }
+
+    &__com-dol {
+      line-height: 30px;
+      height: 35px;
+    }
+
+    &__com-text {
+      font-size: 19px;
+      max-width: 469px;
+      line-height: 115%;
+    }
+  }
+
+  .house {
+    &__p {
+      font-size: 31px;
+    }
+
+    &__text {
+      font-size: 26px;
+    }
+
+    &__skandi-t {
+      font-size: 45px;
+    }
+  }
+
+  .kviz .kviz__img-1,
+  .kviz .kviz__img-2,
+  .kviz .kviz__img-3 {
+    width: 330px;
+    height: 233px;
+  }
+
+  .kviz {
+    width: 670px;
+
+    &__title {
+      width: 665px;
+      font-size: 47px;
+    }
+  }
+
+  .preim {
+    height: 805px;
+
+    &__text {
+      font-size: 47px;
+      line-height: 55px;
+    }
+  }
+
+  .etap {
+    &__text {
+      max-width: 610px;
+    }
+
+    &__title {
+      max-width: 600px;
+    }
+  }
+
+  .svyaz {
+    &__inp-name {
+      width: 230px;
+    }
+
+    &__inp-phone {
+      width: 230px;
+    }
+
+    &__inp-email {
+      width: 230px;
+    }
+
+    &__inp-text {
+      width: 720px;
+    }
+  }
+
+  .footer {
+    &__left {
+      margin-right: 30px;
+    }
+  }
+}
+
 @media screen and (max-width: 750px) {
   .etap {
     &__img {
       width: 90%;
+    }
+  }
+
+  .usl {
+    &__text {
+      width: 264px;
+      font-size: 20px;
+    }
+
+    &__img {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 650px;
+  }
+
+  .usl .slider {
+    width: 80%;
+  }
+
+  .header {
+    height: 65px;
+
+    &__links {
+      display: none;
+    }
+
+    &__dv {
+      display: flex;
+      align-items: center;
+    }
+
+    &__phone {
+      font-size: 25px;
+      margin-right: 10px;
+    }
+
+    &__logo {
+      width: 167px;
+      height: 50px;
+    }
+  }
+
+  .main {
+    height: 370px;
+
+    &__title {
+      padding-top: 10px;
+    }
+  }
+
+  .usl {
+    padding-top: 5px;
+
+    &__img {
+      height: 300px;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+      font-size: 29px;
+      max-width: 480px;
+      width: 480px;
+      line-height: 31px;
+    }
+
+    &__text {
+      font-size: 24px;
+      max-width: 480px;
+      width: 480px;
+    }
+
+    &__fl {
+      height: 160px;
+    }
+
+    &__div {
+      margin-bottom: 5px;
+      margin-left: 5px;
+    }
+
+    &__com-img {
+      width: 130px;
+      height: 130px;
+    }
+
+  }
+
+  .house {
+
+    &__stoim1,
+    &__stoim2,
+    &__stoim3 {
+      margin-left: 10px;
+      font-size: 27px;
+    }
+  }
+
+  .house .slider {
+    width: 80%;
+
+  }
+
+  .kviz .kviz__img-1,
+  .kviz .kviz__img-2,
+  .kviz .kviz__img-3 {
+    width: 295px;
+    height: 209px;
+  }
+
+  .kviz {
+    width: 600px;
+
+    &__title {
+      width: 593px;
+      font-size: 42px;
+    }
+  }
+
+  .preim {
+    &__title {
+      margin-bottom: 5px;
+      font-size: 32px;
+      line-height: 34px;
+    }
+
+    &__text {
+      font-size: 42px;
+    }
+
+    &__cont {
+      line-height: 31px;
+      font-size: 30px;
+      max-width: 61.7%;
+    }
+  }
+
+  .etap {
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .svyaz {
+    &__inp-name {
+      width: 207px;
+    }
+
+    &__inp-phone {
+      width: 207px;
+    }
+
+    &__inp-email {
+      width: 207px;
+    }
+
+    &__inp-text {
+      width: 650px;
+    }
+
+    &__politika {
+      font-size: 18px;
+    }
+  }
+
+  .footer {
+    padding-top: 15px;
+
+    &__left {
+      margin-right: 40px;
+    }
+
+    &__logo {
+      width: 400px;
+      height: 55px;
+    }
+
+    &__logo-t {
+      font-size: 25px;
+    }
+
+    &__p {
+      font-size: 28px;
+    }
+
+    &__city {
+      font-size: 27px;
+    }
+
+    &__time {
+      font-size: 27px;
+    }
+
+    &__email {
+      font-size: 27px;
+    }
+  }
+
+  .header {
+    &__mobile {
+      display: flex;
+    }
+
+    &__m-btn {
+      display: flex;
+    }
+
+    &__phone-mb {
+      display: none;
+      margin-right: 15px;
+      color: rgb(0, 0, 0);
+      font-family: Oswald;
+      font-size: 23px;
+      font-weight: 300;
+      line-height: 25px;
+      letter-spacing: 0%;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    &__m-btn {
+      background-image: url('/app/images/dist/mob-btn.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 38px;
+      height: 27px;
+    }
+
+    &__m-btnn {
+      background-image: url('/app/images/dist/close-mb.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 35px;
+      height: 35px;
+      z-index: 100000;
+    }
+
+    &__soc {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    width: 600px;
+  }
+
+  .usl {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__text {
+      width: 430px;
+    }
+
+    &__com-img {
+      display: none;
+    }
+
+    &__com-right {
+      padding-right: 0;
+      width: 100%;
+    }
+
+    &__com-title {
+      margin-bottom: 10px;
+      font-size: 35px;
+    }
+
+    &__com-dol {
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    &__com-stroi {
+      margin-right: 20px;
+      width: 93%;
+      max-width: 93%;
+    }
+
+    &__com-text {
+      width: 93%;
+      max-width: 93%;
+      font-size: 20px;
+    }
+  }
+
+  .house__stoim1,
+  .house__stoim2,
+  .house__stoim3 {
+    margin-left: 5px;
+    font-size: 23px;
+  }
+
+  .house__sum1,
+  .house__sum2,
+  .house__sum3 {
+    font-size: 25px;
+  }
+
+  .house {
+    &__zag {
+      font-size: 37px;
+    }
+
+    &__preim1 {
+      font-size: 28px;
+    }
+
+    &__preim5 {
+      font-size: 28px;
+    }
+
+    &__preim2 {
+      font-size: 28px;
+    }
+
+    &__preim3 {
+      font-size: 28px;
+    }
+
+    &__preim4 {
+      font-size: 28px;
+    }
+  }
+
+  .preim {
+    height: 870px;
+
+    &__zag {
+      max-width: 59%;
+      line-height: 35px;
+    }
+  }
+
+  .etap {
+    &__title {
+      font-size: 33px;
+    }
+
+    &__text {
+      font-size: 32px;
+    }
+  }
+
+  .svyaz {
+    &__inp-name {
+      width: 600px;
+      height: 60px;
+    }
+
+    &__inp-phone {
+      width: 600px;
+      height: 60px;
+    }
+
+    &__inp-email {
+      width: 600px;
+      height: 60px;
+    }
+
+    &__inp-text {
+      width: 600px;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .usl {
+    &__title {
+      width: 420px;
+    }
+
+    &__text {
+      width: 400px;
+      font-size: 23px;
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+
+  .header {
+    &__soc-link {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .container {
+    width: 550px;
+  }
+
+  .kviz {
+    width: 500px;
+
+    &__t-text {
+      font-size: 35px;
+      line-height: 50px;
+      height: 55px;
+    }
+
+    &__title {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 5px;
+    }
+
+    &__etaj {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 55px;
+    }
+
+    &__top-r {
+      font-size: 32px;
+      height: 60px;
+      margin-bottom: 0;
+      line-height: 55px;
+    }
+
+    &__nazad {
+      width: 220px;
+      height: 65px;
+    }
+
+    &__dalee {
+      width: 220px;
+      height: 65px;
+    }
+  }
+
+  .kviz .kviz__img-1,
+  .kviz .kviz__img-2,
+  .kviz .kviz__img-3 {
+    width: 365px;
+    height: 238px;
+  }
+
+  .house__stoim1,
+  .house__stoim2,
+  .house__stoim3 {
+    margin-left: 5px;
+    font-size: 21px;
+  }
+
+  .svyaz {
+    &__inp-name {
+      width: 550px;
+      height: 60px;
+    }
+
+    &__inp-phone {
+      width: 550px;
+      height: 60px;
+    }
+
+    &__inp-email {
+      width: 550px;
+      height: 60px;
+    }
+
+    &__inp-text {
+      width: 550px;
+    }
+
+    &__politika {
+      font-size: 16px;
+    }
+  }
+
+  .usl {
+    &__title {
+      width: 400px;
+      font-size: 24px;
+    }
+
+    &__com-title {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    &__com-dol {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+
+    &__com-stroi {
+      font-size: 25px;
+    }
+
+    &__com-text {
+      font-size: 22px;
+    }
+  }
+
+  .preim {
+    &__title {
+      line-height: 32px;
+    }
+
+    &__text {
+      line-height: 45px;
+    }
+
+    &__cont {
+      max-width: 53.7%;
     }
   }
 }
