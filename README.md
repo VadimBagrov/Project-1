@@ -1,4 +1,3 @@
-# MotoristDVS
-Working project
-1. Site
-2. Calculate
+# Working project:
+1. Site.
+2. Calculate.
