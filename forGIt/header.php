@@ -13,7 +13,7 @@
 <body>
   <div class="dark" id="dark"></div>
   <header class="header container">
-    <a class="header__logo-a" href="#">
+    <a class="header__logo-a" href="http://zagorodstroy.pro/">
       <img class="header__logo" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/Zagorodstroy-1.png" alt="logo">
     </a>
     <ul class="header__links">
@@ -36,9 +36,9 @@
     <div class="header__dv">
       <a href="<?php the_field('url-phone');?>" class="header__phone"><?php the_field('phone');?></a>
       <div class="header__soc">
-        <a class="header__soc-a" href="#">
+        <a class="header__soc-a" href="https://wa.me/79259187555">
           <img class="header__soc-link" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/whatsapp.svg" alt="whatsapp"></a>
-        <a class="header__soc-a" href="#">
+        <a class="header__soc-a" href="mailto:info@zagorodstroy.pro">
           <img class="header__soc-link" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/email.svg" alt="email"></a>
       </div>
       <div class="header__mobile">

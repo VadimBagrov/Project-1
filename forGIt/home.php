@@ -57,6 +57,7 @@ Template Name: home
       <img class="menu__logo" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/logo-menu.png" alt="logo">
     </div>
   </section>
+
   <section class="usl" id="usl">
     <div class="usl__main ">
       <h3 class="usl__tit container">Наши услуги:</h3>
@@ -128,208 +129,14 @@ Template Name: home
 
     <div class="house__skandi">
       <h6 class="house__skandi-t container">ДОМА СКАНДИ</h6>
-      <div class="house__slider">
-        <img class="usl__left prev2" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left.png" alt="left">
-        <div class="house__sliders slider house-s-slider">
-          <div class="house__slide house__slide1 1A1-71-b">
-            <div class="house__img house__img-1A1-71"></div>
-            <h5 class="house__zag">1A1-71</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+      
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide2 1A2-81-b">
-            <div class="house__img house__img-1A2-81"></div>
-            <h5 class="house__zag">1A2-81</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3 1A3-88-b">
-            <div class="house__img house__img-1A3-88"></div>
-            <h5 class="house__zag">1A3-88</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1A3-95-b">
-            <div class="house__img house__img-1A3-95"></div>
-            <h5 class="house__zag">1A3-95</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1A4-107-b">
-            <div class="house__img house__img-1A4-107"></div>
-            <h5 class="house__zag">1A4-107</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1A5-125-b">
-            <div class="house__img house__img-1A5-125"></div>
-            <h5 class="house__zag">1A5-125</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1A5-126-b">
-            <div class="house__img house__img-1A5-126"></div>
-            <h5 class="house__zag">1A5-126</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-        </div>
-        <img class="usl__right next2" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right.png" alt="right">
-      </div>
-    </div>
-
-    <div class="house__euro">
-      <h6 class="house__euro-t container">ДОМА ЕВРО</h6>
-      <div class="house__slider">
-        <img class="usl__left prev3" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left.png" alt="left">
-
-        <div class="house__sliders slider house-e-slider">
-
-        <?php
+      <?php
         global $post;
 
         $myposts1 = get_posts([
-          'numberposts' => -1,
-          'category'    => 4 // ID категории(рубрики)
+          'numberposts' => 1,
+          'category'    => 11 // ID категории(рубрики)
         ]);
 
         if( $myposts1 ){
@@ -337,7 +144,29 @@ Template Name: home
             setup_postdata( $post );
             ?>
 
-          <div class="house__slide house__slide2">
+          <?php the_content(); ?>
+
+
+          
+
+            <?php } }  wp_reset_postdata(); // Сбрасываем $post ?>
+    </div>
+
+    <div class="house__euro">
+      <h6 class="house__euro-t container">ДОМА ЕВРО</h6>
+      <?php
+        global $post;
+
+        $myposts1 = get_posts([
+          'numberposts' => 1,
+          'category'    => 12 // ID категории(рубрики)
+        ]);
+
+        if( $myposts1 ){
+          foreach( $myposts1 as $post ){
+            setup_postdata( $post );
+            ?>
+
           <?php the_content(); ?>
 
 
@@ -345,1082 +174,58 @@ Template Name: home
 
             <?php } }  wp_reset_postdata(); // Сбрасываем $post ?>
 
-          <!-- <div class="house__slide house__slide1 1B1-83-b">
-            <div class="house__img house__img-1B1-83"></div>
-            <h5 class="house__zag">1B1-83</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide2 1B2-91-b">
-            <div class="house__img house__img-1B2-91"></div>
-            <h5 class="house__zag">1B2-91</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide3 1B3-101-b">
-            <div class="house__img house__img-1B3-101"></div>
-            <h5 class="house__zag">1B3-101</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1B4-105-b">
-            <div class="house__img house__img-1B4-105"></div>
-            <h5 class="house__zag">1B4-105</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1B5-112-b">
-            <div class="house__img house__img-1B5-112"></div>
-            <h5 class="house__zag">1B5-112</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1B6-120-b">
-            <div class="house__img house__img-1B6-120"></div>
-            <h5 class="house__zag">1B6-120</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1B7-125-b">
-            <div class="house__img house__img-1B7-125"></div>
-            <h5 class="house__zag">1B7-125</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1B8-128-b">
-            <div class="house__img house__img-1B8-128"></div>
-            <h5 class="house__zag">1B8-128</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1П1-103-b">
-            <div class="house__img house__img-1П1-103"></div>
-            <h5 class="house__zag">1П1-103</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 1П2-113-b">
-            <div class="house__img house__img-1П2-113"></div>
-            <h5 class="house__zag">1П2-113</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div> -->
-
-        </div>
-        <img class="usl__right next3" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right.png" alt="right">
-      </div>
-
     </div>
 
     <div class="house__dvuh">
-      <h6 class="house__dvuh-t container">
-        <div class="house__euro">
           <h6 class="house__euro-t container">ДВУХЭТАЖНЫЕ ДОМА</h6>
-        </div>
-      </h6>
-      <div class="house__slider">
-        <img class="usl__left prev4" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left.png" alt="left">
+          <?php
+        global $post;
 
-        <div class="house__sliders slider house-d-slider">
-          <div class="house__slide house__slide1 2A1-116-b">
-            <div class="house__img house__img-2A1-116"></div>
-            <h5 class="house__zag">2A1-116</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+        $myposts1 = get_posts([
+          'numberposts' => 1,
+          'category'    => 13 // ID категории(рубрики)
+        ]);
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
+        if( $myposts1 ){
+          foreach( $myposts1 as $post ){
+            setup_postdata( $post );
+            ?>
 
-          <div class="house__slide house__slide2 2A2-121-b">
-            <div class="house__img house__img-2A2-121"></div>
-            <h5 class="house__zag">2A2-121</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+          <?php the_content(); ?>
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
 
-          <div class="house__slide house__slide3 2B1-122-b">
-            <div class="house__img house__img-2B1-122"></div>
-            <h5 class="house__zag">2B1-122</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+          
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2B2-137-b">
-            <div class="house__img house__img-2B2-137"></div>
-            <h5 class="house__zag">2B2-137</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2B3-134-b">
-            <div class="house__img house__img-2B3-134"></div>
-            <h5 class="house__zag">2B3-134</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2B3-146-b">
-            <div class="house__img house__img-2B3-146"></div>
-            <h5 class="house__zag">2B3-146</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2B4-160-b">
-            <div class="house__img house__img-2B4-160"></div>
-            <h5 class="house__zag">2B4-160</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2B6-142-b">
-            <div class="house__img house__img-2B6-142"></div>
-            <h5 class="house__zag">2B6-142</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 2П1-124-b">
-            <div class="house__img house__img-2П1-124"></div>
-            <h5 class="house__zag">2П1-124</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-        </div>
-        <img class="usl__right next4" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right.png" alt="right">
-      </div>
+            <?php } }  wp_reset_postdata(); // Сбрасываем $post ?>
     </div>
 
     <div class="house__karkas">
-      <h6 class="house__karkas-t container">
-        <div class="house__euro">
+
           <h6 class="house__euro-t container">КАРКАСНЫЕ ДОМА</h6>
-        </div>
-      </h6>
-      <div class="house__slider">
-        <img class="usl__left prev5" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left.png" alt="left">
 
-        <div class="house__sliders slider house-k-slider">
-          <div class="house__slide house__slide1 КД-1-5-b">
-            <div class="house__img house__img-КД-1-5"></div>
-            <h5 class="house__zag">КД.1.5.А-121</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 10 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 2</li>
-              <li class="house__preim3">Количество санузлов: 1</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 60 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+          <?php
+        global $post;
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
+        $myposts1 = get_posts([
+          'numberposts' => 1,
+          'category'    => 14 // ID категории(рубрики)
+        ]);
 
-          <div class="house__slide house__slide2 КД1-1-52-b">
-            <div class="house__img house__img-КД-1-52"></div>
-            <h5 class="house__zag">КД1.1-52</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 15 x 7,5</li>
-              <li class="house__preim2"> Количество комнат: 3</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 70 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
+        if( $myposts1 ){
+          foreach( $myposts1 as $post ){
+            setup_postdata( $post );
+            ?>
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
+          <?php the_content(); ?>
 
-          <div class="house__slide house__slide3 КД1А-79-b">
-            <div class="house__img house__img-КД1А-79"></div>
-            <h5 class="house__zag">КД1А-79</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 20 x 10,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 90 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
 
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
+          
 
-          <div class="house__slide house__slide4 КД2-1А-72-b">
-            <div class="house__img house__img-КД2-1А-72"></div>
-            <h5 class="house__zag">КД2.1А-72</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД5-1А-85-b">
-            <div class="house__img house__img-КД5-1А-85"></div>
-            <h5 class="house__zag">КД5.1А-85</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД6-1А-100-b">
-            <div class="house__img house__img-КД6-1А-100"></div>
-            <h5 class="house__zag">КД6.1А-100</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД7-1А-89-b">
-            <div class="house__img house__img-КД7-1А-89"></div>
-            <h5 class="house__zag">КД7.1А-89</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД8-1А-98-b">
-            <div class="house__img house__img-КД8-1А-98"></div>
-            <h5 class="house__zag">КД8.1А-98</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД10-1А-115-b">
-            <div class="house__img house__img-КД10-1А-115"></div>
-            <h5 class="house__zag">КД10.1А-115</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД13-1А157-b">
-            <div class="house__img house__img-КД13-1А157"></div>
-            <h5 class="house__zag">КД13.1А157</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД17-2-100-b">
-            <div class="house__img house__img-КД17-2-100"></div>
-            <h5 class="house__zag">КД17.2-100</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД18-1-5А-136-b">
-            <div class="house__img house__img-КД18-5A-136"></div>
-            <h5 class="house__zag">КД18.1.5А-136</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД20-1-5А-133-b">
-            <div class="house__img house__img-КД20-15A-133"></div>
-            <h5 class="house__zag">КД20.1.5А-133</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД21-1-5А-127-b">
-            <div class="house__img house__img-КД21-15A-127"></div>
-            <h5 class="house__zag">КД21.1.5А-127</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД23-1-5А-134-b">
-            <div class="house__img house__img-КД23-5A-134"></div>
-            <h5 class="house__zag">КД23.1.5А-134</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД25-1-5-201-b">
-            <div class="house__img house__img-КД25-5-201"></div>
-            <h5 class="house__zag">КД25.1.5-201</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД26-1-5А-100-b">
-            <div class="house__img house__img-КД26-5-100"></div>
-            <h5 class="house__zag">КД26.1.5А-100</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД27-1-5А-107-b">
-            <div class="house__img house__img-КД27-5-107"></div>
-            <h5 class="house__zag">КД27.1.5А-107</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД32-1-5А-131-b">
-            <div class="house__img house__img-КД32-5-131"></div>
-            <h5 class="house__zag">КД32.1.5А-131</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД35-1-120-b">
-            <div class="house__img house__img-КД35-1-120"></div>
-            <h5 class="house__zag">КД35.1-120</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-
-          <div class="house__slide house__slide4 КД36-1-5-77-b">
-            <div class="house__img house__img-КД36-1-77"></div>
-            <h5 class="house__zag">КД36.1.5-77</h5>
-            <ul class="house__ul">
-              <li class="house__preim1">Габариты дома: 30 x 15,5</li>
-              <li class="house__preim2"> Количество комнат: 4</li>
-              <li class="house__preim3">Количество санузлов: 2</li>
-              <li class="house__preim4">Площадь</li>
-              <li class="house__preim5">Сроки строительства: от 100 дней</li>
-            </ul>
-            <div class="house__div">
-              <p class="house__stoim1">Стоимость коробки от</p>
-              <p class="house__sum1">1 000 000 руб</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim2">Стоимость теплого контура от</p>
-              <p class="house__sum2">*Узнать стоимость*</p>
-            </div>
-            <div class="house__div">
-              <p class="house__stoim3">Стоимость черновой отделки от</p>
-              <p class="house__sum3">*Узнать стоимость*</p>
-            </div>
-
-            <button class="house__btn">Узнать подробнее</button>
-          </div>
-        </div>
-        <img class="usl__right next5" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right.png" alt="right">
-      </div>
+            <?php } }  wp_reset_postdata(); // Сбрасываем $post ?>
     </div>
   </section>
 
-  <section class="kviz container">
+  <section class="kviz container" id="kviz">
     <div class="kviz__after">
       <div class="kviz__top">
         <h6 class="kviz__t-text">Не нашли нужный проект?</h6>
@@ -1430,26 +235,12 @@ Template Name: home
 
       </div>
     </div>
-    <div class="kviz__bottob-bl">
-      <p class="kviz__etaj">Выберите количество этажей</p>
-      <p class="kviz__top-r">1/5</p>
-    </div>
-    <div class="kviz__central">
-      <div class="kviz__1">
-        <img class="kviz__img-1" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/et-1.png" alt="1 этажа">
-        <p class="kviz__text-1">1 этажа</p>
-      </div>
-      <div class="kviz__2">
-        <img class="kviz__img-2" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/et-2.png" alt="2 этажа">
-        <p class="kviz__text-2">2 этажа</p>
-      </div>
-      <div class="kviz__3">
-        <img class="kviz__img-3" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/et-3.png" alt="3 этажа и более">
-        <p class="kviz__text-3">3 этажа и более</p>
-      </div>
-    </div>
 
-    <div class="kviz__bottom">
+      <?php echo do_shortcode('[contact-form-7 id="5a5b926" title="Квизы"]')?>
+
+
+
+    <!-- <div class="kviz__bottom">
       <button class="kviz__nazad">
         <img class="kviz__nazad-img" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left-ar.png" alt="назад">
         <p class="kviz__nazad-p">Назад</p>
@@ -1458,7 +249,7 @@ Template Name: home
         <p class="kviz__dalee-p">Далее</p>
         <img class="kviz__dalee-img" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right-ar.png" alt="далее">
       </button>
-    </div>
+    </div> -->
   </section>
 
   <section class="preim" id="preim">
@@ -1593,6 +384,19 @@ Template Name: home
     </div>
   </section>
 
+  <section class="video container">
+    <h3 class="video__h gallery__title">Наши видео</h3>
+    <p class="video__text gallery__text">Больше наших видео на нашем ютуб канале <a class="video__a" href="https://www.youtube.com/@ZaGorodStroy">ZaGorodStroy</a></p>
+    <div class="video__main">
+      <iframe width="600" height="315"
+      src="https://www.youtube.com/embed/FemajEv0wHU">
+      </iframe>
+      <iframe width="600" height="315"
+      src="https://www.youtube.com/embed/U20CW4Pn7Zs">
+      </iframe>
+    </div>
+  </section>
+
   <section class="gallery" id="gallery">
     <h6 class="gallery__title container">Галерея работ</h6>
     <p class="gallery__text container">Построили более <span class="colortext">150 домов</span> за 10 лет работы.
@@ -1632,11 +436,11 @@ Template Name: home
       </div>
     </div>
 
-      <?php echo do_shortcode('[contact-form-7 id="5a5b926" title="1 etap"]')?>
+      <?php echo do_shortcode('[contact-form-7 id="5a5b926" title="Квизы"]')?>
 
 
 
-    <div class="kviz__bottom">
+    <!-- <div class="kviz__bottom">
       <button class="kviz__nazad">
         <img class="kviz__nazad-img" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/left-ar.png" alt="назад">
         <p class="kviz__nazad-p">Назад</p>
@@ -1645,7 +449,7 @@ Template Name: home
         <p class="kviz__dalee-p">Далее</p>
         <img class="kviz__dalee-img" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/right-ar.png" alt="далее">
       </button>
-    </div>
+    </div> -->
   </section>
 
   <section class="otzyv">
@@ -1712,18 +516,38 @@ Template Name: home
       <p class="svyaz__city"><?php the_field('addres');?></p>
       <a href='#' class='svyaz__em'><?php the_field('email');?></a>
       <div class="svyaz__soc">
-        <a href=""><img class="svyaz__wh" src="http://localhost:8888/wp-content/uploads/2024/07/wha.png" alt="whatsapp"></a>
-        <a href=""><img class="svyaz__wh" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/email.png" alt="email"></a>
+        <a href="https://wa.me/79259187555"><img class="svyaz__wh" src="http://localhost:8888/wp-content/uploads/2024/07/wha.png" alt="whatsapp"></a>
+        <a href="mailto:info@zagorodstroy.pro"><img class="svyaz__wh" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/email.png" alt="email"></a>
       </div>
     </div>
 
     <div class="svyaz__right">
       <p class="svyaz__ras">Расскажем все подробности и ответим на вопросы о вашем будущем доме!</p>
-      <form action="">
+      <form>
       <?php echo do_shortcode('[contact-form-7 id="0535e03" title="Контактная форма"]')?>
-        <a href="politik.html" class="svyaz__politika">Отправляя данную форму вы соглашаетесь с политикой
-          конфиденциальности</a>
       </form>
+    </div>
+  </section>
+
+  <section class="right__menu ">
+    <div class="right__otk"><img class="right__otk-img" id="right--main" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/otk-menu.svg" alt="Открыть меню"></div>
+
+    <div class="right__active">
+      <a href="#contact">
+      <img class="right__active-im right__active-im1" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/otp-btn-r-1.png" alt="Отправить свой проект">
+          </a>
+      <a href="#house-block">
+      <img class="right__active-im right__active-im2" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/proekt-btn-r-1.png" alt="Подобрать проект">
+          </a>
+      <a href="mailto:info@zagorodstroy.pro">
+      <img class="right__active-im right__active-im3" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/email-btn-r-1.png" alt="Написать на почту">
+          </a>
+      <a href="https://wa.me/79259187555">
+      <img class="right__active-im right__active-im4" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/what-brn-r.png" alt="Связаться в WhatsApp">
+          </a>
+      <a href="#">
+      <img class="right__active-img right__active-im5" id="right--close" src="http://zagorodstroy.pro/wp-content/uploads/2024/07/zac-menu.svg" alt="Закрыть меню">
+          </a>
     </div>
   </section>
 </main>

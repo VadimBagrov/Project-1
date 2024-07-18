@@ -17,11 +17,11 @@
       </div>
       <div class="footer__links">
         <ul class="footer__ul">
-          <li class="footer__li"><a href="#">Услуги</a></li>
-          <li class="footer__li"><a href="#">Наши проекты</a></li>
-          <li class="footer__li"><a href="#">О нас</a></li>
-          <li class="footer__li"><a href="#">Галерея</a></li>
-          <li class="footer__li"><a href="#">Контакты</a></li>
+          <li class="footer__li"><a href="#usl">Услуги</a></li>
+          <li class="footer__li"><a href="#house-block">Наши проекты</a></li>
+          <li class="footer__li"><a href="#preim">О нас</a></li>
+          <li class="footer__li"><a href="#gallery">Галерея</a></li>
+          <li class="footer__li"><a href="#contact">Контакты</a></li>
         </ul>
       </div>
       <div class="footer__d">
