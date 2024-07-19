@@ -25,7 +25,7 @@ section {
 
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 .svyaz__inp-text::-moz-placeholder {
@@ -43,6 +43,117 @@ html {
   transform: translateY(-55.5px)
 }
 
+.svyaz__inp-email::placeholder {
+  color: #6a6a6a;
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left
+}
+
+.wpcf7__file,
+.svyaz__file {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+
+.usl__tit {
+  margin-bottom: 30px;
+}
+
+.wpcf7 input[type="file"] {
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  padding-left: 0;
+}
+
+.svyaz__file-t {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #373737;
+  font-family: Oswald;
+  font-size: 24px;
+}
+
+.right__otk {
+  cursor: pointer;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+
+.right__active-im1 {
+  width: 327px;
+}
+
+.right__active-im2 {
+  width: 290px;
+}
+
+.right__active-im3 {
+  width: 290px;
+}
+
+.right__active-im4 {
+  width: 322px;
+}
+
+.right__active-im5 {
+  width: 122px;
+  height: 122px;
+}
+
+.right__otk-img {
+  width: 122px;
+  height: 122px;
+}
+
+.video__h {
+  margin-bottom: 0px;
+  color: #6d8a3a !important;
+}
+
+.video__main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.video__a {
+  margin-bottom: 30px;
+  color: #e58d49;
+}
+
+.house__slid {
+  border-radius: 15px 15px 15px 15px;
+  background: #f5fafe;
+  cursor: pointer;
+}
+
+.house__slide {
+  cursor: default !important;
+  border-radius: 15px 15px 15px 15px;
+  background: #fff !important;
+}
+
+
+.usl__text {
+  max-width: 430px;
+}
+
+.usl__com-right {
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
 .svyaz__inp-text:focus::placeholder {
   line-height: 20px;
   transform: translateY(-55.5px)
@@ -58,7 +169,7 @@ html {
 }
 
 .header {
-  padding-top: 15px;
+  padding-top: 0px;
   margin-bottom: 25px;
   display: flex;
   align-items: center;
@@ -80,7 +191,7 @@ html {
 .header__a {
   color: #000;
   font-family: Oswald;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 47px;
   letter-spacing: 0%;
@@ -141,7 +252,7 @@ html {
   position: absolute;
   z-index: 15;
   width: 100%;
-  height: 418%;
+  height: 2094%;
   background: #000;
   opacity: .3
 }
@@ -160,7 +271,7 @@ html {
   flex-direction: column;
   align-items: flex-end;
   position: fixed;
-  top: 5%;
+  top: 0%;
   right: 0%;
   width: 224px;
   height: 445px;
@@ -233,7 +344,7 @@ section,
   max-width: 1145px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 95px;
+  font-size: 75px;
   font-weight: 600;
   line-height: 123px;
   letter-spacing: 0%;
@@ -254,9 +365,9 @@ section,
 .main__text {
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 400;
-  line-height: 131.63%;
+  line-height: 146%;
   letter-spacing: 0%;
   text-align: left;
   -webkit-text-stroke: 1px #444
@@ -265,9 +376,9 @@ section,
 .main__text-b {
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 400;
-  line-height: 96px;
+  line-height: 80px;
   letter-spacing: 0%;
   text-align: left;
   -webkit-text-stroke: 1px #444
@@ -277,9 +388,9 @@ section,
   margin-bottom: 210px;
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 400;
-  line-height: 96px;
+  line-height: 80px;
   letter-spacing: 0%;
   text-align: left;
   -webkit-text-stroke: 1px #444
@@ -351,7 +462,7 @@ section,
 
 .slick-slide img {
   display: block;
-  border-radius: 10px 10px 0 0
+  border-radius: 10px 10px 0 0;
 }
 
 .slick-dots li button:before {
@@ -363,8 +474,8 @@ section,
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 0px;
+  margin-bottom: 30px;
   background: #e6f0ff
 }
 
@@ -478,7 +589,7 @@ section,
   margin-bottom: 20px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 95px;
   letter-spacing: 0%;
@@ -729,7 +840,7 @@ section,
   margin-bottom: 30px;
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 95%;
   letter-spacing: -1%;
@@ -1471,7 +1582,7 @@ section,
   margin-bottom: 30px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -1%;
@@ -1482,7 +1593,7 @@ section,
   margin-bottom: 30px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -1%;
@@ -1497,7 +1608,7 @@ section,
   margin-bottom: 30px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -1%;
@@ -1512,7 +1623,7 @@ section,
   margin-bottom: 30px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -1%;
@@ -1985,11 +2096,17 @@ section,
 .kviz__title {
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
-  line-height: 74px;
+  line-height: 60px;
   letter-spacing: 0%;
   text-align: left
+}
+
+.fieldset-cf7mls-wrapper .cf7mls_current_fs {
+  opacity: 1;
+  visibility: visible;
+  padding-left: 0px !important;
 }
 
 .kviz__etaj {
@@ -2007,7 +2124,7 @@ section,
   font-family: Oswald;
   font-size: 65px;
   font-weight: 500;
-  line-height: 96px;
+  line-height: 65px;
   letter-spacing: 0%;
   text-align: left
 }
@@ -2174,7 +2291,7 @@ section,
   height: 80px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 96px;
   letter-spacing: 0%;
@@ -2184,7 +2301,7 @@ section,
 .preim {
   padding-top: 50px;
   margin-bottom: 50px;
-  height: 860px;
+  height: 810px;
   background-image: url(http://zagorodstroy.pro/wp-content/uploads/2024/07/bg-preim.png);
   background-repeat: no-repeat
 }
@@ -2193,9 +2310,9 @@ section,
   margin-bottom: 5px;
   color: #555;
   font-family: Oswald;
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 400;
-  line-height: 65px;
+  line-height: 50px;
   letter-spacing: 0%;
   text-align: left
 }
@@ -2204,9 +2321,9 @@ section,
   margin-bottom: 40px;
   color: #6d8a3a;
   font-family: Oswald;
-  font-size: 75px;
+  font-size: 55px;
   font-weight: 400;
-  line-height: 111px;
+  line-height: 75px;
   letter-spacing: 0%;
   text-align: left
 }
@@ -2216,7 +2333,7 @@ section,
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center
+  align-items: flex-start;
 }
 
 .preim__block {
@@ -2242,7 +2359,7 @@ section,
 }
 
 .preim__cont {
-  width: 742px;
+  width: 690px;
   color: #6a6a6a;
   font-family: Oswald;
   font-size: 28px;
@@ -2289,9 +2406,9 @@ section,
 .gallery__title {
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 500;
-  line-height: 95px;
+  line-height: 70px;
   letter-spacing: 0%;
   text-align: left
 }
@@ -2304,6 +2421,10 @@ section,
   line-height: 44px;
   letter-spacing: 0%;
   text-align: left
+}
+
+.video {
+  margin-right: 30px;
 }
 
 .gallery__sldiers {
@@ -2402,14 +2523,14 @@ section,
 }
 
 .otzyv__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #e58d49;
   font-family: Oswald;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
-  line-height: 95px;
+  line-height: 40px;
   letter-spacing: 0%;
-  text-align: left
+  text-align: left;
 }
 
 .otzyv__name {
@@ -2479,18 +2600,18 @@ section,
 .svyaz__title {
   color: #e58d49;
   font-family: Oswald;
-  font-size: 75px;
+  font-size: 50px;
   font-weight: 400;
-  line-height: 111px;
+  line-height: 80px;
   letter-spacing: 0%;
   text-align: left
 }
 
 .svyaz__text {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #000;
   font-family: Oswald;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 53px;
   letter-spacing: 0%;
@@ -2547,7 +2668,7 @@ section,
   margin-bottom: 30px;
   color: #4a4a4a;
   font-family: Oswald;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 400;
   line-height: 59px;
   letter-spacing: 0%;
@@ -3040,86 +3161,123 @@ section,
 }
 
 @media screen and (max-width: 1680px) {
+  .usl__text {
+    max-width: 382px;
+  }
+
   .house__slide-img {
     justify-content: space-around;
-    max-width: 95%
+    max-width: 95%;
   }
 
   .house__slide--active3 img {
-    max-width: 650px
+    max-width: 650px;
   }
 
   .img83 {
     margin-right: 0;
     height: 100%;
-    max-width: 500px
+    max-width: 500px;
   }
 
   body {
-    overflow-x: hidden
+    overflow-x: hidden;
   }
 
   .container {
-    width: 1400px
+    width: 1400px;
   }
 
   .header {
-    margin-right: 65px
+    padding-right: 0px;
   }
 
   .header__link {
-    margin-right: 40px
+    margin-right: 40px;
   }
 
   .header__text {
-    max-width: 400px
+    max-width: 400px;
+  }
+
+  .right__otk-img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .right__active-im1 {
+    width: 285px !important;
+  }
+
+  .right__active-im2 {
+    width: 285px !important;
+  }
+
+  .right__active-im3 {
+    width: 285px !important;
+  }
+
+  .right__active-im4 {
+    width: 285px !important;
+  }
+
+  .right__active-im5 {
+    width: 110px !important;
+  }
+
+  .main {
+    height: 730px;
+  }
+
+  .main__title {
+    margin-bottom: 0px;
   }
 
   .usl__div {
-    margin-right: 15px
+    margin-right: 15px;
   }
 
   .usl__img {
     width: 424px;
-    height: 274px
+    height: 274px;
   }
 
   .usl__com-stroi {
-    font-size: 38px
+    font-size: 38px;
   }
 
   .usl__com-text br {
-    display: none
+    display: none;
   }
 
   .house__img {
     width: 472px;
-    height: 331px
+    height: 331px;
   }
 
   .house__div {
     display: flex;
     align-items: flex-start;
-    flex-direction: column
+    flex-direction: column;
   }
 
   .house__img--active {
-    width: 1050px
+    width: 1050px;
   }
 
   .house__div--active {
-    padding-left: 20px
+    padding-left: 20px;
   }
 
   .house__sum1,
   .house__sum2,
   .house__sum3 {
-    margin-left: 20px
+    margin-left: 20px;
   }
 
   .kviz__bottob-bl {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   .kviz__top {
@@ -3127,7 +3285,7 @@ section,
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: column
+    flex-direction: column;
   }
 
   .kviz__t-text {
@@ -3137,7 +3295,7 @@ section,
     font-weight: 400;
     line-height: 96px;
     letter-spacing: 0%;
-    text-align: left
+    text-align: left;
   }
 
   .kviz__after::after {
@@ -3145,29 +3303,29 @@ section,
     width: 100%;
     height: 0;
     border: 1px solid #c8c8c8;
-    background: #c8c8c8
+    background: #c8c8c8;
   }
 
   .otzyv__block {
-    margin-right: 30px
+    margin-right: 30px;
   }
 
   .otzyv__blocks {
     width: 91%;
-    justify-content: center
+    justify-content: center;
   }
 
   .otzyv__text {
     font-size: 30px;
-    line-height: 40px
+    line-height: 40px;
   }
 
   .footer__pol-a {
-    font-size: 26px
+    font-size: 26px;
   }
 
   .footer__li {
-    margin-right: 50px
+    margin-right: 50px;
   }
 
   .header__logo {
@@ -3202,6 +3360,20 @@ section,
     height: 100%;
     max-width: 500px
   }
+
+}
+
+@media screen and (max-width: 1550px) {
+  .usl__text {
+    max-width: 360px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .usl__text br {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 1540px) {
@@ -3270,6 +3442,13 @@ section,
 }
 
 @media screen and (max-width: 1441px) {
+  .house__img {
+    width: 403px;
+    height: 300px;
+    background-size: 100% 300px;
+
+  }
+
   .house__slide-img {
     justify-content: space-around;
     max-width: 92%
@@ -3287,6 +3466,10 @@ section,
 }
 
 @media screen and (max-width: 1440px) {
+  .kviz__t-text {
+    font-size: 44px
+  }
+
   .kviz__etaj {
     padding-top: 0;
     height: 40px;
@@ -3316,51 +3499,61 @@ section,
   }
 
   .header__logo {
-    margin-right: 20px
+    margin-right: 85px;
+    height: 50px;
   }
 
   .header__link {
-    margin-right: 20px
+    margin-right: 20px;
   }
 
   .header__links {
-    margin: 25px
+    margin: 25px;
   }
 
   .header__a {
-    font-size: 33px
+    font-size: 28px;
   }
 
   .header__phone {
-    margin-right: 30px
+    margin-right: 30px;
+    font-size: 30px;
+  }
+
+  .header {
+    height: 40px;
   }
 
   .main {
-    height: 640px
+    height: 505px;
   }
 
   .main__title {
-    margin-bottom: 35px;
-    padding-top: 0;
-    height: 100px
+    margin-bottom: 5px;
+    padding-top: 5px;
+    height: 100px;
+    font-size: 50px;
   }
 
   .main__text {
     margin-bottom: 10px;
-    font-size: 57px;
-    height: 60px
+    font-size: 40px;
+    height: 35px;
+    line-height: 100%;
   }
 
   .main__text-b {
     margin-bottom: 10px;
-    font-size: 57px;
-    height: 70px
+    font-size: 40px;
+    height: 55px;
+    line-height: 80px;
   }
 
   .main__text-c {
-    margin-bottom: 160px;
-    font-size: 57px;
-    height: 80px
+    margin-bottom: 110px;
+    font-size: 40px;
+    height: 35px;
+    line-height: 80px;
   }
 
   .main__kons {
@@ -3373,21 +3566,21 @@ section,
   .main__posmot {
     font-size: 33px;
     width: 275px;
-    height: 75px
+    height: 75px;
   }
 
   .container {
-    width: 1300px
+    width: 1300px;
   }
 
   .usl {
     padding-top: 10px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .usl__img {
     width: 361px;
-    height: 252px
+    height: 252px;
   }
 
   .usl__text {
@@ -3402,7 +3595,7 @@ section,
   }
 
   .usl__fl {
-    height: 250px
+    height: 250px;
   }
 
   .usl__flex {
@@ -3414,7 +3607,7 @@ section,
   }
 
   .usl__com {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .usl__com-img {
@@ -3428,7 +3621,7 @@ section,
     margin-top: 10px;
     margin-left: 15px;
     font-size: 32px;
-    line-height: 47px
+    line-height: 47px;
   }
 
   .usl__com-dol {
@@ -3439,60 +3632,72 @@ section,
 
   .usl__com-stroi {
     margin-left: 15px;
-    font-size: 37px;
+    font-size: 30px;
     line-height: 110%;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 
   .usl__com-text {
-    margin-left: 15px
+    margin-left: 15px;
+    font-size: 26px;
+  }
+
+  .usl__tit {
+    line-height: 60px;
   }
 
   .house__skandi {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .house__euro {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .house__dvuh {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .house__col {
     max-width: 343px;
     margin-bottom: 20px;
-    font-size: 52px
+    font-size: 52px;
   }
 
   .house__p {
     margin-bottom: 0px;
     max-width: 381px;
-    font-size: 25px
+    font-size: 25px;
   }
 
   .house__text {
-    font-size: 28px
+    font-size: 28px;
   }
 
   .house__slide {
-    border-radius: 15px 15px 15px 15px
+    border-radius: 15px 15px 15px 15px;
   }
 
   .house__skandi-t,
   .house__euro-t {
-    font-size: 52px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
   }
 
   .house__img {
     width: 403px;
-    height: 329px
+    height: 300px;
+    background-size: 100% 300px !important;
+  }
+
+
+  .house__img:hover {
+    width: 403px;
+    height: 300px;
+    background-size: 100% 300px !important;
   }
 
   .kviz {
-    width: 1240px
+    width: 1240px;
   }
 
   .kviz__top-r {
@@ -3502,40 +3707,40 @@ section,
   }
 
   .kviz__etaj {
-    padding-top: 15px;
-    height: 55px
+    padding-top: 5px;
+    height: 55px;
   }
 
   .kviz__title {
-    font-size: 40px
+    font-size: 40px;
   }
 
   .kviz__top {
-    max-width: 1100px
+    max-width: 1100px;
   }
 
   .kviz__central {
     display: flex;
-    margin-bottom: 80px
+    margin-bottom: 80px;
   }
 
   .kviz__form {
     display: flex;
-    margin-bottom: 80px
+    margin-bottom: 80px;
   }
 
   .kviz__t-text {
-    font-size: 44px
+    font-size: 44px;
   }
 
   .preim {
     padding-top: 25px;
-    height: 730px
+    height: 730px;
   }
 
   .preim__title {
     font-size: 50px;
-    line-height: 50px
+    line-height: 50px;
   }
 
   .preim__text {
@@ -3545,63 +3750,63 @@ section,
 
   .preim__img {
     height: 50px;
-    margin-right: 15px
+    margin-right: 15px;
   }
 
   .preim__zag {
     max-width: 484px;
-    font-size: 26px
+    font-size: 26px;
   }
 
   .preim__block {
     width: 635px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .preim__cont {
     width: 546px;
     font-size: 24px;
-    line-height: 35px
+    line-height: 35px;
   }
 
   .etap__img {
-    width: 550px
+    width: 550px;
   }
 
   .etap__title {
     font-size: 27px;
     max-width: 440px;
-    line-height: 39px
+    line-height: 39px;
   }
 
   .etap__text {
     font-size: 24px;
-    max-width: 470px
+    max-width: 470px;
   }
 
   .etap__contet-img {
-    width: 65px
+    width: 65px;
   }
 
   .etap__content-img {
-    width: 65px
+    width: 65px;
   }
 
   .gallery {
-    margin-bottom: 50px
+    margin-bottom: 50px;
   }
 
   .gallery__title {
-    font-size: 52px
+    font-size: 52px;
   }
 
   .gallery__text {
     font-size: 25px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
   }
 
   .gallery__slide {
-    max-height: 400px
+    max-height: 400px;
   }
 
   .otzyv {
@@ -3705,6 +3910,35 @@ section,
 }
 
 @media screen and (max-width: 1400px) {
+  .kviz {
+    padding-bottom: 0px;
+  }
+
+  .right__otk-img {
+    width: 85px !important;
+    height: 85px !important;
+  }
+
+  .right__active-im5 {
+    width: 240px !important;
+  }
+
+  .right__active-im4 {
+    width: 240px !important;
+  }
+
+  .right__active-im3 {
+    width: 240px !important;
+  }
+
+  .right__active-im2 {
+    width: 240px !important;
+  }
+
+  .right__active-im1 {
+    width: 240px !important;
+  }
+
   .container {
     width: 1280px
   }
@@ -3760,7 +3994,7 @@ section,
   }
 
   .house__text {
-    font-size: 30px
+    font-size: 25px;
   }
 
   .house__col {
@@ -3768,7 +4002,8 @@ section,
   }
 
   .house__p {
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    font-size: 25px;
   }
 
   .house__img {
@@ -3777,31 +4012,31 @@ section,
   }
 
   .kviz__after {
-    margin-bottom: 20px
-  }
-
-  .kviz__bottob-bl {
     margin-bottom: 0px
   }
 
+  .kviz__bottob-bl {
+    margin-bottom: 5px;
+  }
+
   .kviz__top-r {
-    font-size: 50px
+    font-size: 40px;
   }
 
   .kviz__title {
-    line-height: 57px
+    line-height: 57px;
   }
 
   .kviz__central {
-    margin-bottom: 40px
+    margin-bottom: 40px;
   }
 
   .kviz__form {
-    margin-bottom: 40px
+    margin-bottom: 0px;
   }
 
   .kviz__etaj {
-    font-size: 43px;
+    font-size: 35px;
   }
 
   .kviz__top-r {
@@ -3823,7 +4058,11 @@ section,
 
   .preim {
     padding-top: 25px;
-    height: 700px
+    height: 620px
+  }
+
+  .preim__title {
+    font-size: 40px;
   }
 
   .preim__block {
@@ -3831,18 +4070,23 @@ section,
     margin-bottom: 25px
   }
 
-  .preim__title {
-    font-size: 50px;
-    line-height: 55px
+  .preim__blocks {
+    height: 475px;
+  }
+
+  .footer__logo {
+    margin-bottom: 5px;
+    width: 490px;
+    height: 73px;
   }
 
   .preim__text {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-size: 50px;
   }
 
   .preim__cont {
     width: 572px;
-    font-size: 24px;
     line-height: 32px
   }
 
@@ -3943,13 +4187,65 @@ section,
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1380px) {
+  .main {
+    height: 510px;
+  }
+
+  .main__title {
+    margin-bottom: 25px;
+    padding-top: 0;
+    height: 90px;
+    font-size: 70px;
+    line-height: 110px;
+  }
+
+  .main__text {
+    margin-bottom: 10px;
+    font-size: 47px;
+    height: 60px;
+    line-height: 100%;
+  }
+
+  .main__text-b {
+    margin-bottom: 10px;
+    font-size: 47px;
+    height: 60px;
+    line-height: 80px;
+  }
+
+  .main__text-c {
+    margin-bottom: 90px;
+    font-size: 47px;
+    height: 50px;
+    line-height: 80px;
+  }
+
+  .main__kons {
+    width: 370px;
+    height: 75px;
+    font-size: 33px;
+    margin-right: 30px
+  }
+
+  .main__posmot {
+    font-size: 33px;
+    width: 275px;
+    height: 75px
+  }
+
   .kviz {
     width: 1159px;
   }
 }
 
-@media screen and (max-width: 1341px) {
+@media screen and (max-width: 1370px) {
+  .house__img {
+    width: 362px;
+    height: 280px;
+    background-size: 100% 280px !important;
+  }
+
   .usl__text {
     max-width: 296px;
   }
@@ -3983,6 +4279,15 @@ section,
 }
 
 @media screen and (max-width: 1299px) {
+  .house__slid {
+    margin-bottom: 15px;
+  }
+
+  .house__img {
+    width: 550px;
+    height: 279px;
+  }
+
   .usl__title {
     max-width: 461px;
     font-size: 28px;
@@ -4007,7 +4312,7 @@ section,
   }
 
   .house__slide--active3 img {
-    max-width: 500px
+    max-width: 480px;
   }
 
   .img83 {
@@ -6091,7 +6396,14 @@ section,
     background-repeat: no-repeat;
     width: 100%;
     height: 350px;
-    background-size: 715px 370px
+    background-size: 715px 370px !important;
+  }
+
+  .house__img:hover {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    background-size: 715px 370px !important;
   }
 
   .house__zag {
@@ -7690,6 +8002,13 @@ section,
   .preim__text {
     margin-bottom: 10px;
   }
+
+  .usl__text {
+    max-width: 319px;
+    font-size: 21px;
+    line-height: 25px;
+    width: 323px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -7928,16 +8247,23 @@ section,
 
   .main__kons {
     margin-bottom: 20px;
-    width: 206px;
+    width: 260px;
     height: 45px;
-    font-size: 19px;
+    font-size: 14px;
     border-radius: 5px
   }
 
   .main__posmot {
-    width: 148px;
+    width: 170px;
     height: 45px;
-    font-size: 20px
+    font-size: 14px
+  }
+
+  .house__slid {
+    border-radius: 15px 15px 15px 15px;
+    background: #f5fafe;
+    cursor: pointer;
+    margin-bottom: 30px;
   }
 
   .usl__img {
@@ -7982,9 +8308,9 @@ section,
   }
 
   .house__btn {
-    width: 215px;
+    width: 230px;
     height: 55px;
-    font-size: 27px
+    font-size: 25px
   }
 
   .house__preim2 {
@@ -8189,6 +8515,10 @@ section,
     max-width: 380px;
   }
 
+  usl .slider {
+    width: 77%;
+  }
+
 }
 
 @media screen and (max-width: 471px) {
@@ -8261,19 +8591,47 @@ section,
   }
 
   .main__title {
-    font-size: 38px
+    font-size: 35px;
   }
 
   .main__text {
-    font-size: 32px
+    font-size: 28px;
   }
 
   .main__text-b {
-    font-size: 32px
+    font-size: 28px;
+  }
+
+  .usl__tit {
+    line-height: 60px;
+    font-size: 40px;
+  }
+
+  .house__col {
+    font-size: 44px;
+    max-width: 328px;
+  }
+
+  .house__p {
+    font-size: 26px;
+  }
+
+  .house__text {
+    font-size: 24px;
+  }
+
+  .house__skandi-t {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .house__euro-t {
+    font-size: 40px;
+    margin-bottom: 15px;
   }
 
   .main__text-c {
-    font-size: 32px
+    font-size: 28px;
   }
 
   .header__phone {
@@ -8301,6 +8659,13 @@ section,
   .preim {
     height: 805px;
   }
+
+  .usl__text {
+    max-width: 284px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 323px;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -8311,6 +8676,32 @@ section,
 }
 
 @media screen and (max-width: 450px) {
+  .right__otk-img {
+    width: 75px !important;
+    height: 75px !important;
+  }
+
+  .right__active-im5 {
+    width: 75px !important;
+    height: 75px !important;
+  }
+
+  .right__active-im4 {
+    width: 210px !important;
+  }
+
+  .right__active-im3 {
+    width: 210px !important;
+  }
+
+  .right__active-im2 {
+    width: 210px !important;
+  }
+
+  .right__active-im1 {
+    width: 210px !important;
+  }
+
   .cf7mls-btns .cf7mls_next.action-button {
     margin-top: 0;
     margin-bottom: 0;
@@ -8470,6 +8861,10 @@ section,
     text-align: left
   }
 
+  .usl__tit {
+    margin-bottom: 15px;
+  }
+
   .main__text-b {
     margin-bottom: 0px;
     font-family: Oswald;
@@ -8490,15 +8885,22 @@ section,
     text-align: left
   }
 
+  .house__slid {
+    border-radius: 15px 15px 15px 15px;
+    background: #f5fafe;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
   .main__kons {
     margin-bottom: 5px;
-    width: 240px;
+    width: 260px;
     height: 50px;
     border-radius: 5px;
     background: #e58d49;
     color: #fff;
     font-family: Oswald;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0%;
@@ -8507,13 +8909,13 @@ section,
 
   .main__posmot {
     margin-bottom: 0px;
-    width: 170px;
+    width: 190px;
     height: 45px;
     border-radius: 5px;
     background: #6d8a3a;
     color: #fff;
     font-family: Oswald;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0%;
@@ -8997,7 +9399,14 @@ section,
   .house__img {
     width: 100%;
     height: 216px;
-    background-size: 292px 214px;
+    background-size: 292px 214px !important;
+    background-repeat: no-repeat
+  }
+
+  .house__img:hover {
+    width: 100%;
+    height: 216px;
+    background-size: 292px 214px !important;
     background-repeat: no-repeat
   }
 
@@ -9174,7 +9583,7 @@ section,
 
   .kviz__t-text {
     padding-top: 5px;
-    font-size: 32px;
+    font-size: 31px;
     height: 45px
   }
 
@@ -9191,6 +9600,10 @@ section,
   .kviz__nazad {
     width: 170px;
     height: 50px
+  }
+
+  .kviz__etaj {
+    line-height: 27px !important;
   }
 
   .kviz__dalee-p {
@@ -9557,6 +9970,36 @@ section,
     font-size: 21px;
   }
 
+  .house__slide-img {
+    justify-content: space-around;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .menu {
+    top: 0%;
+  }
+
+  .house__slide--title {
+    font-size: 35px;
+    line-height: 110%;
+    height: 45px;
+    padding-left: 10px;
+  }
+
+  .house__slide--uv {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin-left: 0px;
+    color: #6d8a3a;
+    font-family: Oswald;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+
   #simple-outer {
     position: fixed;
     width: 90% !important;
@@ -9580,6 +10023,29 @@ section,
     line-height: 37px;
     letter-spacing: 0%;
     text-align: left
+  }
+
+  .usl__title {
+    font-size: 26px;
+  }
+
+  .usl__text {
+    max-width: 257px;
+    font-size: 19px;
+    line-height: 25px;
+    width: 323px;
+  }
+
+  .usl .slider {
+    width: 72%;
+  }
+
+  .menu {
+    top: 0%;
+  }
+
+  .header__m-btnn {
+    position: absolute;
   }
 }
 
@@ -9715,6 +10181,25 @@ section,
   .svyaz__inp-text {
     width: 375px
   }
+
+  .usl__text {
+    max-width: 257px;
+    font-size: 19px;
+    line-height: 25px;
+    width: 323px;
+    padding-left: 5px;
+  }
+
+  .usl__fl {
+    max-width: 279px;
+    height: 158px;
+  }
+
+  .usl__title {
+    max-width: 250px;
+    font-size: 23px;
+    padding-left: 5px;
+  }
 }
 
 @media screen and (max-width: 407px) {
@@ -9724,23 +10209,33 @@ section,
 }
 
 @media screen and (max-width: 405px) {
+  .usl__text {
+    max-width: 244px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 323px;
+    padding-left: 5px;
+  }
+
   .house__slide--active4 {
     width: 310px !important
   }
 
   .house__slide-img {
     justify-content: space-around;
-    max-width: 80%;
-    margin-left: 0px
+    max-width: 100%;
+    margin-left: 0px;
   }
 
   .house__slide--title {
     font-size: 35px;
     line-height: 110%;
-    height: 45px
+    height: 45px;
+    padding-left: 10px;
   }
 
   .house__slide--uv {
+    padding-left: 10px;
     margin-bottom: 10px;
     max-width: 300px;
     margin-left: 0px;
