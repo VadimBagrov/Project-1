@@ -1,3 +1,4 @@
+
 $(".slides").slick({
   autoplay: true,
   mobileFirst: true
@@ -127,3 +128,69 @@ $('.header__close').click(function () {
   $('.dark').hide();
   $('.header__closse').show();
 })
+
+let second = document.querySelector('.second__an');
+let services = document.querySelector('.services');
+let feedback = document.querySelector('.feedback');
+let photos = document.querySelector('.photos');
+let contact = document.querySelector('.contact');
+
+const observer = new IntersectionObserver(entries => {
+  // перебор записей
+  entries.forEach(entry => {
+    // если элемент появился
+    if (entry.isIntersecting) {
+      // добавить ему CSS-класс
+      entry.target.classList.add('animate__animated animate__fadeInUp');
+    }
+  });
+});
+observer.observe(document.querySelector('.second__an'));
+
+observer.observe(document.querySelector('.services'));
+observer.observe(document.querySelector('.feedback__an'));
+observer.observe(document.querySelector('.photos'));
+observer.observe(document.querySelector('.contact'));
+
+(function () {
+  var square = document.querySelector('.second__an');
+  var square1 = document.querySelector('.services');
+  var square2 = document.querySelector('.feedback__an');
+  var square3 = document.querySelector('.photos');
+  var square4 = document.querySelector('.contact');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation');
+      }
+    });
+  });
+
+  observer.observe(square);
+  observer.observe(square1);
+  observer.observe(square2);
+  observer.observe(square3);
+  observer.observe(square4);
+})();
+
+let wow = new WOW(
+  {
+    boxClass: 'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset: 0,          // distance to the element when triggering the animation (default is 0)
+    mobile: true,       // trigger animations on mobile devices (default is true)
+    live: true,       // act on asynchronously loaded content (default is true)
+    callback: function (box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();

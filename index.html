@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
 
 </head>
 
@@ -31,7 +32,7 @@
           <div class="header__top-l">
             <a href="#" class="header__phone-a">
               <img class="header__phone" src="images/dist/phone.svg" alt="phone">
-              <h3 class="header__phone-t">(916) 248-0572</h3>
+              <a href="tel:9162480572" class="header__phone-t">(916) 248-0572</a>
             </a>
 
           </div>
@@ -39,7 +40,7 @@
             <a href="#">
               <img class="header__tg" src="images/dist/tg.svg" alt="telegram">
             </a>
-            <a href="#">
+            <a href="mailto:thebuildriteconstruction@gmail.com">
               <img class="header__em" src="images/dist/email.svg" alt="email">
             </a>
           </div>
@@ -47,10 +48,10 @@
         <div class="header__middle">
         </div>
         <div class="header__bottom">
-          <a href="#" class="header__link">About us</a>
-          <a href="#" class="header__link">Our services</a>
-          <a href="#" class="header__link">Feedback</a>
-          <a href="#" class="header__link">Contact us</a>
+          <a href="#about" class="header__link">About us</a>
+          <a href="#ourservices" class="header__link">Our services</a>
+          <a href="#feedback" class="header__link">Feedback</a>
+          <a href="#contactus" class="header__link">Contact us</a>
         </div>
       </div>
       <div class="header__closse">
@@ -104,34 +105,34 @@
       </div>
     </section>
 
-    <section class="second">
-      <div class="container">
-        <div class="second__left">
-          <h4 class="second__title">
+    <section class="second  wow" id="about">
+      <div class="container  wow second__an">
+        <div class="second__left  wow">
+          <h4 class="second__title  wow">
             About us
           </h4>
-          <p class="second__text-t">
+          <p class="second__text-t  wow">
             At Build Rite, we specialize in constructing top-quality fences using the finest handpicked materials,
             ensuring durability and beauty for your property.
           </p>
-          <p class="second__text-b">
+          <p class="second__text-b  wow">
             Our pricing starts at $36 per linear foot for a new 6-foot-tall fence, featuring pressure-treated posts,
             redwood rails, and 1x4x6 redwood fence boards with a dog-eared top. This price also includes demolition and
             removal of your old fence. For those interested in metal posts, we offer "Postmaster" brand metal posts for
             an
             additional $3 per linear foot. 
           </p>
-          <h5 class="second__promo">
+          <h5 class="second__promo  wow">
             Contact us today for a <span class="colortext">FREE</span> detailed estimate!
           </h5>
         </div>
-        <div class="second__right">
-          <img class="second__img" src="images/dist/house_two.webp" alt="img">
+        <div class="second__right  wow">
+          <img class="second__img  wow" src="images/dist/house_two.webp" alt="img">
         </div>
       </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="ourservices">
       <h5 class="services__tit container">Our services</h5>
       <div class="services container">
         <div class="services__slider ">
@@ -179,9 +180,9 @@
       </div>
     </section>
 
-    <section class="feedback">
-      <h3 class="feedback__title container">Feedback</h3>
-      <div class="feedback__slider container slider feedback-slider">
+    <section class="feedback" id="feedback">
+      <h3 class="feedback__title container feedback__an">Feedback</h3>
+      <div class="feedback__slider container slider feedback-slider feedback__an">
         <div class="feedback__slide">
           <h6 class="feedback__slide-t">Sal R.</h6>
           <p class="feedback__p">Working with Igor was Great experience all around, from setting up the estimate to
@@ -236,7 +237,7 @@
       </div>
       <div class="photos__button">
         <button class="photos__btn">
-          <p class="photos__btn-t">Show all</p>
+          Show all
         </button>
       </div>
     </section>
@@ -266,17 +267,18 @@
     </div>
     </section>
     </div>
-    <section class="contact container">
+    <section class="contact container" id="contactus">
       <div class="contact__left">
         <p class="contact__title">Contact us</p>
         <p class="contact__p">Fill out the contact form. We will get back to you as soon as possible.</p>
         <div class="contact__phone">
           <img class="contact__phone-img" src="images/dist/phone-c.svg" alt="phone">
-          <p class="contact__phone-p">(916) 248-0572</p>
+          <a href="tel:9162480572" class="contact__phone-p">(916) 248-0572</a>
         </div>
         <div class="contact__email">
           <img class="contact__email-img" src="images/dist/email-c.svg" alt="email">
-          <p class="contact__email-p">thebuildriteconstruction@gmail.com</p>
+          <a href="mailto:thebuildriteconstruction@gmail.com"
+            class="contact__email-p">thebuildriteconstruction@gmail.com</a>
         </div>
         <div class="contact__location">
           <img class="contact__location-img" src="images/dist/location.svg" alt="location">
@@ -320,24 +322,25 @@
         <p class="footer__text">Construction of quality fences, different complexity of quality materials. Quickly, not
           expensive and in time.</p>
         <ul class="footer__ul">
-          <li class="footer__li"><a class="footer__link" href="#">About us</a></li>
-          <li class="footer__li"><a class="footer__link" href="#">Our service</a></li>
-          <li class="footer__li"><a class="footer__link" href="#">Service</a></li>
-          <li class="footer__li"><a class="footer__link" href="#">Contact us</a></li>
+          <li class="footer__li"><a class="footer__link" href="#about">About us</a></li>
+          <li class="footer__li"><a class="footer__link" href="#ourservices">Our services</a></li>
+          <li class="footer__li"><a class="footer__link" href="#feedback">Feedback</a></li>
+          <li class="footer__li"><a class="footer__link" href="#contactus">Contact us</a></li>
         </ul>
       </div>
       <div class="footer__bottom">
         <div class="footer__phone">
           <img class="footer__phone-img" src="images/dist/phone-c.svg" alt="phone">
-          <p class="footer__phone-p">(916) 248-0572</p>
+          <a href="tel:9162480572" class="footer__phone-p">(916) 248-0572<a>
         </div>
         <div class="footer__tg">
           <img class="footer__tg-img" src="images/dist/tg-ft.svg" alt="telegramm">
-          <p class="footer__tg-p">stroyprimer</p>
+          <a href='#' class="footer__tg-p">stroyprimer</a>
         </div>
         <div class="footer__email">
           <img class="footer__email-img" src="images/dist/email-c.svg" alt="email">
-          <p class="footer__email-p">thebuildriteconstruction@gmail.com</p>
+          <a href="mailto:thebuildriteconstruction@gmail.com"
+            class="footer__email-p">thebuildriteconstruction@gmail.com</a>
         </div>
         <div class="footer__soc">
           <a href="#" class="footer__tg-r">
@@ -359,6 +362,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/main.min.js"></script>
+  <script src="js/wow.min.js"></script>
 </body>
 
 </html>
